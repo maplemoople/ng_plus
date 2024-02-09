@@ -21,7 +21,6 @@
     {"name":"inst_5907B508","path":"rooms/Room10/Room10.yy",},
     {"name":"inst_37E342C5","path":"rooms/Room10/Room10.yy",},
     {"name":"inst_214F91A4","path":"rooms/Room10/Room10.yy",},
-    {"name":"inst_22CB6507","path":"rooms/Room10/Room10.yy",},
   ],
   "isDnd": true,
   "layers": [
@@ -55,13 +54,6 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_warp/obj_warp.yy",},"value":"Boss1",},
           ],"rotation":0.0,"scaleX":0.609375,"scaleY":1.4375,"x":254.0,"y":27.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_214F91A4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pwall","path":"objects/obj_pwall/obj_pwall.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":-96.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_22CB6507","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"extPlatButton","path":"objects/extPlatButton/extPlatButton.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"extPlatButton","path":"objects/extPlatButton/extPlatButton.yy",},"propertyId":{"name":"xPos","path":"objects/extPlatButton/extPlatButton.yy",},"value":"191",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"extPlatButton","path":"objects/extPlatButton/extPlatButton.yy",},"propertyId":{"name":"yPos","path":"objects/extPlatButton/extPlatButton.yy",},"value":"81",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"extPlatButton","path":"objects/extPlatButton/extPlatButton.yy",},"propertyId":{"name":"objName","path":"objects/extPlatButton/extPlatButton.yy",},"value":"extendoplatform",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"extPlatButton","path":"objects/extPlatButton/extPlatButton.yy",},"propertyId":{"name":"whatColor","path":"objects/extPlatButton/extPlatButton.yy",},"value":"$00DA6BFF",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"extPlatButton","path":"objects/extPlatButton/extPlatButton.yy",},"propertyId":{"name":"objNameHB","path":"objects/extPlatButton/extPlatButton.yy",},"value":"extendoplatformHB",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":187.0,"y":104.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Enemies","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[

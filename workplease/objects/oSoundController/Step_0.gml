@@ -128,11 +128,6 @@ if musicStart{
 				if(audio_is_playing(asynth1)){
 					audio_stop_all()
 				}
-				if (instance_exists(bossComplete)){
-					if (audio_is_playing(aDoorMoving) && (bossComplete.state == 0)){
-						audio_stop_sound(aDoorMoving)
-					}
-				}
 				if(!audio_is_playing(bossArea1)){
 					audio_play_sound(bossArea1,1,false);
 					if instance_exists(bossButton){

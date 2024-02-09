@@ -312,6 +312,7 @@
     {"name":"obj_checkpoint","order":3,"path":"objects/obj_checkpoint/obj_checkpoint.yy",},
     {"name":"Coin","order":95,"path":"sprites/Coin/Coin.yy",},
     {"name":"ahiHat","order":3,"path":"sounds/ahiHat/ahiHat.yy",},
+    {"name":"extendoplatformA","order":12,"path":"objects/extendoplatformA/extendoplatformA.yy",},
     {"name":"obj_checkpoint_controller","order":4,"path":"objects/obj_checkpoint_controller/obj_checkpoint_controller.yy",},
     {"name":"bSpikeDeactivated","order":5,"path":"sprites/bSpikeDeactivated/bSpikeDeactivated.yy",},
     {"name":"bossSpikeFHitbox","order":11,"path":"objects/bossSpikeFHitbox/bossSpikeFHitbox.yy",},

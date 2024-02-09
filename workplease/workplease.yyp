@@ -67,7 +67,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"obj_lighting_init","path":"objects/obj_lighting_init/obj_lighting_init.yy",},},
@@ -363,6 +363,7 @@
     {"id":{"name":"obj_checkpoint","path":"objects/obj_checkpoint/obj_checkpoint.yy",},},
     {"id":{"name":"Coin","path":"sprites/Coin/Coin.yy",},},
     {"id":{"name":"ahiHat","path":"sounds/ahiHat/ahiHat.yy",},},
+    {"id":{"name":"extendoplatformA","path":"objects/extendoplatformA/extendoplatformA.yy",},},
     {"id":{"name":"obj_checkpoint_controller","path":"objects/obj_checkpoint_controller/obj_checkpoint_controller.yy",},},
     {"id":{"name":"bSpikeDeactivated","path":"sprites/bSpikeDeactivated/bSpikeDeactivated.yy",},},
     {"id":{"name":"bossSpikeFHitbox","path":"objects/bossSpikeFHitbox/bossSpikeFHitbox.yy",},},
