@@ -256,6 +256,7 @@
     {"id":{"name":"init_health","path":"scripts/init_health/init_health.yy",},},
     {"id":{"name":"asynth3","path":"sounds/asynth3/asynth3.yy",},},
     {"id":{"name":"light_create_directional","path":"scripts/light_create_directional/light_create_directional.yy",},},
+    {"id":{"name":"extendoplatformB","path":"objects/extendoplatformB/extendoplatformB.yy",},},
     {"id":{"name":"aDoorStop","path":"sounds/aDoorStop/aDoorStop.yy",},},
     {"id":{"name":"Room8","path":"rooms/Room8/Room8.yy",},},
     {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},

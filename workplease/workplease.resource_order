@@ -213,6 +213,7 @@
     {"name":"init_health","order":1,"path":"scripts/init_health/init_health.yy",},
     {"name":"asynth3","order":2,"path":"sounds/asynth3/asynth3.yy",},
     {"name":"light_create_directional","order":7,"path":"scripts/light_create_directional/light_create_directional.yy",},
+    {"name":"extendoplatformB","order":13,"path":"objects/extendoplatformB/extendoplatformB.yy",},
     {"name":"aDoorStop","order":11,"path":"sounds/aDoorStop/aDoorStop.yy",},
     {"name":"Room8","order":8,"path":"rooms/Room8/Room8.yy",},
     {"name":"TileSet3","order":2,"path":"tilesets/TileSet3/TileSet3.yy",},

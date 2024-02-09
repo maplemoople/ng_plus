@@ -28,29 +28,31 @@ while (!place_meeting(x,y+sign(vsp),obj_wall)){
 	y = y + vsp
 }
 
+image_index = 0;
+connection.image_speed = 1;
+with(connection){
+	shootCooldown--
+	if (!shootCooldown && animation_end()){
+		with (instance_create_layer(x + 50 * sin(hsp),y,"Bullets", eBullet)){
+			if other.image_xscale == -1 direction = 180; else direction = 360;
+			speed = 2
+			image_angle = direction;
+		}
+		with (instance_create_layer(x - 50 * sin(hsp),y,"Bullets", eBullet)){
+			if other.image_xscale == -1 direction = 360; else direction = 180;
+			speed = 2
+			image_angle = direction;
+		}
+		shootCooldown = 45 //frames
+		audio_play_sound(aBulletShoot,1,false)
+	}
+}
+
 switch state{
 	case alive:
-		image_index = 0;
-		connection.image_speed = 1;
-		with(connection){
-			shootCooldown--
-			if (!shootCooldown && animation_end()){
-				with (instance_create_layer(x + 50 * sin(hsp),y,"Bullets", eBullet)){
-					if other.image_xscale == -1 direction = 180; else direction = 360;
-					speed = 2
-					image_angle = direction;
-				}
-				with (instance_create_layer(x - 50 * sin(hsp),y,"Bullets", eBullet)){
-					if other.image_xscale == -1 direction = 360; else direction = 180;
-					speed = 2
-					image_angle = direction;
-				}
-				shootCooldown = 45 //frames
-				audio_play_sound(aBulletShoot,1,false)
-			}
-		}
 		break;
 	case dead:
+		audio_stop_sound(bossE5FT)
 		if bossComplete.explode == 1{
 			audio_play_sound(aDeath,1,false)
 			audio_play_sound(aBulletDie,1,false)
@@ -60,13 +62,12 @@ switch state{
 			}
 			instance_destroy(connection);
 			instance_destroy();
-		} else{
+		} /*else{
 			image_index = 2;
 			connection.sprite_index = deadSprite;
 			connection.image_speed = 1;
 			connection.hsp = 0.2 * sign(connection.hsp)
-			audio_stop_sound(bossE5FT)
-		}
+		}*/
 		break;
 }
 

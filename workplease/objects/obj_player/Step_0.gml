@@ -61,6 +61,7 @@ if(instance_exists(obj_wall)){
 }
 if instance_exists(obj_wallvert){
 	var oneWayPlat = instance_place(x, y + max(1,vsp),obj_wallvert);
+	var grounded = place_meeting(x,y+1, obj_wall) || (oneWayPlat && bbox_bottom <= oneWayPlat.bbox_top)
 	if (oneWayPlat && bbox_bottom <= oneWayPlat.bbox_top){
 		if (vsp > 0){
 			while(!place_meeting(x,y+sign(vsp),obj_wallvert)){
@@ -68,10 +69,14 @@ if instance_exists(obj_wallvert){
 			}
 		vsp = 0;
 		}
-	x += oneWayPlat.hsp;
-	y += oneWayPlat.vsp;
+		x += oneWayPlat.hsp;
+		y += oneWayPlat.vsp;
+		if grounded && jump && (oneWayPlat.hsp > 5 || oneWayPlat.vsp < -5){
+			
+			hsp += oneWayPlat.hsp * 3
+			vsp += oneWayPlat.vsp * 3
+		}
 	}
-	var grounded = place_meeting(x,y+1, obj_wall) || (oneWayPlat && bbox_bottom <= oneWayPlat.bbox_top)
 } else
 var grounded = place_meeting(x,y+1, obj_wall)
 y = y + vsp

@@ -10,6 +10,7 @@ hsp = 0;
 vsp = 0;
 grv = 0.4
 freq = 0;
+turned = 0;
 with (instance_create_layer(xPos,yPos,"Enemies",objName)) {
 	owner = other.id
 	owner.connection = object_index;

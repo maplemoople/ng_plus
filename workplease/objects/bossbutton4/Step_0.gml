@@ -9,15 +9,39 @@ with(connection){
 	
 		x = x + sign(hsp);
 		}
+		turned = 1;
+		hsp = 0.1 * sign(hsp);
 		hsp = -hsp;
 	
 	}
+	
+	/* TURNED OFF FOR BOSSFIGHT 1 TURN ON AND CHANGE SOMETHING IF NEED BE
 	if (place_meeting(x+hsp, y, obj_wallvert)){
+		while (!place_meeting(x+sign(hsp),y,obj_wallvert)){
+	
+		x = x + sign(hsp);
+		}
+		turned = 1;
+		hsp = 0.1 * sign(hsp);
 		hsp = -hsp;
 	}
-	
+	*/
+	hsp = hsp * 1.05
 	x = x + hsp;
-
+	
+/*	ADD JUST INCASE SOMETHING DOESNT WORK
+	if turned{
+		x = x + hsp;
+		ramtime = 5;
+		turned = 0;
+	} else if ramtime > 0}{
+		ramtime--;
+	}
+	if ramtime == 0{
+		ramtime = -1;
+		hsp = hsp * 1.01
+	}
+*/
 	//vertical collision
 	if (place_meeting(x, y+vsp, obj_wall)){
 while (!place_meeting(x,y+sign(vsp),obj_wall)){
@@ -30,18 +54,19 @@ while (!place_meeting(x,y+sign(vsp),obj_wall)){
 	y = y + vsp
 }
 		
+image_index = 0;
+connection.image_speed = 0.75
+with(hitBox){
+	x = owner.x
+	y = owner.y
+}
+with(spikey){
+	x = owner.x
+	y = owner.y
+}		
+		
 switch state{
 	case alive:
-		image_index = 0;
-		connection.image_speed = 0.75
-		with(hitBox){
-			x = owner.x
-			y = owner.y
-		}
-		with(spikey){
-			x = owner.x
-			y = owner.y
-		}
 		break;
 	case dead:
 		if bossComplete.explode == 1{
@@ -55,7 +80,7 @@ switch state{
 			instance_destroy(spikey);
 			instance_destroy(connection);
 			instance_destroy();
-		} else{
+		}/* else{
 			image_index = 2;
 			instance_destroy(hitBox);
 			instance_destroy(spikey);
@@ -71,9 +96,8 @@ switch state{
 					connection.sprite_index = deadSprite;
 					connection.image_speed = 1;
 				}
-			}
+			}*/
 			audio_stop_sound(bossE4FS)
-		}
 		break;
 }
 

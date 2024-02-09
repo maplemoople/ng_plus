@@ -48,37 +48,40 @@ while (!place_meeting(x,y+sign(vsp),obj_wall)){
 	
 }
 
+with(wheel){
+	x = owner.x
+	y = owner.y
+}
+with(hitBox){
+	x = owner.x
+	y = owner.y
+}
+
+
+image_index = 0;
+connection.image_speed = 0.75;
+with(connection){
+owner.hitBox.image_xscale = sign(hsp) * 1;
+owner.wheel.image_xscale = sign(hsp) * 1;
+}
+with(connection){
+	shootCooldown--
+	if (!shootCooldown && animation_end()){
+		with (instance_create_layer(x + 21 * sign(hsp),y,"Bullets", eBullet)){
+			if other.image_xscale == -1 direction = 180; else direction = 360;
+			speed = 2
+			image_angle = direction;
+		}
+		shootCooldown = 15 //frames
+		audio_play_sound(aBulletShoot,1,false)
+	}
+}
 
 switch state{
 	case alive:
-		image_index = 0;
-		with(wheel){
-			x = owner.x
-			y = owner.y
-		}
-		with(hitBox){
-			x = owner.x
-			y = owner.y
-		}
-		connection.image_speed = 0.75;
-		with(connection){
-		owner.hitBox.image_xscale = sign(hsp) * 1;
-		owner.wheel.image_xscale = sign(hsp) * 1;
-		}
-		with(connection){
-			shootCooldown--
-			if (!shootCooldown && animation_end()){
-				with (instance_create_layer(x + 80 * sin(hsp),y,"Bullets", eBullet)){
-					if other.image_xscale == -1 direction = 180; else direction = 360;
-					speed = 2
-					image_angle = direction;
-				}
-				shootCooldown = 15 //frames
-				audio_play_sound(aBulletShoot,1,false)
-			}
-		}
 		break;
 	case dead:
+		audio_stop_sound(bossE1GT);
 		if bossComplete.explode == 1{
 			attached = NaN;
 			audio_play_sound(aDeath,1,false)
@@ -91,15 +94,15 @@ switch state{
 			instance_destroy(wheel);
 			instance_destroy(connection);
 			instance_destroy();
-		} else{
+		} /*else{
 			image_index = 2;
 			instance_destroy(hitBox);
 			instance_destroy(wheel);
 			connection.sprite_index = deadSprite;
 			connection.image_speed = 1;
 			connection.hsp = 0.2 * sign(connection.hsp)
-			audio_stop_sound(bossE1GT);
-		}
+			
+		}*/
 		break;
 }
 
@@ -109,7 +112,7 @@ if(instance_exists(attached) && state != dead){
 }
 else { x = 500; y  = 500;}
 
-if (place_meeting(x,y-max(1.10),obj_player) && obj_player.vsp > 0 && state == alive){
+if (place_meeting(x,y-1,obj_player) && obj_player.vsp > 0 && state == alive){
 		audio_play_sound(aButtonPress,1,false)
 		state++
 }

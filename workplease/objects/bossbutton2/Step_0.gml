@@ -40,22 +40,23 @@ with(hitBox){
 	y = owner.y
 }
 
+image_index = 0;
+with(spikey){
+	x = owner.x
+	y = owner.y
+}
+with(hitBox){
+	x = owner.x
+	y = owner.y
+}
+connection.image_speed = 0.75;
+with(connection){
+owner.spikey.image_xscale = sign(hsp) * 1;
+owner.hitBox.image_xscale = sign(hsp) * 1;
+}
+
 switch state{
 	case alive:
-		image_index = 0;
-		with(spikey){
-			x = owner.x
-			y = owner.y
-		}
-		with(hitBox){
-			x = owner.x
-			y = owner.y
-		}
-		connection.image_speed = 0.75;
-		with(connection){
-		owner.spikey.image_xscale = sign(hsp) * 1;
-		owner.hitBox.image_xscale = sign(hsp) * 1;
-		}
 		break;
 	case dead:
 		if bossComplete.explode == 1{
@@ -70,7 +71,7 @@ switch state{
 			instance_destroy(hitBox);
 			instance_destroy(connection);
 			instance_destroy();
-		} else{
+		} /* else{
 			image_index = 2;
 			instance_destroy(spikey);
 			instance_destroy(hitBox);
@@ -88,8 +89,8 @@ switch state{
 				}
 			}
 			connection.hsp = 0.2 * sign(connection.hsp)
+			*/
 			audio_stop_sound(bossE2GS)
-		}
 		break;
 }
 
