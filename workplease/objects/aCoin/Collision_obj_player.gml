@@ -1,0 +1,2 @@
+potential = 1;
+
