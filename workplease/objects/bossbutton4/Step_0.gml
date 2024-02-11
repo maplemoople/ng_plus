@@ -69,6 +69,7 @@ switch state{
 	case alive:
 		break;
 	case dead:
+		wallLight.image_index = 1;
 		if bossComplete.explode == 1{
 			audio_play_sound(aDeath,1,false)
 			audio_play_sound(aBulletDie,1,false)

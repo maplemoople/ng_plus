@@ -33,5 +33,5 @@
     "path": "sprites/WheelHitbox/WheelHitbox.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

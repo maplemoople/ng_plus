@@ -33,5 +33,5 @@
     "path": "sprites/bSpikeHitbox/bSpikeHitbox.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

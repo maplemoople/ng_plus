@@ -32,5 +32,5 @@
     "path": "sprites/spr_ground/spr_ground.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

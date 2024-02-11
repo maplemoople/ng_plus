@@ -40,4 +40,4 @@ if (place_meeting(x,y-max(1,10),obj_player) && obj_player.vsp > 0 && state%2 == 
 		audio_play_sound(aButtonPress,1,false)
 		state++
 }
-if obj_player.goback == Room10 state = top
+//if obj_player.goback == Room10 state = top

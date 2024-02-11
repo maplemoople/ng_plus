@@ -8,6 +8,9 @@ if room == Boss1{
 	y += (obj_player.y - y) / 5;
 	hHalf = camera_get_view_height(cam) / 2;
 	y = clamp (y,hHalf,room_height-hHalf);
+	x += (xTo - x) / 5;
+	wHalf = camera_get_view_width(cam);
+	x = clamp (x,wHalf,room_width-wHalf);
 }
 
 

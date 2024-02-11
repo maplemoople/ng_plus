@@ -71,10 +71,14 @@ if instance_exists(obj_wallvert){
 		}
 		x += oneWayPlat.hsp;
 		y += oneWayPlat.vsp;
-		if grounded && jump && (oneWayPlat.hsp > 5 || oneWayPlat.vsp < -5){
-			
-			hsp += oneWayPlat.hsp * 3
+		if grounded && jump{
+			if oneWayPlat.hsp > 1.4{
+				hsp += oneWayPlat.hsp * 3;
+				vsp -= 10
+			}
+			if oneWayPlat.vsp < -5{
 			vsp += oneWayPlat.vsp * 3
+			}
 		}
 	}
 } else

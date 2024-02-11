@@ -3,7 +3,7 @@ if(is_enabled) {
 	global.checkpoint_x = x;
 	global.checkpoint_y = y;
 	if room == Boss1{
-		global.checkpoint_x = 222;
+		global.checkpoint_x = 132;
 		global.checkpoint_y = 96;
 		obj_player.goback = Room10;
 	}

@@ -17,3 +17,11 @@ with (instance_create_layer(xPos,yPos,"Enemies",objName)) {
 	grv = 0.4
 	shootCooldown = 15
 }
+
+with (instance_create_layer(ixPos,iyPos,"Gun",indicator)){
+	image_speed = 0;
+	image_index = 0;
+	owner = other.id;
+	owner.wallLight = id;
+	image_blend = owner.indColor;
+}

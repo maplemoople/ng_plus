@@ -1,16 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "bossWheelT",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "name": "indicator",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Boss1",
-    "path": "folders/Objects/Enemies - NPC/Boss1.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,9 +26,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "WheelHitboxT",
-    "path": "sprites/WheelHitboxT/WheelHitboxT.yy",
+    "name": "colorWall",
+    "path": "sprites/colorWall/colorWall.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

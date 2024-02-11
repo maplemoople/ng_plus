@@ -82,6 +82,7 @@ switch state{
 		break;
 	case dead:
 		audio_stop_sound(bossE1GT);
+		wallLight.image_index = 1;
 		if bossComplete.explode == 1{
 			attached = NaN;
 			audio_play_sound(aDeath,1,false)
@@ -107,7 +108,7 @@ switch state{
 }
 
 if(instance_exists(attached) && state != dead){
-	if (attached.image_xscale == 1) x = attached.x + 1; else x = attached.x - 0.5
+	if (attached.image_xscale == 1) x = attached.x + 0.5; else x = attached.x
 	y = attached.y - 3;
 }
 else { x = 500; y  = 500;}
