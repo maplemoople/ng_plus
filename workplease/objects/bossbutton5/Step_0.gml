@@ -10,6 +10,11 @@ with(connection){
 		hsp = -hsp;
 	
 	}
+	//Used to turn around early so the turret doesnt go into the wall
+	if(place_meeting(x+18*sign(hsp),y,obj_wall)){
+		 hsp = -hsp
+	 }
+	
 	if (place_meeting(x+hsp, y, obj_wallvert)){
 		hsp = -hsp;
 	}

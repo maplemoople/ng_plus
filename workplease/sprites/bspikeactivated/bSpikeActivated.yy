@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "bSpikeActivated",
   "bbox_bottom": 24,
-  "bbox_left": 5,
+  "bbox_left": 6,
   "bbox_right": 25,
   "bbox_top": 0,
   "bboxMode": 2,

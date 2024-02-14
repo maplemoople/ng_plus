@@ -13,6 +13,11 @@ with(connection){
 		}
 		hsp = -hsp;
 	}
+	//Used to turn around early so the turret doesnt go into the wall
+	if(place_meeting(x+18*sign(hsp),y,obj_wall)){
+		 hsp = -hsp
+	 }
+	
 	with(turnAround){
 		if (place_meeting(x+owner.hsp, y, gtHitbox)){
 			owner.hsp = -owner.hsp;
@@ -51,7 +56,7 @@ owner.wheel.image_xscale = sign(hsp) * 1;
 with(connection){
 	shootCooldown--
 	if (!shootCooldown && animation_end()){
-		with (instance_create_layer(x + 80 * sin(hsp),y,"Bullets", eBullet)){
+		with (instance_create_layer(x + 45 * sin(hsp),y,"Bullets", eBullet)){
 			if other.image_xscale == -1 direction = 180; else direction = 360;
 			speed = 2
 			image_angle = direction;

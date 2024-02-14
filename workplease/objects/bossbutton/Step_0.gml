@@ -20,8 +20,8 @@ with(connection){
 		hsp = -hsp;
 	
 	}
-	
-	if(grounded && !place_meeting(x+hsp,y+1,obj_wall)){
+	//the 18 is a random number that fits to make the turret turn arround before its wheels go off
+	if(grounded && !place_meeting(x+18*sign(hsp),y+1,obj_wall)){
 		 hsp = -hsp
 	 }
 	 
@@ -113,7 +113,7 @@ if(instance_exists(attached) && state != dead){
 }
 else { x = 500; y  = 500;}
 
-if (place_meeting(x,y-1,obj_player) && obj_player.vsp > 0 && state == alive){
+if (place_meeting(x,y-1,obj_player) && obj_player.vsp >= 0 && state == alive){
 		audio_play_sound(aButtonPress,1,false)
 		state++
 }
