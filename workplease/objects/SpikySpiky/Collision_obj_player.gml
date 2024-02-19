@@ -1,1 +1,0 @@
-obj_player.currentHp -= 100

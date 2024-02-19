@@ -1,1 +1,0 @@
-var targetRoom, targetX, targetY

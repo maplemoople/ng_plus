@@ -1,1 +1,0 @@
-instance_create_layer(x-1,y+13,"Player",pGunBaseP)
