@@ -1,0 +1,7 @@
+enum ENEMYSTATE{
+	FREE,
+	HIT,
+	ATTACK,
+	DEAD,
+	IDLE,
+}

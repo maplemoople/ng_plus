@@ -1,0 +1,1 @@
+obj_player.currentHp -= 50000000;
