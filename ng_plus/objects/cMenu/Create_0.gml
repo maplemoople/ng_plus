@@ -78,6 +78,10 @@ mbestLetterScore = "";
 mbestCollected = "";
 mcollectedW = "";
 mBossUnlocked = 0;
+mBoss1LetterScore = "Z";
+mBoss1Time = "";
+mgradeColor = "";
+mBoss1gradecolor = "";
 
 
 			

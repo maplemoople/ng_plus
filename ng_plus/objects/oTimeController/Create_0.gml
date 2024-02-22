@@ -12,15 +12,15 @@ BossdCol = 0;
 BosstCol = 0;
 bestTime = 999999999;
 bestDeaths = 999999;
-bestLetterScore = "z";
+bestLetterScore = "Z";
 bestCollected = 0
 boss1End = 0;
 bestBoss1Time = 999999999999;
-bestBoss1LetterScore = "z";
+bestBoss1LetterScore = "Z";
 bestBoss1Deaths = 9999999;
 boss1Deaths = 999999;
 boss1Time = 999999;
-boss1LetterScore = "z"; 
+boss1LetterScore = "Z"; 
 
 if (file_exists("savedgame.save")){
 			var _buffer = buffer_load("savedgame.save")
@@ -42,6 +42,12 @@ if (file_exists("savedgame.save")){
 }
 bgradeColor = c_black;
 BossgradeColor = c_black;
+bestOutline = c_white;
+bestOutlineSize = 0;
+bestBossOutline = c_white;
+bestBossOutlineSize = 0;
+scoreOutline = c_white
+scoreOutlineSize = 0;
 endScore = 0;
 letterScore = 0;
 gradeColor = c_black

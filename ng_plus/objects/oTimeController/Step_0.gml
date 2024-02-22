@@ -91,60 +91,89 @@ if instance_exists(obj_player) && instance_exists(oTimeStart) && instance_exists
 		if endScore < 100{
 			letterScore = "S";
 			gradeColor = make_color_rgb(252, 186, 3)
+			scoreOutline = c_white
+			scoreOutlineSize = 6
 		}
 		else if(endScore < 150){
 				letterScore = "A";
 				gradeColor = make_color_rgb(184, 184, 184)
+				scoreOutline = c_white
+				scoreOutlineSize = 3;
 			}
 			else if(endScore < 200){
 					letterScore = "B";
 					gradeColor = make_color_rgb(181, 119, 62)
+					scoreOutline = c_white
+					scoreOutlineSize = 0;
 				}
 				else if(endScore < 250){
 						letterScore = "C";
 						gradeColor = c_black
+						scoreOutline = c_white
+						scoreOutlineSize = 0;
 					}
 					else if(endScore < 300){
 							letterScore = "D";
 							gradeColor = c_black
+							scoreOutline = c_white
+							scoreOutlineSize = 0;
 						}
 						else if(endScore < 350){
 								letterScore = "F";
 								gradeColor = c_black
+								scoreOutline = c_white
+								scoreOutlineSize = 0;
 							}
 	} else{
 		endScore = cTime + 2 * obj_player.currentDeaths //Boss Score
 		if endScore < 30{ //30 seconds no deaths
 			letterScore = "S";
 			gradeColor = make_color_rgb(252, 186, 3)
+			scoreOutline = c_white
+			scoreOutlineSize = 6;
+			
 		}
 		else if(endScore < 110){ //1:30 with 10 deaths
 				letterScore = "A";
 				gradeColor = make_color_rgb(184, 184, 184)
+				scoreOutline = c_white
+				scoreOutlineSize = 3;
 			}
 			else if(endScore < 400){ //5:00 with 50 deaths
 					letterScore = "B";
 					gradeColor = make_color_rgb(181, 119, 62)
+					scoreOutline = c_white
+					scoreOutlineSize = 0;
 				}
 				else if(endScore < 800){ //10:00 with 100 deahts
 						letterScore = "C";
 						gradeColor = c_black
+						scoreOutline = c_white
+						scoreOutlineSize = 0;
 					}
 					else if(endScore < 1300){ //15:00 with 200 deaths
 							letterScore = "D";
 							gradeColor = c_black
+							scoreOutline = c_white
+							scoreOutlineSize = 0;
 						}
 						else{
 							letterScore = "F";
 							gradeColor = c_black
+							scoreOutline = c_white
+							scoreOutlineSize = 0;
 							}
 	}
 	switch (bestLetterScore){
 			case "S":
 				bgradeColor = make_color_rgb(252, 186, 3)
+				bestOutline = c_white;
+				bestOutlineSize = 6;
 			break;
 			case "A":
 				bgradeColor = make_color_rgb(184, 184, 184)
+				bestOutline = c_white;
+				bestOutlineSize = 3;
 			break;
 			case "B":
 				bgradeColor = make_color_rgb(181, 119, 62)
@@ -153,9 +182,13 @@ if instance_exists(obj_player) && instance_exists(oTimeStart) && instance_exists
 	switch (bestBoss1LetterScore){
 			case "S":
 				BossgradeColor = make_color_rgb(252, 186, 3)
+				bestBossOutline = c_white;
+				bestBossOutlineSize = 6
 			break;
 			case "A":
 				BossgradeColor = make_color_rgb(184, 184, 184)
+				bestBossOutline = c_white;
+				bestBossOutlineSize = 3
 			break;
 			case "B":
 				BossgradeColor = make_color_rgb(181, 119, 62)

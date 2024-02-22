@@ -231,6 +231,20 @@ switch(currentMenu){
 			default:
 				mgradeColor = c_black;
 			}
+			
+			switch (mBoss1LetterScore){
+			case "S":
+				mBoss1gradeColor = make_color_rgb(252, 186, 3)
+			break;
+			case "A":
+				mBoss1gradeColor = make_color_rgb(184, 184, 184)
+			break;
+			case "B":
+				mBoss1gradeColor = make_color_rgb(181, 119, 62)
+			break;
+			default:
+				mBoss1gradeColor = c_black;
+			}
 		loadedSave = 1;
 		}
 		switch(menu_cursor){

@@ -1,17 +1,17 @@
 {
-  "$GMProject": "",
-  "%Name": "ng_plus",
-  "AudioGroups": [
+  "$GMProject":"",
+  "%Name":"ng_plus",
+  "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMAudioGroup":"","%Name":"SFX","name":"SFX","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMAudioGroup":"","%Name":"MUSIC","name":"MUSIC","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
-  "configs": {
-    "children": [],
-    "name": "Default",
+  "configs":{
+    "children":[],
+    "name":"Default",
   },
-  "defaultScriptType": 1,
-  "Folders": [
+  "defaultScriptType":1,
+  "Folders":[
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Fonts/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -62,14 +62,14 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles": [],
-  "isEcma": false,
-  "LibraryEmitters": [],
-  "MetaData": {
-    "IDEVersion":"2023.11.1.129",
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.200.0.499",
   },
-  "name": "ng_plus",
-  "resources": [
+  "name":"ng_plus",
+  "resources":[
     {"id":{"name":"obj_lighting_init","path":"objects/obj_lighting_init/obj_lighting_init.yy",},},
     {"id":{"name":"light_acknowledge_shadow_caster","path":"scripts/light_acknowledge_shadow_caster/light_acknowledge_shadow_caster.yy",},},
     {"id":{"name":"spr_lut_light_intensity_spot","path":"sprites/spr_lut_light_intensity_spot/spr_lut_light_intensity_spot.yy",},},
@@ -401,9 +401,9 @@
     {"id":{"name":"light_draw_shadow_map","path":"scripts/light_draw_shadow_map/light_draw_shadow_map.yy",},},
     {"id":{"name":"light_static_get_array","path":"scripts/light_static_get_array/light_static_get_array.yy",},},
   ],
-  "resourceType": "GMProject",
-  "resourceVersion": "2.0",
-  "RoomOrderNodes": [
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Line1","path":"rooms/Line1/Line1.yy",},},
     {"roomId":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
@@ -432,8 +432,8 @@
     {"roomId":{"name":"Room22","path":"rooms/Room22/Room22.yy",},},
     {"roomId":{"name":"Boss1","path":"rooms/Boss1/Boss1.yy",},},
   ],
-  "templateType": null,
-  "TextureGroups": [
+  "templateType":null,
+  "TextureGroups":[
     {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
   ],
 }

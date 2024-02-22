@@ -66,7 +66,7 @@ for (var i = 0; i < menu_items; i++){
 				draw_text(sxx, syy, subtxt);
 			} else if (currentMenu == bosslvlSelect){
 				if(mBoss1LetterScore != "Z"){
-					draw_set_color(mgradeColor);
+					draw_set_color(mBoss1gradeColor);
 					draw_set_halign(fa_right);
 					draw_text(sxx + 75, syy + 287, mBoss1LetterScore);
 					draw_set_color(subcol);

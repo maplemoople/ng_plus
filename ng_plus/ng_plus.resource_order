@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Extensions","order":12,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
     {"name":"Animation Curves","order":2,"path":"folders/Fonts/Animation Curves.yy",},
@@ -44,7 +44,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [
+  "ResourceOrderSettings":[
     {"name":"obj_lighting_init","order":2,"path":"objects/obj_lighting_init/obj_lighting_init.yy",},
     {"name":"spr_lut_light_intensity_spot","order":3,"path":"sprites/spr_lut_light_intensity_spot/spr_lut_light_intensity_spot.yy",},
     {"name":"oTimeController","order":10,"path":"objects/oTimeController/oTimeController.yy",},
