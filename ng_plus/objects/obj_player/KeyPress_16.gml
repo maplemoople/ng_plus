@@ -1,0 +1,2 @@
+/// @death
+state = PLAYERSTATE.DEAD

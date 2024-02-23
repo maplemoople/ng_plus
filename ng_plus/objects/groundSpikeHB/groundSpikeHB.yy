@@ -9,10 +9,7 @@
     "name":"Boss1",
     "path":"folders/Objects/Enemies - NPC/Boss1.yy",
   },
-  "parentObjectId":{
-    "name":"obj_wallvert",
-    "path":"objects/obj_wallvert/obj_wallvert.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

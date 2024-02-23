@@ -50,20 +50,6 @@ if instance_exists(obj_player) && instance_exists(oTimeStart) && instance_exists
 		}
 	}
 
-
-	if (obj_player.currentDeaths < 18) dCol = make_color_rgb(obj_player.currentDeaths * 15,0,0) else dCol = make_color_rgb(255,0,0)
-
-	if (cTime < 255) tCol = make_color_rgb(cTime,0,0) else tCol = make_color_rgb(255,0,0)
-		
-		
-	if (bestDeaths < 18) bdCol = make_color_rgb(bestDeaths * 15,0,0) else bdCol = make_color_rgb(255,0,0)
-
-	if (bestTime < 255) btCol = make_color_rgb(bestTime,0,0) else btCol = make_color_rgb(255,0,0)
-
-
-	if (bestBoss1Deaths < 18) BossdCol = make_color_rgb(bestBoss1Deaths * 15,0,0) else BossdCol = make_color_rgb(255,0,0)
-
-	if (bestBoss1Time < 255) BosstCol = make_color_rgb(bestBoss1Time,0,0) else BosstCol = make_color_rgb(255,0,0)
 	switch(collected){
 		case 0:
 		collectedW = "";
@@ -87,6 +73,13 @@ if instance_exists(obj_player) && instance_exists(oTimeStart) && instance_exists
 
 	coinScore = collected * 20
 	if room !=Boss1 && room != Room10{
+		
+		// COLORS FOR NORMAL ROOM STATS in order: (Deaths, Time, Best Deaths, Best Time)
+		if (obj_player.currentDeaths < 18) dCol = make_color_rgb(obj_player.currentDeaths * 15,0,0) else dCol = make_color_rgb(255,0,0)
+		if (cTime < 300) tCol = make_color_rgb(cTime * 255/300,0,0) else tCol = make_color_rgb(255,0,0)
+		if (bestDeaths < 18) bdCol = make_color_rgb(bestDeaths * 15,0,0) else bdCol = make_color_rgb(255,0,0)
+		if (bestTime < 300) btCol = make_color_rgb(bestTime * 255/300,0,0) else btCol = make_color_rgb(255,0,0)
+
 		endScore = 3*cTime + (5 * obj_player.currentDeaths) - coinScore
 		if endScore < 100{
 			letterScore = "S";
@@ -118,13 +111,20 @@ if instance_exists(obj_player) && instance_exists(oTimeStart) && instance_exists
 							scoreOutline = c_white
 							scoreOutlineSize = 0;
 						}
-						else if(endScore < 350){
-								letterScore = "F";
-								gradeColor = c_black
-								scoreOutline = c_white
-								scoreOutlineSize = 0;
+						else{
+							letterScore = "F";
+							gradeColor = c_black
+							scoreOutline = c_white
+							scoreOutlineSize = 0;
 							}
 	} else{
+		
+		// COLORS FOR BOSS ROOM STATS
+		if (obj_player.currentDeaths < 200) dCol = make_color_rgb(obj_player.currentDeaths * 255/200,0,0) else dCol = make_color_rgb(255,0,0)
+		if (cTime < 1300) tCol = make_color_rgb(cTime * 255/1300,0,0) else tCol = make_color_rgb(255,0,0)
+		if (bestBoss1Deaths < 200) BossdCol = make_color_rgb(bestBoss1Deaths * 255/200,0,0) else BossdCol = make_color_rgb(255,0,0)
+		if (bestBoss1Time < 1300) BosstCol = make_color_rgb(bestBoss1Time * 255/1300,0,0) else BosstCol = make_color_rgb(255,0,0)
+		
 		endScore = cTime + 2 * obj_player.currentDeaths //Boss Score
 		if endScore < 30{ //30 seconds no deaths
 			letterScore = "S";
