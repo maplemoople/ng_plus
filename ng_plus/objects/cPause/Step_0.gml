@@ -63,6 +63,7 @@ switch(currentpMenu){
 					break;
 		
 					case 0:
+					audio_group_stop_all(MUSIC)
 					room_goto(Menu) 
 					break;
 				}

@@ -91,7 +91,6 @@ switch state{
 			}
 			connection.hsp = 0.2 * sign(connection.hsp)
 			*/
-			audio_stop_sound(bossE2GS)
 		break;
 }
 

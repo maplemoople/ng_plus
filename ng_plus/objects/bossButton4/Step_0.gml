@@ -98,7 +98,6 @@ switch state{
 					connection.image_speed = 1;
 				}
 			}*/
-			audio_stop_sound(bossE4FS)
 		break;
 }
 

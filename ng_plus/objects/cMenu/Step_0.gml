@@ -274,7 +274,7 @@ switch(currentMenu){
 			
 		}
 		
-			//when u press enter
+			//when u press enter for lvlSelect
 		if(menu_committed != -1){
 			switch (menu_committed){
 				case 2:
@@ -282,11 +282,13 @@ switch(currentMenu){
 						switch (subMenuCursor) {
 						case 0:
 							instance_create_layer(31,44,"Player",obj_player)
+							audio_group_stop_all(MUSIC)
 							room_goto(Line1)
 						break;
 					
 						case 1:
 							instance_create_layer(30,74,"Player",obj_player)
+							audio_group_stop_all(MUSIC)
 							room_goto(Room11)
 						break;
 
@@ -347,7 +349,7 @@ switch(currentMenu){
 				break;
 			
 			}
-			//when u press enter
+			//when u press enter for bossSelect
 		if(menu_committed != -1){
 			switch (menu_committed){
 				case 2:
@@ -356,7 +358,11 @@ switch(currentMenu){
 						case 0:
 							if mBossUnlocked{ 
 								instance_create_layer(31,44,"Player",obj_player)
+								audio_group_stop_all(MUSIC)
 								room_goto(Room10)
+							} else{
+							menu_committed = -1; 
+							menu_control = true;
 							}
 						break;
 					
