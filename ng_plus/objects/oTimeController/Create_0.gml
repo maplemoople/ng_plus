@@ -21,6 +21,8 @@ bestBoss1Deaths = 9999999;
 boss1Deaths = 999999;
 boss1Time = 999999;
 boss1LetterScore = "Z"; 
+collectedB = "";
+collectedW = "";
 
 if (file_exists("savedgame.save")){
 			var _buffer = buffer_load("savedgame.save")

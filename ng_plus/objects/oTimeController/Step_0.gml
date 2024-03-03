@@ -42,7 +42,7 @@ if instance_exists(obj_player) && instance_exists(oTimeStart) && instance_exists
 	}
 	
 	if boss1End{
-		bestBoss1Score = 5*bestBoss1Time + (5 * bestBoss1Deaths)
+		bestBoss1Score = bestBoss1Time + 2 * bestBoss1Deaths
 		if endScore < bestBoss1Score{
 			bestBoss1Time = boss1Time;
 			bestBoss1Deaths = boss1Deaths;
@@ -71,8 +71,29 @@ if instance_exists(obj_player) && instance_exists(oTimeStart) && instance_exists
 		break;
 	}
 
+	switch(bestCollected){
+		case 0:
+		collectedB = "";
+		break;
+		case 1:
+		collectedB = "O";
+		break;
+		case 2:
+		collectedB = "O O";
+		break;
+		case 3:
+		collectedB = "O O O";
+		break;
+		case 4:
+		collectedB = "O O O O";
+		break;
+		case 5:
+		collectedB = "O O O O O";
+		break;
+	}
+
 	coinScore = collected * 20
-	if room !=Boss1 && room != Room10{
+	if room !=Boss1 && room != Room10 && room != Line3{
 		
 		// COLORS FOR NORMAL ROOM STATS in order: (Deaths, Time, Best Deaths, Best Time)
 		if (obj_player.currentDeaths < 18) dCol = make_color_rgb(obj_player.currentDeaths * 15,0,0) else dCol = make_color_rgb(255,0,0)

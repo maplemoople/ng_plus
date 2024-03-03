@@ -34,3 +34,5 @@ pmenu_items = array_length_1d(pmenu);
 pmenu_cursor = 2;
 
 pause = false;
+
+oldFade = 0;

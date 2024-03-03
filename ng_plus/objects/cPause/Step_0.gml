@@ -8,6 +8,7 @@ if(keyboard_check_pressed(vk_escape)){
 		instance_deactivate_all(true);
 		instance_activate_object(oSoundController);
 		instance_activate_object(saveData);
+		oldFade = oSoundController.currentFade;
 		pmenu_control = true;
 	} else if currentpMenu == poptions{
 		currentpMenu = pmenu
@@ -18,6 +19,7 @@ if(keyboard_check_pressed(vk_escape)){
 		pause = false;
 		instance_activate_all();
 		pmenu_control = false;
+		oSoundController.currentFade = oldFade;
 	}
 }
 
@@ -53,9 +55,11 @@ switch(currentpMenu){
 					pause = false;
 					pmenu_committed = -1;
 					instance_activate_all();
+					oSoundController.currentFade = oldFade;
 					break;
 		
 					case 1: 
+					oSoundController.currentFade = 0;
 					currentpMenu = poptions
 					pmenu_items = array_length_1d(poptions);
 					pmenu_committed = -1; 

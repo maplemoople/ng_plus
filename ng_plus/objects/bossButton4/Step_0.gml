@@ -70,6 +70,7 @@ switch state{
 		break;
 	case dead:
 		wallLight.image_index = 1;
+		audio_sound_gain(bossE1mel2,oSoundController.musicVolume,oSoundController.fadeSpeed)
 		if bossComplete.explode == 1{
 			audio_play_sound(aDeath,1,false)
 			audio_play_sound(aBulletDie,1,false)

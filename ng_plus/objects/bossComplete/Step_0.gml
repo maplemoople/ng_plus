@@ -33,6 +33,7 @@ switch state{
 if (state == closed && bossButton.state == 1 && bossButton2.state == 1 && bossButton3.state == 1 && bossButton4.state == 1 && bossButton5.state == 1 && bossButton6.state == 1){
 	state = open;
 	explode = 1;
+	oSoundController.explode = 1;
 	if (object_exists(obj_turret)){
 		instance_destroy(obj_turret)
 	}

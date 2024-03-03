@@ -28,14 +28,14 @@ if currentMenu == bosslvlSelect && subMenuCursor == 0 && mBoss1LetterScore != "Z
 	var bkgrnd = layer_background_get_id(layid)
 	layer_background_change(bkgrnd, room10Placeholder)
 	audio_stop_sound(asynth1)
-	if(!audio_is_playing(bossArea1)){
-		audio_play_sound(bossArea1,1,false);
+	if(!audio_is_playing(bossMel)){
+		audio_play_sound(bossMel,1,false);
 	}
 } else {
 	var layid = layer_get_id("Backgrounds_1")
 	var bkgrnd = layer_background_get_id(layid)
 	layer_background_change(bkgrnd, Line0)
-	audio_stop_sound(bossArea1)
+	audio_stop_sound(bossMel)
 }
 
 if(menu_control){

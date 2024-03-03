@@ -1,41 +1,73 @@
 
-if room == Line2 {
+if ((room == Line2) || (room == Line3)) {
 	
-	//This is the end of Level 1 before you get to the boss areas and it shows you the scores
-	draw_set_font(fTitle)
-	draw_set_halign(fa_left)
-	draw_set_valign(fa_bottom);
-	draw_set_color(tCol)
-	// Current time
-	draw_text_outlined(display_get_gui_width() * 10/100, display_get_gui_height() * 36 / 100, c_white, tCol, 0, "Time: " + string(cTime));
-	// Current Deaths
-	draw_set_color(dCol)
-	draw_text_outlined(display_get_gui_width() * 10/100, display_get_gui_height() * 44 / 100, c_white, dCol, 0, "Deaths: " + string(obj_player.currentDeaths));
-	// Current Collected
-	draw_set_color(c_black);
-	draw_text_outlined(display_get_gui_width() * 10/100, display_get_gui_height() * 60 / 100, c_white, c_black, 0, string(collectedW));
-	// Current Grade
-	draw_set_color(gradeColor);
-	draw_text_outlined(display_get_gui_width() * 10/100, display_get_gui_height() * 52 / 100, scoreOutline, gradeColor, scoreOutlineSize, "Grade: " + string(letterScore));
-
-	//times to beat and whatnot
-	if bestLetterScore != ("Z"){
+	if room == Line2{
+		//This is the end of Level 1 before you get to the boss areas and it shows you the scores
 		draw_set_font(fTitle)
-		draw_set_halign(fa_right)
+		draw_set_halign(fa_left)
 		draw_set_valign(fa_bottom);
-		// Best Time
-		draw_set_color(btCol)
-		draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 36 / 100, c_white, btCol, 0, "Best Time: " + string(bestTime));
-		// BEst Deaths
-		draw_set_color(bdCol)
-		draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 44 / 100, c_white, bdCol, 0, "Best Deaths: " + string(bestDeaths));
-		// Best COllected
-		draw_set_color(c_black);
-		draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 60 / 100, c_white, c_black, 0, string(bestCollected) + " Collected");
-		// Best Letter Score
-		draw_set_color(bgradeColor);
-		draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 52 / 100, bestOutline, bgradeColor, bestOutlineSize, "Best Grade: " + string(bestLetterScore));
+		draw_set_color(tCol)
+		// Current time
+		draw_text_outlined(display_get_gui_width() * 10/100, display_get_gui_height() * 36 / 100, c_white, tCol, 0, "Time: " + string(cTime));
+		// Current Deaths
+		draw_set_color(dCol)
+		draw_text_outlined(display_get_gui_width() * 10/100, display_get_gui_height() * 44 / 100, c_white, dCol, 0, "Deaths: " + string(obj_player.currentDeaths));
+		// Current Collected
+			draw_set_color(c_black);
+			draw_text_outlined(display_get_gui_width() * 10/100, display_get_gui_height() * 60 / 100, c_white, c_black, 0, string(collectedW));
+		// Current Grade
+		draw_set_color(gradeColor);
+		draw_text_outlined(display_get_gui_width() * 10/100, display_get_gui_height() * 52 / 100, scoreOutline, gradeColor, scoreOutlineSize, "Grade: " + string(letterScore));
 
+		//times to beat and whatnot
+			if bestLetterScore != ("Z"){
+				draw_set_font(fTitle)
+				draw_set_halign(fa_right)
+				draw_set_valign(fa_bottom);
+				// Best Time
+				draw_set_color(btCol)
+				draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 36 / 100, c_white, btCol, 0, "Best Time: " + string(bestTime));
+				// BEst Deaths
+				draw_set_color(bdCol)
+				draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 44 / 100, c_white, bdCol, 0, "Best Deaths: " + string(bestDeaths));
+				// Best COllected
+				draw_set_color(c_black);
+				draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 60 / 100, c_white, c_black, 0, string(collectedB));
+				// Best Letter Score
+				draw_set_color(bgradeColor);
+				draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 52 / 100, bestOutline, bgradeColor, bestOutlineSize, "Best Grade: " + string(bestLetterScore));
+
+			}
+	} else if room == Line3 {
+				//This is end of boss1
+		draw_set_font(fTitle)
+		draw_set_halign(fa_left)
+		draw_set_valign(fa_bottom);
+		draw_set_color(tCol)
+		// Current time
+		draw_text_outlined(display_get_gui_width() * 10/100, display_get_gui_height() * 36 / 100, c_white, tCol, 0, "Time: " + string(cTime));
+		// Current Deaths
+		draw_set_color(dCol)
+		draw_text_outlined(display_get_gui_width() * 10/100, display_get_gui_height() * 44 / 100, c_white, dCol, 0, "Deaths: " + string(obj_player.currentDeaths));
+		
+		// Current Grade
+		draw_set_color(gradeColor);
+		draw_text_outlined(display_get_gui_width() * 10/100, display_get_gui_height() * 52 / 100, scoreOutline, gradeColor, scoreOutlineSize, "Grade: " + string(letterScore));
+
+			if bestLetterScore != ("Z"){
+				draw_set_font(fTitle)
+				draw_set_halign(fa_right)
+				draw_set_valign(fa_bottom);
+				// Best Boss Time
+				draw_set_color(btCol)
+				draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 36 / 100, c_white, btCol, 0, "Best Time: " + string(bestBoss1Time));
+				// BEst Boss Deaths
+				draw_set_color(bdCol)
+				draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 44 / 100, c_white, bdCol, 0, "Best Deaths: " + string(bestBoss1Deaths));
+				// Best Boss Letter Score
+				draw_set_color(bgradeColor);
+				draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 52 / 100, bestOutline, bgradeColor, bestOutlineSize, "Best Grade: " + string(bestBoss1LetterScore));
+			}
 	}
 } else if (room == Boss1 || room == Room10){
 	
@@ -98,7 +130,7 @@ if room == Line2 {
 				draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 91 / 100, c_white, bdCol, 6, "Deaths: " + string(bestDeaths));
 				// Best Collected DIsplay
 				draw_set_color(c_black);
-				draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 99 / 100, c_white, c_black, 6, string(bestCollected));
+				draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 99 / 100, c_white, c_black, 6, string(collectedB));
 				// Best Grade Display
 				draw_set_color(bgradeColor);
 				draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 95 / 100, c_white, bgradeColor, 6, "Grade: " + string(bestLetterScore));
