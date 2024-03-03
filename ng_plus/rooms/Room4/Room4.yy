@@ -67,7 +67,7 @@
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"propertyId":{"name":"targetX","path":"objects/obj_warp/obj_warp.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"propertyId":{"name":"targetY","path":"objects/obj_warp/obj_warp.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"42",},
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_warp/obj_warp.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Room5",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.609375,"scaleY":1.0,"x":224.0,"y":-19.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.609375,"scaleY":1.875,"x":224.0,"y":-75.0,},
       ],"layers":[],"name":"Collision","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_58CE4779","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_58CE4779","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"room4","path":"sprites/room4/room4.yy",},"x":0.0,"y":0.0,},

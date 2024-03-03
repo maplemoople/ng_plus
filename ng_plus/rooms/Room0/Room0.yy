@@ -50,7 +50,7 @@
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_warp/obj_warp.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Room1",},
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"propertyId":{"name":"targetX","path":"objects/obj_warp/obj_warp.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"propertyId":{"name":"targetY","path":"objects/obj_warp/obj_warp.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"83",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":0.5,"x":173.0,"y":79.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.421875,"x":190.0,"y":-71.0,},
       ],"layers":[],"name":"Collision","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Enemies","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Enemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[

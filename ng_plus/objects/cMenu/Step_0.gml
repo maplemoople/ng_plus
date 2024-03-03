@@ -23,7 +23,7 @@ if object_exists(saveData) && !setLoaded{
 }
 if (window_get_fullscreen()) isFullscreen = "YES"; else isFullscreen = "NO";
 
-if currentMenu == bosslvlSelect && subMenuCursor == 0 && mBoss1LetterScore != "Z"{
+if currentMenu == bosslvlSelect && subMenuCursor == 0 && mBossUnlocked{
 	var layid = layer_get_id("Backgrounds_1")
 	var bkgrnd = layer_background_get_id(layid)
 	layer_background_change(bkgrnd, room10Placeholder)
