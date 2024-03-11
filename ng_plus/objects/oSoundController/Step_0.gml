@@ -155,7 +155,7 @@ if musicStart{
 				audio_sound_gain(asynth3,0,fadeSpeed)
 			break;
 			case Room10:
-				currentFade = noFade;
+				currentFade = slowFade;
 				audio_sound_gain(bossMel,musicVolume,fadeSpeed)
 				audio_sound_gain(bossBass,0,fadeSpeed)
 				audio_sound_gain(bossCrash,0,fadeSpeed)
@@ -173,9 +173,11 @@ if musicStart{
 					audio_stop_sound(aDoorMoving)
 					forceStart = 1;
 				}
+				currentFade = slowFade
 				audio_sound_gain(bossMel,musicVolume,fadeSpeed)
 				audio_sound_gain(bossBass,musicVolume,fadeSpeed)
 				audio_sound_gain(bossCrash,musicVolume,fadeSpeed)
+				audio_sound_gain(bossE3mel1,musicVolume,fadeSpeed)
 				//the E1-E5 boss tracks are according to their buttons red-blue-green-yellow-purple, orange has no track
 				if explode = 1{
 					audio_sound_gain(bossCrash,0,fadeSpeed)
