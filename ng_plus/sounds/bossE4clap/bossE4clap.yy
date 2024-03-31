@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":6.80851,
+  "duration":7.32824,
   "name":"bossE4clap",
   "parent":{
     "name":"boss1",

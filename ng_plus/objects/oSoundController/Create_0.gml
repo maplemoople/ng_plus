@@ -14,3 +14,5 @@ slowFade = 1000;
 currentFade = noFade;
 fadeSpeed = currentFade;
 explode = 0;
+heightVolume = 0;
+heightVolumeMax = 0;

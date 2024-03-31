@@ -66,7 +66,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.200.0.505",
+    "IDEVersion":"2024.400.0.526",
   },
   "name":"ng_plus",
   "resources":[
@@ -269,7 +269,6 @@
     {"id":{"name":"asynth2","path":"sounds/asynth2/asynth2.yy",},},
     {"id":{"name":"asynth3","path":"sounds/asynth3/asynth3.yy",},},
     {"id":{"name":"aWalk","path":"sounds/aWalk/aWalk.yy",},},
-    {"id":{"name":"bossBass","path":"sounds/bossBass/bossBass.yy",},},
     {"id":{"name":"bossCrash","path":"sounds/bossCrash/bossCrash.yy",},},
     {"id":{"name":"bossE1mel2","path":"sounds/bossE1mel2/bossE1mel2.yy",},},
     {"id":{"name":"bossE2mel3","path":"sounds/bossE2mel3/bossE2mel3.yy",},},
@@ -279,6 +278,7 @@
     {"id":{"name":"bossE5kick","path":"sounds/bossE5kick/bossE5kick.yy",},},
     {"id":{"name":"bossE5snare","path":"sounds/bossE5snare/bossE5snare.yy",},},
     {"id":{"name":"bossMel","path":"sounds/bossMel/bossMel.yy",},},
+    {"id":{"name":"bossMel2","path":"sounds/bossMel2/bossMel2.yy",},},
     {"id":{"name":"blueButton","path":"sprites/blueButton/blueButton.yy",},},
     {"id":{"name":"boss1","path":"sprites/boss1/boss1.yy",},},
     {"id":{"name":"bossImage1","path":"sprites/bossImage1/bossImage1.yy",},},

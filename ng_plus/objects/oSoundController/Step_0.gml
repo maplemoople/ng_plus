@@ -19,7 +19,7 @@ if musicStart{
 		if audio_is_playing(asynth2) {audio_stop_all();}
 		if !audio_is_playing(bossE1mel2){
 			audio_play_sound(bossMel,1,true);
-			audio_play_sound(bossBass,1,true)
+			audio_play_sound(bossMel2,1,true)
 			audio_play_sound(bossE1mel2,1,true);
 			audio_play_sound(bossE2mel3,1,true);
 			audio_play_sound(bossCrash,1,true);
@@ -157,7 +157,7 @@ if musicStart{
 			case Room10:
 				currentFade = slowFade;
 				audio_sound_gain(bossMel,musicVolume,fadeSpeed)
-				audio_sound_gain(bossBass,0,fadeSpeed)
+				audio_sound_gain(bossMel2,0,fadeSpeed)
 				audio_sound_gain(bossCrash,0,fadeSpeed)
 				audio_sound_gain(bossE1mel2,0,fadeSpeed)
 				audio_sound_gain(bossE2mel3,0,fadeSpeed)
@@ -174,9 +174,10 @@ if musicStart{
 					forceStart = 1;
 				}
 				currentFade = slowFade
+				if heightVolume > heightVolumeMax {heightVolumeMax = heightVolume}
+				heightVolume = (1 - (obj_player.y - 105)/496) * musicVolume;
+				audio_sound_gain(bossMel2,heightVolumeMax,0)
 				audio_sound_gain(bossMel,musicVolume,fadeSpeed)
-				audio_sound_gain(bossBass,musicVolume,fadeSpeed)
-				audio_sound_gain(bossCrash,musicVolume,fadeSpeed)
 				audio_sound_gain(bossE3mel1,musicVolume,fadeSpeed)
 				//the E1-E5 boss tracks are according to their buttons red-blue-green-yellow-purple, orange has no track
 				if explode = 1{

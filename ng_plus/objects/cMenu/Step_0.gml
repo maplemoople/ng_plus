@@ -30,6 +30,7 @@ if currentMenu == bosslvlSelect && subMenuCursor == 0 && mBossUnlocked{
 	audio_stop_sound(asynth1)
 	if(!audio_is_playing(bossMel)){
 		audio_play_sound(bossMel,1,false);
+		audio_sound_gain(bossMel,oSoundController.musicVolume,0)
 	}
 } else {
 	var layid = layer_get_id("Backgrounds_1")
