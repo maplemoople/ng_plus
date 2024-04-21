@@ -66,7 +66,7 @@ if ((room == Line2) || (room == Line3)) {
 				draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 44 / 100, c_white, bdCol, 0, "Best Deaths: " + string(bestBoss1Deaths));
 				// Best Boss Letter Score
 				draw_set_color(bgradeColor);
-				draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 52 / 100, bestOutline, bgradeColor, bestOutlineSize, "Best Grade: " + string(bestBoss1LetterScore));
+				draw_text_outlined(display_get_gui_width() * 90/100, display_get_gui_height() * 52 / 100, bestBossOutline, BossgradeColor, bestBossOutlineSize, "Best Grade: " + string(bestBoss1LetterScore));
 			}
 	}
 } else if (room == Boss1 || room == Room10){

@@ -59,7 +59,7 @@ with(hitBox){
 
 
 image_index = 0;
-connection.image_speed = 0.75;
+connection.image_speed = 0.5;
 with(connection){
 owner.hitBox.image_xscale = sign(hsp) * 1;
 owner.wheel.image_xscale = sign(hsp) * 1;

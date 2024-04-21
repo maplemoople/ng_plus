@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"afat808.ogg",
+  "soundFile":"afat808.wav",
   "type":0,
   "volume":0.1,
 }

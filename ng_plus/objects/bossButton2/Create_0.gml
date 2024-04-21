@@ -12,7 +12,7 @@ with (instance_create_layer(xPos,yPos,"Enemies",objName)) {
 	owner.connection = object_index;
 	changed = 0;
 	deActiv = 0;
-	hsp = 1.3;
+	hsp = 0.9;
 	vsp = 0;
 	grv = 0.4;
 	shootCooldown = 15;

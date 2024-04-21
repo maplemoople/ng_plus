@@ -155,7 +155,9 @@ if musicStart{
 				audio_sound_gain(asynth3,0,fadeSpeed)
 			break;
 			case Room10:
-				currentFade = slowFade;
+				currentFade = noFade;
+				heightVolume = 0;
+				heightVolumeMax = 0;
 				audio_sound_gain(bossMel,musicVolume,fadeSpeed)
 				audio_sound_gain(bossMel2,0,fadeSpeed)
 				audio_sound_gain(bossCrash,0,fadeSpeed)
@@ -173,7 +175,7 @@ if musicStart{
 					audio_stop_sound(aDoorMoving)
 					forceStart = 1;
 				}
-				currentFade = slowFade
+				currentFade = noFade
 				if heightVolume > heightVolumeMax {heightVolumeMax = heightVolume}
 				heightVolume = (1 - (obj_player.y - 105)/496) * musicVolume;
 				audio_sound_gain(bossMel2,heightVolumeMax,0)

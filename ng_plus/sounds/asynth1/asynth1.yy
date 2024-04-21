@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"asynth1.ogg",
+  "soundFile":"asynth1.wav",
   "type":0,
   "volume":0.1,
 }

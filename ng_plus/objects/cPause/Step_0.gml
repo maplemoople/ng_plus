@@ -5,9 +5,8 @@ controls();
 if(keyboard_check_pressed(vk_escape)){
 	if (!pause){
 		pause = true;
-		instance_deactivate_all(true);
-		instance_activate_object(oSoundController);
-		instance_activate_object(saveData);
+	//	instance_activate_object(oSoundController);
+	//	instance_activate_object(saveData);
 		oldFade = oSoundController.currentFade;
 		pmenu_control = true;
 	} else if currentpMenu == poptions{
@@ -17,7 +16,7 @@ if(keyboard_check_pressed(vk_escape)){
 		pmenu_control = true; 
 	} else {
 		pause = false;
-		instance_activate_all();
+	//	instance_activate_all();
 		pmenu_control = false;
 		oSoundController.currentFade = oldFade;
 	}
@@ -67,6 +66,9 @@ switch(currentpMenu){
 					break;
 		
 					case 0:
+					instance_deactivate_all(true);
+					instance_activate_object(oSoundController);
+					instance_activate_object(saveData);
 					audio_group_stop_all(MUSIC)
 					room_goto(Menu) 
 					break;

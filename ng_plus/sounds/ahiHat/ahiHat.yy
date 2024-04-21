@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"ahiHat.ogg",
+  "soundFile":"ahiHat.wav",
   "type":0,
   "volume":0.1,
 }

@@ -13,7 +13,7 @@ grounded = 0;
 with (instance_create_layer(xPos,yPos,"Enemies",objName)) {
 	owner = other.id
 	owner.connection = object_index;
-	hsp = 0.7;
+	hsp = 0.4;
 	vsp = 0;
 	grv = 0.4
 	shootCooldown = 15

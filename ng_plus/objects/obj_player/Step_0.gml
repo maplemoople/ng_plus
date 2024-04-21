@@ -1,5 +1,17 @@
 #region controls/collision and other things
-controls();
+if object_exists(cPause){
+	if !cPause.pause {
+		controls();
+	} else {
+		left = false
+		left1 = false
+		leftM = false
+		right = false
+		right1 = false
+		rightM = false
+		jump = false
+	}
+} 
 //check if held not if pressed
 if (right) || (left){
 	if (right){
