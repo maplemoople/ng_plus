@@ -15,6 +15,7 @@ jumpTime = 6;
 canJump= 0;
 blowup = 0
 onTop = 0;
+resetRoom = Line1
 enum PLAYERSTATE{
 	FREE,
 	DASH,

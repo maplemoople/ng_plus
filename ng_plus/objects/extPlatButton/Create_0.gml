@@ -7,4 +7,5 @@ connection = NaN
 state = closed
 hsp = 0;
 vsp = 0;
+ontop = false
 image_blend = whatColor

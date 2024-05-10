@@ -40,14 +40,14 @@ if currentMenu == bosslvlSelect && subMenuCursor == 0 && mBossUnlocked{
 }
 
 if(menu_control){
-	if(keyboard_check_pressed(vk_up)){
+	if(mup){
 		menu_cursor++;
 		if(menu_cursor >= menu_items) menu_cursor = 0;
 		audio_play_sound(aMenuMove,1,false)
 		
 	}
 	
-	if(keyboard_check_pressed(vk_down)){
+	if(mdown){
 		menu_cursor--;
 		if(menu_cursor < 0) menu_cursor = menu_items - 1;
 		audio_play_sound(aMenuMove,1,false)
@@ -109,22 +109,22 @@ switch(currentMenu){
 		switch(menu_cursor){
 			case 3:
 			
-				if(rightM) && (oSoundController.sfxVolume < 1) && (currentMenu == options){
+				if(right1) && (oSoundController.sfxVolume < 1) && (currentMenu == options){
 					oSoundController.sfxVolume += 0.05;
 					audio_play_sound(aMenuSelect,1,false)	
 				}
-				if(leftM) && (oSoundController.sfxVolume > 0) && (currentMenu == options){
+				if(left1) && (oSoundController.sfxVolume > 0) && (currentMenu == options){
 					oSoundController.sfxVolume -= 0.05;
 					audio_play_sound(aMenuSelect,1,false)
 				}	
 					
 			break;
 			case 2:
-				if(rightM) && (oSoundController.musicVolume < 1) && (currentMenu == options){
+				if(right1) && (oSoundController.musicVolume < 1) && (currentMenu == options){
 					oSoundController.musicVolume += 0.05;
 					audio_play_sound(aMenuSelect,1,false);			
 				}
-				if(leftM) && (oSoundController.musicVolume > 0) && (currentMenu == options){
+				if(left1) && (oSoundController.musicVolume > 0) && (currentMenu == options){
 					oSoundController.musicVolume -= 0.05;
 					audio_play_sound(aMenuSelect,1,false);
 				}
@@ -250,14 +250,14 @@ switch(currentMenu){
 		}
 		switch(menu_cursor){
 			case 2:
-			if(keyboard_check_pressed(vk_right)) && (currentMenu == lvlSelect){
+			if(right1) && (currentMenu == lvlSelect){
 				subMenuCursor++;
 				if(subMenuCursor>= subMenuItems) subMenuCursor = 0;
 				audio_play_sound(aMenuMove,1,false)
 		
 			}
 
-			if(keyboard_check_pressed(vk_left)) && (currentMenu == lvlSelect){
+			if(left1) && (currentMenu == lvlSelect){
 				subMenuCursor--;
 				if(subMenuCursor < 0) subMenuCursor = subMenuItems - 1;
 				audio_play_sound(aMenuMove,1,false)
@@ -325,14 +325,14 @@ switch(currentMenu){
 		case bosslvlSelect:
 			switch(menu_cursor){
 				case 2:
-				if(keyboard_check_pressed(vk_right)) && (currentMenu == bosslvlSelect){
+				if(right1) && (currentMenu == bosslvlSelect){
 					subMenuCursor++;
 					if(subMenuCursor>= subMenuItems) subMenuCursor = 0;
 					audio_play_sound(aMenuMove,1,false)
 		
 				}
 
-				if(keyboard_check_pressed(vk_left)) && (currentMenu == bosslvlSelect){
+				if(left1) && (currentMenu == bosslvlSelect){
 					subMenuCursor--;
 					if(subMenuCursor < 0) subMenuCursor = subMenuItems - 1;
 					audio_play_sound(aMenuMove,1,false)

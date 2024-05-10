@@ -32,8 +32,10 @@ switch state{
 		}
 		break;
 }
-if (place_meeting(x,y-max(1,10),obj_player) && obj_player.vsp > 0 && state%2 == 0){
+if (place_meeting(x,y-max(1,10),obj_player) && state%2 == 0 && !ontop){
 		audio_play_sound(aButtonPress,1,false);
 		state++;
 		objName.state++;
+		ontop = true
 }
+if (!place_meeting(x,y-max(1,10),obj_player)) ontop = false;

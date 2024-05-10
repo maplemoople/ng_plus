@@ -23,14 +23,14 @@ if(keyboard_check_pressed(vk_escape)){
 }
 
 if(pmenu_control){
-	if(keyboard_check_pressed(vk_up)){
+	if(mup){
 		pmenu_cursor++;
 		if(pmenu_cursor >= pmenu_items) pmenu_cursor = 0;
 		audio_play_sound(aMenuMove,1,false)
 		
 	}
 	
-	if(keyboard_check_pressed(vk_down)){
+	if(mdown){
 		pmenu_cursor--;
 		if(pmenu_cursor < 0) pmenu_cursor = pmenu_items - 1;
 		audio_play_sound(aMenuMove,1,false)
@@ -79,22 +79,22 @@ switch(currentpMenu){
 		switch(pmenu_cursor){
 			case 3:
 			
-				if(rightM) && (oSoundController.sfxVolume < 1) && (pmenu_control == true) && (currentpMenu == poptions){
+				if(right1) && (oSoundController.sfxVolume < 1) && (pmenu_control == true) && (currentpMenu == poptions){
 					oSoundController.sfxVolume += 0.05;
 					audio_play_sound(aMenuSelect,1,false)
 				}
-				if(leftM) && (oSoundController.sfxVolume > 0) && (pmenu_control == true) && (currentpMenu == poptions){
+				if(left1) && (oSoundController.sfxVolume > 0) && (pmenu_control == true) && (currentpMenu == poptions){
 					oSoundController.sfxVolume -= 0.05;
 					audio_play_sound(aMenuSelect,1,false)
 				}
 					
 			break;
 			case 2:
-				if(rightM) && (oSoundController.musicVolume < 1) && (pmenu_control == true) && (currentpMenu == poptions){
+				if(right1) && (oSoundController.musicVolume < 1) && (pmenu_control == true) && (currentpMenu == poptions){
 					oSoundController.musicVolume += 0.05;
 					audio_play_sound(aMenuSelect,1,false)
 				}
-				if(leftM) && (oSoundController.musicVolume > 0) && (pmenu_control == true) && (currentpMenu == poptions){
+				if(left1) && (oSoundController.musicVolume > 0) && (pmenu_control == true) && (currentpMenu == poptions){
 					oSoundController.musicVolume -= 0.05;
 					audio_play_sound(aMenuSelect,1,false)
 				}

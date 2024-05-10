@@ -49,8 +49,8 @@ while (!place_meeting(x,y+sign(vsp),obj_wall)){
 		}
 		vsp = 0;
 	} 
-	if (owner.freq < 360) owner.freq += 1; else owner.freq = 0;
-	vsp = 0.1 * sin(owner.freq * pi * 2 /180)
+//	if (owner.freq < 360) owner.freq += 1; else owner.freq = 0;
+//	vsp = 0.1 * sin(owner.freq * pi * 2 /180)
 	y = y + vsp
 }
 		
