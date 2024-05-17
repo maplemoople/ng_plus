@@ -163,3 +163,27 @@ if ((room == Line2) || (room == Line3)) {
 				
 			}
 		}
+		
+//restart R 
+if instance_exists(obj_player){
+	if obj_player.restartConfirm {
+		draw_set_font(fTitle);
+		draw_set_halign(fa_right)
+		draw_set_valign(fa_bottom);
+		// draw text normally then blink after 200 frames every 25 frames
+		if (obj_player.restartCooldown < 400){
+			restartDraw = 1;
+		} else if obj_player.restartCooldown%15 == 0{
+				if restartDraw == 1{
+					restartDraw = 0
+				} else if restartDraw == 0 {
+						restartDraw = 1
+				}
+			}
+		switch restartDraw{
+			case 1:
+				draw_text_outlined(display_get_gui_width() * 5/100, display_get_gui_height() * 10 / 100, c_blue, c_aqua, 10, "R");
+			break;
+		}
+	}
+}

@@ -358,9 +358,9 @@ switch(currentMenu){
 						switch (subMenuCursor) {
 						case 0:
 							if mBossUnlocked{ 
-								instance_create_layer(31,44,"Player",obj_player)
+								instance_create_layer(13,-10,"Player",obj_player)
 								audio_group_stop_all(MUSIC)
-								room_goto(Room10)
+								room_goto(Room9)
 							} else{
 							menu_committed = -1; 
 							menu_control = true;

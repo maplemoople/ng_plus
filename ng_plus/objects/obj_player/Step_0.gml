@@ -12,6 +12,43 @@ if object_exists(cPause){
 		jump = false
 	}
 } 
+//reset button
+if (restartConfirm == 1) {
+	restartCooldown++;
+	if restartCooldown%600 == 0{
+		restartConfirm = 0;
+		restartCooldown = 0;
+	} 
+}
+if (restartConfirm == 0 && (keyboard_check_pressed(vk_rshift) || keyboard_check_pressed(ord("R")))) {
+	restartConfirm = 1;
+} else if (restartConfirm == 1 && (keyboard_check_pressed(vk_rshift) || keyboard_check_pressed(ord("R")))){
+		state = PLAYERSTATE.DEAD
+		oTimeStart.start = false;
+		oTimeStart.time = 0;
+		oTimeController.collected = 0;
+		audio_stop_sound(aDoorMoving);
+		room_goto(resetRoom)
+		if goback == Boss1 && instance_exists(groundSpike) bossComplete.explode = 1;
+		if !blowup {
+			currentDeaths = 0;
+			audio_play_sound(aDeath,1,false)
+			screenShake(2,3)
+			repeat(6){
+				instance_create_layer(x,y,"Bullets",pBulletP)
+			}
+			blowup = 1
+			x = 13
+			y = -10
+			currentHp = maxHp
+			}
+		hsp = 0;
+		vsp = 0;
+		image_speed = 1;
+		sprite_index = pAttackHB;
+		restartConfirm = 0;
+		if currentHp > 0 state = PLAYERSTATE.FREE;
+	}
 //check if held not if pressed
 if (right) || (left){
 	if (right){
@@ -298,18 +335,16 @@ switch (state){
 			repeat(6){
 				instance_create_layer(x,y,"Bullets",pBulletP)
 			}
-		blowup = 1
-		if room == Boss1 room_goto(goback)
-		if goback == Boss1 && instance_exists(groundSpike) bossComplete.explode = 1;
-		x = global.checkpoint_x;
-		y = global.checkpoint_y;
-		currentHp = maxHp
+			blowup = 1
+			if room == Boss1 room_goto(goback)
+			if goback == Boss1 && instance_exists(groundSpike) bossComplete.explode = 1;
+			x = global.checkpoint_x;
+			y = global.checkpoint_y;
+			currentHp = maxHp
 		}
 			hsp = 0;
 			vsp = 0;
 			image_speed = 1;
-			sprite_index = pAttackHB;
-		
 			if currentHp > 0 state = PLAYERSTATE.FREE;
 	#endregion
 }

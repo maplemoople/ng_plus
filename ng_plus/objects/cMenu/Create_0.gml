@@ -44,11 +44,11 @@ subBossMenu[1] = "   Boss 2   ";
 subBossMenu[0] = "   Boss 1   ";
 
 lvlSelect[2] = sublvlMenu;
-lvlSelect[1] = "Levels";
+lvlSelect[1] = "  Levels >";
 lvlSelect[0] = "Back";
 
 bosslvlSelect[2] = subBossMenu;
-bosslvlSelect[1] = "Bosses"
+bosslvlSelect[1] = "< Bosses  "
 bosslvlSelect[0] = "Back";
 
 noImageMenu[0] = "";

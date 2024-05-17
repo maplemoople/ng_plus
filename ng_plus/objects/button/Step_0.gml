@@ -19,6 +19,7 @@ switch state{
 		}
 		break;
 	case top:
+		image_index = 2;
 		if(!place_meeting(x,y-1,obj_player)){
 			image_index = 0
 		}

@@ -48,3 +48,5 @@ deadTimer = 0
 state = PLAYERSTATE.FREE;
 currentDeaths = 0;
 goback = Line1;
+restartConfirm = 0;
+restartCooldown = 0;

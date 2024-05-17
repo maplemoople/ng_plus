@@ -59,3 +59,4 @@ endDeaths = 100000000;
 endCollected = 0;
 loaded = 0;
 saved = 0;
+restartDraw = 0;

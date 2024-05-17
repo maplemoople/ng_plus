@@ -15,9 +15,29 @@ for (var i = 0; i < menu_items; i++){
 	var txt = currentMenu[i]
 	if(typeof(currentMenu[i]) == "string"){
 		if (menu_cursor == i){
+			if i = 1{
+					switch (currentMenu){
+					case lvlSelect:
+						txt = string_insert("",txt,0);
+						txt = string_insert("",txt,string_length(txt)+1);
+						var col = c_white;
+					break;
+					case bosslvlSelect:
+						txt = string_insert("",txt,0);
+						txt = string_insert("",txt,string_length(txt)+1);
+						var col = c_white;
+					break;
+					default:
+						txt = string_insert("[",txt,0);
+						txt = string_insert("]",txt,string_length(txt)+1);
+						var col = c_white;
+					break;
+					}
+			} else{
 			txt = string_insert("[",txt,0);
-			txt = string_insert("]",txt,string_length(txt)+1)
+			txt = string_insert("]",txt,string_length(txt)+1);
 			var col = c_white;
+				}
 		} else {
 			var col = c_black;
 		}

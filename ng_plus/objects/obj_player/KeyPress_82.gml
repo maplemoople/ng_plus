@@ -1,4 +1,5 @@
 /// @death
+
 state = PLAYERSTATE.DEAD
 oTimeStart.start = false;
 oTimeStart.time = 0;

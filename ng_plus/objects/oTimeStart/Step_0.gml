@@ -12,7 +12,10 @@ switch(room){
 		time = 0;
 		obj_player.currentDeaths = 0;
 	case Room10:
-		obj_player.resetRoom = Room10
+		global.checkpoint_x = 13;
+		global.checkpoint_y = -10
+		obj_player.resetRoom = Room9
+		obj_player.goback = Room9
 	break;
 	case Boss1:
 		if bossComplete.state = 0{

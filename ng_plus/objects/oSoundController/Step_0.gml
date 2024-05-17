@@ -153,6 +153,18 @@ if musicStart{
 				audio_sound_gain(afat808,0,fadeSpeed)
 				audio_sound_gain(akick,0,fadeSpeed)
 				audio_sound_gain(asynth3,0,fadeSpeed)
+				//for when boss resets
+				audio_sound_gain(bossMel,musicVolume,fadeSpeed)
+				audio_sound_gain(bossMel2,0,fadeSpeed)
+				audio_sound_gain(bossCrash,0,fadeSpeed)
+				audio_sound_gain(bossE1mel2,0,fadeSpeed)
+				audio_sound_gain(bossE2mel3,0,fadeSpeed)
+				audio_sound_gain(bossE3mel1,0,fadeSpeed)
+				audio_sound_gain(bossE4clap,0,fadeSpeed)
+				audio_sound_gain(bossE4hihat,0,fadeSpeed)
+				audio_sound_gain(bossE5snare,0,fadeSpeed)
+				audio_sound_gain(bossE5kick,0,fadeSpeed)
+				
 			break;
 			case Room10:
 				currentFade = noFade;
