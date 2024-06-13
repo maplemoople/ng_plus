@@ -1,11 +1,17 @@
-if (animation_end()){
-	with (instance_create_layer(x,y,"Bullets", eBullet)){
-		speed = 1.3
-		direction = other.image_angle
-		image_angle = direction;
-	}
-	audio_play_sound(aBulletShoot,1,false)
+if (shootStart < 1){
+	image_speed = 1;
+} else{
+	shootStart--;
+	image_speed = 0;
 }
+	if (animation_end()){
+		with (instance_create_layer(x,y,"Bullets", eBullet)){
+			speed = 1.3
+			direction = other.image_angle
+			image_angle = direction;
+		}
+		audio_play_sound(aBulletShoot,1,false)
+	}
 		
 	
 

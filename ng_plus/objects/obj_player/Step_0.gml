@@ -28,7 +28,9 @@ if (restartConfirm == 0 && (keyboard_check_pressed(vk_rshift) || keyboard_check_
 		oTimeStart.time = 0;
 		oTimeController.collected = 0;
 		audio_stop_sound(aDoorMoving);
-		room_goto(resetRoom)
+		room_goto(resetRoom) //resetRoom set in oTimeStart object
+		restartCooldown = 0;
+		oTimeStart.drawThingy = 0 //this is to remove hud from boss and stuff whenever you reset
 		if goback == Boss1 && instance_exists(groundSpike) bossComplete.explode = 1;
 		if !blowup {
 			currentDeaths = 0;
@@ -160,19 +162,20 @@ switch (state){
 	//jump code
 		if grounded {
 			canJump = jumpTime;
-		}
-		
-		if !grounded && (canJump > 0) {
+		} else if canJump > 0 {
 			canJump--
 		}
-		
+		if (canJump == 0 && !doublejump) {
+			doublejump = true
+		}
 			if(jump) && (canJump > 0){
 				vsp = -4.5;
-				doublejump = 1
+				doublejump = true
 				audio_play_sound(aJump,1,false);
 			}  else if (doublejump == 1) && jump{
 				vsp = -4.5;
-				doublejump = 0
+				doublejump = false
+				canJump--;
 				audio_play_sound(aJump,1,false);
 				}
 

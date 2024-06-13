@@ -11,7 +11,7 @@ switch(room){
 	case Room8:
 		time = 0;
 		obj_player.currentDeaths = 0;
-	case Room10:
+	case Room9:
 		global.checkpoint_x = 13;
 		global.checkpoint_y = -10
 		obj_player.resetRoom = Room9
