@@ -335,9 +335,11 @@
     {"name":"spr_NPC","order":4,"path":"sprites/spr_NPC/spr_NPC.yy",},
     {"name":"spr_player","order":3,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"Sprite111","order":99,"path":"sprites/Sprite111/Sprite111.yy",},
+    {"name":"Sprite126","order":103,"path":"sprites/Sprite126/Sprite126.yy",},
     {"name":"tempGIFStorage","order":98,"path":"sprites/tempGIFStorage/tempGIFStorage.yy",},
     {"name":"Templateforthings","order":17,"path":"sprites/Templateforthings/Templateforthings.yy",},
     {"name":"textbox","order":11,"path":"sprites/textbox/textbox.yy",},
+    {"name":"TileSet","order":102,"path":"sprites/TileSet/TileSet.yy",},
     {"name":"tileSetExample","order":30,"path":"sprites/tileSetExample/tileSetExample.yy",},
     {"name":"tilesettest","order":79,"path":"sprites/tilesettest/tilesettest.yy",},
     {"name":"TimeEnd","order":94,"path":"sprites/TimeEnd/TimeEnd.yy",},
@@ -352,5 +354,6 @@
     {"name":"yellowButton","order":17,"path":"sprites/yellowButton/yellowButton.yy",},
     {"name":"tileset02","order":1,"path":"tilesets/tileset02/tileset02.yy",},
     {"name":"TileSet3","order":2,"path":"tilesets/TileSet3/TileSet3.yy",},
+    {"name":"TileSet4","order":3,"path":"tilesets/TileSet4/TileSet4.yy",},
   ],
 }

@@ -288,7 +288,7 @@ switch(currentMenu){
 						break;
 					
 						case 1:
-							instance_create_layer(30,74,"Player",obj_player)
+							instance_create_layer(5,52,"Player",obj_player)
 							audio_group_stop_all(MUSIC)
 							room_goto(Room11)
 						break;
