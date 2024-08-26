@@ -12,10 +12,13 @@ with(connection){
 	
 		x = x + sign(hsp);
 		}
+		if owner.speedMode == true{
+					turned = 1;
+					hsp = 0.1 * sign(hsp);
+					screenShake(1,5)
+		}
 		hsp = -hsp;
-	
 	}
-
 	with(turnAround){
 		if (place_meeting(x+owner.hsp, y, gtHitbox)){
 			owner.hsp = -owner.hsp;
@@ -23,6 +26,9 @@ with(connection){
 		if (place_meeting(x+owner.hsp, y, gtTHitbox)){
 			owner.hsp = -owner.hsp;
 		}
+	}
+	if owner.speedMode == true {
+		hsp = hsp * 1.07
 	}
 	x = x + hsp
 	//vertical collision

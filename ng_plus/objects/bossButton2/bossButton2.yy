@@ -34,6 +34,7 @@
     {"$GMObjectProperty":"v1","%Name":"ixPos","filters":[],"listItems":[],"multiselect":false,"name":"ixPos","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"iyPos","filters":[],"listItems":[],"multiselect":false,"name":"iyPos","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"indColor","filters":[],"listItems":[],"multiselect":false,"name":"indColor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":7,},
+    {"$GMObjectProperty":"v1","%Name":"speedMode","filters":[],"listItems":[],"multiselect":false,"name":"speedMode","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

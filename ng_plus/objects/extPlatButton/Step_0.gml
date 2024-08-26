@@ -14,6 +14,11 @@ switch state{
 			audio_play_sound(aDoorStop,1,false)
 			state = top	
 		}
+		if obj2{
+			if objName2.state == top{
+				audio_play_sound(aDoorStop,1,false)
+			}
+		}
 		break;
 	case top:
 		if(!place_meeting(x,y-1,obj_player)){
@@ -36,6 +41,7 @@ if (place_meeting(x,y-max(1,10),obj_player) && state%2 == 0 && !ontop){
 		audio_play_sound(aButtonPress,1,false);
 		state++;
 		objName.state++;
+		if obj2 {objName2.state++;}
 		ontop = true
 }
 if (!place_meeting(x,y-max(1,10),obj_player)) ontop = false;
