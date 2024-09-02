@@ -1,7 +1,10 @@
 switch(room){
+	case Line1:
+		global.resetX = 31;
+		global.resetY = 44;
+		obj_player.resetRoom = Line1
 	case Room0:
 		start = true;
-		obj_player.resetRoom = Line1
 	break;
 	
 	case Line2:
@@ -12,8 +15,8 @@ switch(room){
 		time = 0;
 		obj_player.currentDeaths = 0;
 	case Room9:
-		global.checkpoint_x = 13;
-		global.checkpoint_y = -10
+		global.resetX = 13;
+		global.resetY = -10;
 		obj_player.resetRoom = Room9
 		obj_player.goback = Room9
 	break;
@@ -22,6 +25,12 @@ switch(room){
 		start = true;
 		drawThingy = 1;
 		}
+	break;
+	case Room11:
+		start = true;		
+		global.resetX = 5;
+		global.resetY = 52;
+		obj_player.resetRoom = Room11
 	break;
 }
 if start time++

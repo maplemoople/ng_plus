@@ -40,8 +40,8 @@ if (restartConfirm == 0 && (keyboard_check_pressed(vk_rshift) || keyboard_check_
 				instance_create_layer(x,y,"Bullets",pBulletP)
 			}
 			blowup = 1
-			x = 13
-			y = -10
+			x = global.resetX
+			y = global.resetY
 			currentHp = maxHp
 			}
 		hsp = 0;

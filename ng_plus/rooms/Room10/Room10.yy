@@ -12,7 +12,6 @@
     {"name":"inst_1B952BDC_1_1","path":"rooms/Room10/Room10.yy",},
     {"name":"inst_6EAEACF2_1_1","path":"rooms/Room10/Room10.yy",},
     {"name":"inst_39E4830B_1_1","path":"rooms/Room10/Room10.yy",},
-    {"name":"inst_2CB23E9B_1_1","path":"rooms/Room10/Room10.yy",},
     {"name":"inst_2F8D83F6_1_1","path":"rooms/Room10/Room10.yy",},
     {"name":"inst_647A7E8_1_1","path":"rooms/Room10/Room10.yy",},
     {"name":"inst_187CEC9E_1_1","path":"rooms/Room10/Room10.yy",},
@@ -20,6 +19,7 @@
     {"name":"inst_5907B508","path":"rooms/Room10/Room10.yy",},
     {"name":"inst_37E342C5","path":"rooms/Room10/Room10.yy",},
     {"name":"inst_214F91A4","path":"rooms/Room10/Room10.yy",},
+    {"name":"inst_2CB23E9B_1_1","path":"rooms/Room10/Room10.yy",},
   ],
   "isDnd":true,
   "layers":[

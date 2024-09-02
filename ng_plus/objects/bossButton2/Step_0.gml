@@ -19,14 +19,22 @@ with(connection){
 		}
 		hsp = -hsp;
 	}
-	with(turnAround){
+	/*with(turnAround){
 		if (place_meeting(x+owner.hsp, y, gtHitbox)){
 			owner.hsp = -owner.hsp;
 		}
 		if (place_meeting(x+owner.hsp, y, gtTHitbox)){
 			owner.hsp = -owner.hsp;
 		}
-	}
+		if (place_meeting(x+owner.hsp, y, gsHitbox)){
+			if owner.owner.speedMode == true{
+					owner.turned = 1;
+					owner.hsp = 0.1 * sign(owner.hsp);
+					screenShake(1,5)
+		}
+			owner.hsp = -owner.hsp;
+		}
+	} */
 	if owner.speedMode == true {
 		hsp = hsp * 1.07
 	}

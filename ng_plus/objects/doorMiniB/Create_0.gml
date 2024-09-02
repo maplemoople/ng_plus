@@ -3,10 +3,10 @@ closed = 0
 open = 1
 top = 2
 bottom = 3
+state = closed
 hsp = 0;
 vsp = 0;
 image_blend = whatColor
-objNameHB = extendoplatformHA;
 
 
 

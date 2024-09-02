@@ -24,6 +24,7 @@ switch state{
 		if(!place_meeting(x,y-1,obj_player)){
 			image_index = 0
 		}
+		
 		break;
 	case bottom:
 		if !audio_is_playing(aDoorMoving) audio_play_sound(aDoorMoving,1,true)
@@ -37,11 +38,11 @@ switch state{
 		}
 		break;
 }
-if (place_meeting(x,y-max(1,10),obj_player) && state%2 == 0 && !ontop){
+if (place_meeting(x,y-1,obj_player) && state%2 == 0 && !ontop){
 		audio_play_sound(aButtonPress,1,false);
 		state++;
 		objName.state++;
 		if obj2 {objName2.state++;}
 		ontop = true
 }
-if (!place_meeting(x,y-max(1,10),obj_player)) ontop = false;
+if (!place_meeting(x,y-1,obj_player)) ontop = false;

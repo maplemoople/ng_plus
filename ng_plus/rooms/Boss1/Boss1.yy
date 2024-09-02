@@ -12,7 +12,6 @@
     {"name":"inst_1B952BDC_1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/Boss1/Boss1.yy",},
     {"name":"inst_6EAEACF2_1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/Boss1/Boss1.yy",},
     {"name":"inst_39E4830B_1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/Boss1/Boss1.yy",},
-    {"name":"inst_2CB23E9B_1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/Boss1/Boss1.yy",},
     {"name":"inst_2F8D83F6_1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/Boss1/Boss1.yy",},
     {"name":"inst_187CEC9E_1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/Boss1/Boss1.yy",},
     {"name":"inst_29A4D60F_1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/Boss1/Boss1.yy",},
@@ -57,6 +56,7 @@
     {"name":"inst_A3E810F","path":"rooms/Boss1/Boss1.yy",},
     {"name":"inst_2AAA676A","path":"rooms/Boss1/Boss1.yy",},
     {"name":"inst_6B998FE3","path":"rooms/Boss1/Boss1.yy",},
+    {"name":"inst_2CB23E9B_1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/Boss1/Boss1.yy",},
   ],
   "isDnd":true,
   "layers":[
