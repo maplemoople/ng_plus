@@ -79,6 +79,7 @@
     {"name":"extendoplatform","order":9,"path":"objects/extendoplatform/extendoplatform.yy",},
     {"name":"extendoplatformA","order":12,"path":"objects/extendoplatformA/extendoplatformA.yy",},
     {"name":"extendoplatformB","order":13,"path":"objects/extendoplatformB/extendoplatformB.yy",},
+    {"name":"extendoplatformC","order":24,"path":"objects/extendoplatformC/extendoplatformC.yy",},
     {"name":"extendoplatformHA","order":23,"path":"objects/extendoplatformHA/extendoplatformHA.yy",},
     {"name":"extendoplatformHB","order":11,"path":"objects/extendoplatformHB/extendoplatformHB.yy",},
     {"name":"extendoplatformHBLong","order":16,"path":"objects/extendoplatformHBLong/extendoplatformHBLong.yy",},

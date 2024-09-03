@@ -6,6 +6,7 @@ bottom = 3
 hsp = 0;
 vsp = 0;
 image_blend = whatColor
+objNameHB = extendoplatformHB;
 
 
 
