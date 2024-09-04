@@ -116,6 +116,7 @@
     {"id":{"name":"extPlatButton","path":"objects/extPlatButton/extPlatButton.yy",},},
     {"id":{"name":"flyingSpike","path":"objects/flyingSpike/flyingSpike.yy",},},
     {"id":{"name":"flyingSpikeHB","path":"objects/flyingSpikeHB/flyingSpikeHB.yy",},},
+    {"id":{"name":"flyingSpikeHorz","path":"objects/flyingSpikeHorz/flyingSpikeHorz.yy",},},
     {"id":{"name":"flyingTurret","path":"objects/flyingTurret/flyingTurret.yy",},},
     {"id":{"name":"flyingTurretD","path":"objects/flyingTurretD/flyingTurretD.yy",},},
     {"id":{"name":"groundSpike","path":"objects/groundSpike/groundSpike.yy",},},

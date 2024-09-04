@@ -123,12 +123,12 @@ if instance_exists(obj_wallvert){
 		x += oneWayPlat.hsp;
 		y += oneWayPlat.vsp;
 		if grounded && jump{
-			if oneWayPlat.hsp > 1.4{
-				hsp += oneWayPlat.hsp * 3;
-				vsp -= 10
+			if abs(oneWayPlat.hsp) > 1.4{
+				hsp = sign(oneWayPlat.hsp) * 15;
+				vsp -= 15
 			}
-			if oneWayPlat.vsp < -5{
-			vsp += oneWayPlat.vsp * 3
+			if abs(oneWayPlat.vsp) < -5{
+			vsp += oneWayPlat.vsp * 1.5
 			}
 		}
 	}
@@ -147,11 +147,11 @@ switch (state){
 	blowup = 0
 	if (hsp != 0)
 		image_xscale = sign(hsp);
-		var gAccel = .1;
-		var gDeccel = .25;
+		var gAccel = 0.1;
+		var gDeccel = 0.25;
 
 		var airAccel = 0.09;
-		var airDeccel = .1;
+		var airDeccel = 0.06;
 
 		if grounded
 			Acceleration(gAccel,gDeccel,csp);
