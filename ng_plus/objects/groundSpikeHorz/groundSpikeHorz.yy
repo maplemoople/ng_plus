@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"flyingSpikeHorz",
+  "%Name":"groundSpikeHorz",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"flyingSpikeHorz",
+  "name":"groundSpikeHorz",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies - NPC",
@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bSpikeFActivated",
-    "path":"sprites/bSpikeFActivated/bSpikeFActivated.yy",
+    "name":"bSpikeActivated",
+    "path":"sprites/bSpikeActivated/bSpikeActivated.yy",
   },
   "spriteMaskId":null,
   "visible":true,

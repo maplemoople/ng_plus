@@ -110,6 +110,16 @@ if(instance_exists(obj_wall)){
 		}
 	}
 }
+
+if place_meeting(x,y-1,obj_wall){
+	var headhitWall = instance_place(x, y - 1, obj_wall);
+	if(headhitWall.bbox_bottom > bbox_top){
+		var squishedWall = 1;
+	} else squishedWall = 0;
+	if squishedWall && place_meeting(x,y+1, obj_wall){
+		state = PLAYERSTATE.DEAD
+	} else y = y + 1;
+}
 if instance_exists(obj_wallvert){
 	var oneWayPlat = instance_place(x, y + max(1,vsp),obj_wallvert);
 	var grounded = place_meeting(x,y+1, obj_wall) || (oneWayPlat && bbox_bottom <= oneWayPlat.bbox_top)
@@ -153,11 +163,12 @@ switch (state){
 		var airAccel = 0.09;
 		var airDeccel = 0.06;
 
-		if grounded
+		if grounded{
 			Acceleration(gAccel,gDeccel,csp);
-		else
+		}else{
 			vsp += grv
 			Acceleration(airAccel,airDeccel,csp);
+		}
 
 	//jump code
 		if grounded {

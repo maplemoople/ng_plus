@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"gtTHitbox",
+  "%Name":"ftdHitbox",
   "eventList":[],
   "managed":true,
-  "name":"gtTHitbox",
+  "name":"ftdHitbox",
   "overriddenProperties":[],
   "parent":{
     "name":"Boss1",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bTurretTActivatedHB",
-    "path":"sprites/bTurretTActivatedHB/bTurretTActivatedHB.yy",
+    "name":"bTurretFDHB",
+    "path":"sprites/bTurretFDHB/bTurretFDHB.yy",
   },
   "spriteMaskId":null,
   "visible":false,

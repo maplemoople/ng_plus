@@ -1,4 +1,5 @@
 image_xscale = sign(hsp) * 1
+vsp =+ grv
 	if (instance_exists(spikey)){spikey.image_xscale = sign(hsp) * 1}
 	if (instance_exists(hitBox)){hitBox.image_xscale = sign(hsp) * 1}
 	//horizontal collision
@@ -7,9 +8,9 @@ image_xscale = sign(hsp) * 1
 	
 		x = x + sign(hsp);
 		}
-		turned = 1;
 		if speedMode{
 			hsp = speedHsp * sign(hsp); //speedHsp is defined in variable Definitiions
+			screenShake(1,5)
 		}
 		hsp = -hsp;
 	
@@ -18,6 +19,15 @@ if speedMode{
 hsp = hsp * speedAccel //once again in variable definitions
 }
 x = x + hsp;
+	
+//vertical collision
+	if (place_meeting(x, y+vsp, obj_wall)){
+while (!place_meeting(x,y+sign(vsp),obj_wall)){
+		y = y + sign(vsp);
+		}
+		vsp = 0;
+	} 
+	y = y + vsp	
 	
 with(hitBox){
 	x = owner.x

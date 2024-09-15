@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"flyingSpikeHorz",
+  "%Name":"flyingTurretHorzD",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"flyingSpikeHorz",
+  "name":"flyingTurretHorzD",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies - NPC",
@@ -30,17 +30,16 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"speedMode","filters":[],"listItems":[],"multiselect":false,"name":"speedMode","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"hsp","filters":[],"listItems":[],"multiselect":false,"name":"hsp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.9","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"speedHsp","filters":[],"listItems":[],"multiselect":false,"name":"speedHsp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.1","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"speedAccel","filters":[],"listItems":[],"multiselect":false,"name":"speedAccel","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"shootCooldownMax","filters":[],"listItems":[],"multiselect":false,"name":"shootCooldownMax","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"image_speed","filters":[],"listItems":[],"multiselect":false,"name":"image_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.7","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bSpikeFActivated",
-    "path":"sprites/bSpikeFActivated/bSpikeFActivated.yy",
+    "name":"bTurretFDActivated",
+    "path":"sprites/bTurretFDActivated/bTurretFDActivated.yy",
   },
   "spriteMaskId":null,
   "visible":true,
