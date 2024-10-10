@@ -38,6 +38,7 @@
     {"$GMObjectProperty":"v1","%Name":"obj2","filters":[],"listItems":[],"multiselect":false,"name":"obj2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"objName2","filters":[],"listItems":[],"multiselect":false,"name":"objName2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"objTrigger","filters":[],"listItems":[],"multiselect":false,"name":"objTrigger","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"triggerOnce","filters":[],"listItems":[],"multiselect":false,"name":"triggerOnce","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

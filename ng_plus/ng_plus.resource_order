@@ -137,6 +137,7 @@
     {"name":"pGunBaseP","order":6,"path":"objects/pGunBaseP/pGunBaseP.yy",},
     {"name":"playercollison","order":19,"path":"objects/playercollison/playercollison.yy",},
     {"name":"saveData","order":13,"path":"objects/saveData/saveData.yy",},
+    {"name":"scriptedIndicator","order":27,"path":"objects/scriptedIndicator/scriptedIndicator.yy",},
     {"name":"shadowCaster","order":15,"path":"objects/shadowCaster/shadowCaster.yy",},
     {"name":"softLight","order":5,"path":"objects/softLight/softLight.yy",},
     {"name":"SpikySpiky","order":5,"path":"objects/SpikySpiky/SpikySpiky.yy",},

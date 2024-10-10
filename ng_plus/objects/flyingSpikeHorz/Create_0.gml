@@ -9,3 +9,5 @@ with(instance_create_layer(x,y,"Gun",bossSpikeFHitbox)){
 	owner = other.id
 	owner.spikey = object_index
 }
+
+hsp = hsp * initDirection

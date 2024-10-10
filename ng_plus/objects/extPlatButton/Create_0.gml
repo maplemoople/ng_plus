@@ -3,6 +3,7 @@ closed = 0
 open = 1
 top = 2
 bottom = 3
+stop = -1
 connection = NaN
 state = closed
 hsp = 0;

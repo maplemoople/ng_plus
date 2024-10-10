@@ -13,7 +13,9 @@ switch state{
 		if(objName.state == top){
 			audio_stop_sound(aDoorMoving)
 			audio_play_sound(aDoorStop,1,false)
+			if triggerOnce = false{
 			state = top;
+			} else state = stop
 		}
 		if obj2{
 			if objName2.state%2 == 0 && !once{
@@ -45,6 +47,19 @@ switch state{
 				once = true;
 			}	
 		}
+		break;
+	case stop:
+		if place_meeting(x,y-1,obj_player){
+			image_index = 2
+			if oneTimeSound{
+				audio_play_sound(aButtonPress,1,false);
+				oneTimeSound = false
+			}
+		}	else {
+			oneTimeSound = true
+			image_index = 0;
+				
+			}
 		break;
 }
 if (place_meeting(x,y-1,obj_player) && state%2 == 0 && !ontop){

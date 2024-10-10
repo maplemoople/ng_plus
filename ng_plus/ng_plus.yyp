@@ -170,6 +170,7 @@
     {"id":{"name":"pGunBaseP","path":"objects/pGunBaseP/pGunBaseP.yy",},},
     {"id":{"name":"playercollison","path":"objects/playercollison/playercollison.yy",},},
     {"id":{"name":"saveData","path":"objects/saveData/saveData.yy",},},
+    {"id":{"name":"scriptedIndicator","path":"objects/scriptedIndicator/scriptedIndicator.yy",},},
     {"id":{"name":"shadowCaster","path":"objects/shadowCaster/shadowCaster.yy",},},
     {"id":{"name":"softLight","path":"objects/softLight/softLight.yy",},},
     {"id":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},},
