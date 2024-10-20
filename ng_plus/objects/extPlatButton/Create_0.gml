@@ -10,4 +10,5 @@ hsp = 0;
 vsp = 0;
 ontop = false
 once = false;
+oneTimeSound = true
 image_blend = whatColor

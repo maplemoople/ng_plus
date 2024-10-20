@@ -32,6 +32,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"shootStart","filters":[],"listItems":[],"multiselect":false,"name":"shootStart","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"bulletSpeed","filters":[],"listItems":[],"multiselect":false,"name":"bulletSpeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.3","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

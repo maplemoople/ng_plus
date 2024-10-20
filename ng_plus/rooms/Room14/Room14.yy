@@ -124,6 +124,7 @@
     {"name":"inst_20BC9D3B","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_36CFA7FC","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_1B39D87B","path":"rooms/Room14/Room14.yy",},
+    {"name":"inst_2B51C99D","path":"rooms/Room14/Room14.yy",},
   ],
   "isDnd":true,
   "layers":[
@@ -243,6 +244,11 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"scriptedIndicator","path":"objects/scriptedIndicator/scriptedIndicator.yy",},"propertyId":{"name":"stateOff","path":"objects/scriptedIndicator/scriptedIndicator.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"scriptedIndicator","path":"objects/scriptedIndicator/scriptedIndicator.yy",},"propertyId":{"name":"stateOn","path":"objects/scriptedIndicator/scriptedIndicator.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":218.0,"y":38.0,},
+        {"$GMRInstance":"","%Name":"inst_2B51C99D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B51C99D","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"propertyId":{"name":"targetX","path":"objects/obj_warp/obj_warp.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"11",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"propertyId":{"name":"targetY","path":"objects/obj_warp/obj_warp.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"73",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_warp/obj_warp.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Room15",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.609375,"scaleY":1.4375,"x":415.0,"y":4.0,},
       ],"layers":[],"name":"Collision","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":27,"TileCompressedData":[
           1,25,-4,0,-5,-2147483648,-5,0,-8,-2147483648,1,41,-3,29,1,25,-21,0,-5,-2147483648,1,25,-10,0,3,35,21,
