@@ -1,13 +1,13 @@
 {
-  "$GMScript": "",
-  "%Name": "keysPressed",
-  "isCompatibility": false,
-  "isDnD": false,
-  "name": "keysPressed",
-  "parent": {
-    "name": "smoothMovement",
-    "path": "folders/Scripts/smoothMovement.yy",
+  "$GMScript":"v1",
+  "%Name":"keysPressed",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"keysPressed",
+  "parent":{
+    "name":"smoothMovement",
+    "path":"folders/Scripts/smoothMovement.yy",
   },
-  "resourceType": "GMScript",
-  "resourceVersion": "2.0",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

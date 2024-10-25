@@ -1,13 +1,13 @@
 {
-  "$GMScript": "",
-  "%Name": "processAttack",
-  "isCompatibility": false,
-  "isDnD": false,
-  "name": "processAttack",
-  "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+  "$GMScript":"v1",
+  "%Name":"processAttack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"processAttack",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
-  "resourceType": "GMScript",
-  "resourceVersion": "2.0",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

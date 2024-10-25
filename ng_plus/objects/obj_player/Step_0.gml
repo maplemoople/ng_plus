@@ -166,7 +166,9 @@ switch (state){
 		if grounded{
 			Acceleration(gAccel,gDeccel,csp);
 		}else{
-			vsp += grv
+			if vsp < 6.5{
+			vsp += grv;
+			} else vsp = 6.5;
 			Acceleration(airAccel,airDeccel,csp);
 		}
 

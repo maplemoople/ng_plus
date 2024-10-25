@@ -1,4 +1,8 @@
 
+if instance_exists(HudTrigger){
+	draw_set_alpha(HudTrigger.opacity)
+} else{draw_set_alpha(1)}
+
 if ((room == Line2) || (room == Line3)) {
 	
 	if room == Line2{

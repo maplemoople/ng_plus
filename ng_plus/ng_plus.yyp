@@ -66,7 +66,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.400.0.526",
+    "IDEVersion":"2024.1100.0.654",
   },
   "name":"ng_plus",
   "resources":[
@@ -132,6 +132,7 @@
     {"id":{"name":"gsHitbox","path":"objects/gsHitbox/gsHitbox.yy",},},
     {"id":{"name":"gtHitbox","path":"objects/gtHitbox/gtHitbox.yy",},},
     {"id":{"name":"gtTHitbox","path":"objects/gtTHitbox/gtTHitbox.yy",},},
+    {"id":{"name":"HudTrigger","path":"objects/HudTrigger/HudTrigger.yy",},},
     {"id":{"name":"indicator","path":"objects/indicator/indicator.yy",},},
     {"id":{"name":"obj_checkpoint_controller","path":"objects/obj_checkpoint_controller/obj_checkpoint_controller.yy",},},
     {"id":{"name":"obj_checkpoint","path":"objects/obj_checkpoint/obj_checkpoint.yy",},},
@@ -394,6 +395,7 @@
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"spr_ground16x16","path":"sprites/spr_ground16x16/spr_ground16x16.yy",},},
+    {"id":{"name":"spr_HUDtrigger","path":"sprites/spr_HUDtrigger/spr_HUDtrigger.yy",},},
     {"id":{"name":"spr_light_area","path":"sprites/spr_light_area/spr_light_area.yy",},},
     {"id":{"name":"spr_light_directional","path":"sprites/spr_light_directional/spr_light_directional.yy",},},
     {"id":{"name":"spr_light_line","path":"sprites/spr_light_line/spr_light_line.yy",},},

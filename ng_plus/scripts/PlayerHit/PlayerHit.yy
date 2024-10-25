@@ -1,13 +1,13 @@
 {
-  "$GMScript": "",
-  "%Name": "PlayerHit",
-  "isCompatibility": false,
-  "isDnD": false,
-  "name": "PlayerHit",
-  "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+  "$GMScript":"v1",
+  "%Name":"PlayerHit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PlayerHit",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
-  "resourceType": "GMScript",
-  "resourceVersion": "2.0",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

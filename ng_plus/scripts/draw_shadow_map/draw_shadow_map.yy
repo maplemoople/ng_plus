@@ -1,13 +1,13 @@
 {
-  "$GMScript": "",
-  "%Name": "draw_shadow_map",
-  "isCompatibility": false,
-  "isDnD": false,
-  "name": "draw_shadow_map",
-  "parent": {
-    "name": "Lighting",
-    "path": "folders/Scripts/Lighting.yy",
+  "$GMScript":"v1",
+  "%Name":"draw_shadow_map",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_shadow_map",
+  "parent":{
+    "name":"Lighting",
+    "path":"folders/Scripts/Lighting.yy",
   },
-  "resourceType": "GMScript",
-  "resourceVersion": "2.0",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
