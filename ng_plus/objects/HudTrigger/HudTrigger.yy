@@ -35,5 +35,5 @@
     "path":"sprites/spr_HUDtrigger/spr_HUDtrigger.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

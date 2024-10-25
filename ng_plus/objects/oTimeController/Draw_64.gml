@@ -11,6 +11,7 @@ if ((room == Line2) || (room == Line3)) {
 		draw_set_halign(fa_left)
 		draw_set_valign(fa_bottom);
 		draw_set_color(tCol)
+		
 		// Current time
 		draw_text_outlined(display_get_gui_width() * 10/100, display_get_gui_height() * 36 / 100, c_white, tCol, 0, "Time: " + string(cTime));
 		// Current Deaths
@@ -167,7 +168,7 @@ if ((room == Line2) || (room == Line3)) {
 				
 			}
 		}
-		
+draw_set_alpha(1) //THIS IS NEEDED BECAUSE IT AFFECTS HOW EVERYTHING AFTER IS "DRAWN"
 //restart R 
 if instance_exists(obj_player){
 	if obj_player.restartConfirm {
