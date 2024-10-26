@@ -1,5 +1,5 @@
 if (shootStart < 1){
-	image_speed = 1;
+	image_speed = shootspeed;
 } else{
 	shootStart--;
 	image_speed = 0;

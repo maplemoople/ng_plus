@@ -92,7 +92,6 @@
     {"name":"inst_3E6BEF8D","path":"rooms/Room12/Room12.yy",},
     {"name":"inst_453A1BDA","path":"rooms/Room12/Room12.yy",},
     {"name":"inst_3E795E1E","path":"rooms/Room12/Room12.yy",},
-    {"name":"inst_53450523","path":"rooms/Room12/Room12.yy",},
     {"name":"inst_3F9F4AA6","path":"rooms/Room12/Room12.yy",},
     {"name":"inst_10E2D16C","path":"rooms/Room12/Room12.yy",},
     {"name":"inst_2C520678","path":"rooms/Room12/Room12.yy",},
@@ -124,6 +123,7 @@
     {"name":"inst_4270B0D4","path":"rooms/Room12/Room12.yy",},
     {"name":"inst_572888FA","path":"rooms/Room12/Room12.yy",},
     {"name":"inst_F442B73","path":"rooms/Room12/Room12.yy",},
+    {"name":"inst_2B65A6F4","path":"rooms/Room12/Room12.yy",},
   ],
   "isDnd":true,
   "layers":[
@@ -256,11 +256,11 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":260.0,"y":135.5,},
       ],"layers":[],"name":"Collision","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Enemies","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_53450523","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_53450523","objectId":{"name":"bossButton2","path":"objects/bossButton2/bossButton2.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"bossButton2","path":"objects/bossButton2/bossButton2.yy",},"propertyId":{"name":"xPos","path":"objects/bossButton2/bossButton2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"327",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"bossButton2","path":"objects/bossButton2/bossButton2.yy",},"propertyId":{"name":"yPos","path":"objects/bossButton2/bossButton2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"170",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"bossButton2","path":"objects/bossButton2/bossButton2.yy",},"propertyId":{"name":"speedMode","path":"objects/bossButton2/bossButton2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-39.0,"y":-94.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2B65A6F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B65A6F4","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"hsp","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.6",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"speedAccel","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.1",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"speedHsp","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.05",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":263.0,"y":176.0,},
       ],"layers":[],"name":"Enemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_4C82D879","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_4C82D879","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"room12","path":"sprites/room12/room12.yy",},"x":0.0,"y":0.0,},
