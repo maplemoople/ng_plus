@@ -79,7 +79,7 @@ if (image_index = 1) && (sprite_index = pRun){
 	audio_play_sound(aWalk,1,false);
 }
 	#region collision/ calculations
-if(instance_exists(obj_wall)){
+if(instance_exists(playercollison)){
 //horizontal collision
 	if (place_meeting(x+hsp, y, playercollison)){
 		while (!place_meeting(x+sign(hsp),y,playercollison)){
@@ -122,7 +122,7 @@ if place_meeting(x,y-1,obj_wall){
 }
 if instance_exists(obj_wallvert){
 	var oneWayPlat = instance_place(x, y + max(1,vsp),obj_wallvert);
-	var grounded = place_meeting(x,y+1, obj_wall) || (oneWayPlat && bbox_bottom <= oneWayPlat.bbox_top)
+	var grounded = place_meeting(x,y+1, playercollison) || (oneWayPlat && bbox_bottom <= oneWayPlat.bbox_top)
 	if (oneWayPlat && bbox_bottom <= oneWayPlat.bbox_top){
 		if (vsp > 0){
 			while(!place_meeting(x,y+sign(vsp),obj_wallvert)){
@@ -143,7 +143,7 @@ if instance_exists(obj_wallvert){
 		}
 	}
 } else
-var grounded = place_meeting(x,y+1, obj_wall)
+var grounded = place_meeting(x,y+1, playercollison)
 y = y + vsp
 onTop = grounded;
 #endregion

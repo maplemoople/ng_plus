@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"playercollison",
-  "eventList":[],
+  "%Name":"extendoplatformHB_1",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"playercollison",
+  "name":"extendoplatformHB_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collision - Assets",
-    "path":"folders/Objects/Collision - Assets.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_wallvert",
+    "path":"objects/obj_wallvert/obj_wallvert.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"extPlatOut",
+    "path":"sprites/extPlatOut/extPlatOut.yy",
+  },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

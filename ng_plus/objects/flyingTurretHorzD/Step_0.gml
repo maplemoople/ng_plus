@@ -13,7 +13,16 @@ with movement{
 		hsp = -hsp;
 	}
 	x = x + hsp;
+	
+	with (ftdHitbox){
+	if id != other.id{
+		if point_distance(x,y,other.x,other.y) < 45{
+			hsp = -hsp
+		}
+	}
 }
+}
+
 with(hitBox){
 	x = owner.x
 	y = owner.y

@@ -71,7 +71,6 @@
     {"name":"inst_2D656935","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_547D7E20","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_3EE11D10","path":"rooms/Room14/Room14.yy",},
-    {"name":"inst_7CDA71E0","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_4758773A","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_5B4383A7","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_2F589149","path":"rooms/Room14/Room14.yy",},
@@ -300,7 +299,6 @@
         {"$GMRInstance":"v1","%Name":"inst_4F6FB82F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F6FB82F","objectId":{"name":"HudTrigger","path":"objects/HudTrigger/HudTrigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.015625,"scaleY":0.875,"x":16.5,"y":201.0,},
       ],"layers":[],"name":"Entities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Enemies","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_7CDA71E0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7CDA71E0","objectId":{"name":"bossButton2","path":"objects/bossButton2/bossButton2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-5.0,"y":0.0,},
         {"$GMRInstance":"v1","%Name":"inst_4758773A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4758773A","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"hsp","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.9",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"speedHsp","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.08",},
