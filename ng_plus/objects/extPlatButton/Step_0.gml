@@ -23,6 +23,24 @@ switch state{
 				once = true;
 			}
 		}
+		if obj3{
+			if objName3.state%2 == 0 && !once{
+				audio_play_sound(aDoorStop,1,false)
+				once = true;
+			}
+		}
+		if obj4{
+			if objName4.state%2 == 0 && !once{
+				audio_play_sound(aDoorStop,1,false)
+				once = true;
+			}
+		}
+		if obj5{
+			if objName5.state%2 == 0 && !once{
+				audio_play_sound(aDoorStop,1,false)
+				once = true;
+			}
+		}
 		break;
 	case top:
 		if(!place_meeting(x,y-1,obj_player)){
@@ -47,6 +65,24 @@ switch state{
 				once = true;
 			}	
 		}
+		if obj3{
+			if objName3.state%2 == 0 && !once{
+				audio_play_sound(aDoorStop,1,false)
+				once = true;
+			}	
+		}
+		if obj4{
+			if objName4.state%2 == 0 && !once{
+				audio_play_sound(aDoorStop,1,false)
+				once = true;
+			}	
+		}
+		if obj5{
+			if objName5.state%2 == 0 && !once{
+				audio_play_sound(aDoorStop,1,false)
+				once = true;
+			}	
+		}
 		break;
 	case stop:
 		if place_meeting(x,y-1,obj_player){
@@ -67,6 +103,9 @@ if (place_meeting(x,y-1,obj_player) && state%2 == 0 && !ontop){
 		state++;
 		objName.state++;
 		if obj2 {objName2.state++;}
+		if obj3 {objName3.state++;}
+		if obj4 {objName4.state++;}
+		if obj5 {objName5.state++;}
 		ontop = true
 }
 if (!place_meeting(x,y-1,obj_player)) ontop = false;
