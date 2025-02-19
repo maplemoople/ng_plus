@@ -101,11 +101,11 @@ switch state{
 if (place_meeting(x,y-1,obj_player) && state%2 == 0 && !ontop){
 		audio_play_sound(aButtonPress,1,false);
 		state++;
-		objName.state++;
-		if obj2 {objName2.state++;}
-		if obj3 {objName3.state++;}
-		if obj4 {objName4.state++;}
-		if obj5 {objName5.state++;}
+		with(objName) {state++;}
+		if obj2 {with(objName2) {state++;}}
+		if obj3 {with(objName3) {state++;};}
+		if obj4 {with(objName4) {state++;}}
+		if obj5 {with(objName5) {state++;}}
 		ontop = true
 }
 if (!place_meeting(x,y-1,obj_player)) ontop = false;

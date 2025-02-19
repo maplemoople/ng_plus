@@ -82,8 +82,7 @@ switch state{
 		break;
 	case dead:
 		wallLight.image_index = 1;
-		audio_sound_gain(bossE4clap,oSoundController.musicVolume,oSoundController.fadeSpeed)
-		audio_sound_gain(bossE4hihat,oSoundController.musicVolume,oSoundController.fadeSpeed)
+		audio_sound_gain(bossE3,oSoundController.musicVolume,oSoundController.fadeSpeed)
 		if bossComplete.explode == 1{
 			attached = NaN;
 			audio_play_sound(aDeath,1,false)

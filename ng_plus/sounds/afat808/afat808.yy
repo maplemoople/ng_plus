@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":8.0,
+  "duration":3.243243,
   "name":"afat808",
   "parent":{
     "name":"lvl1Sountrack",

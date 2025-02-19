@@ -82,7 +82,11 @@ mBoss1LetterScore = "Z";
 mBoss1Time = "";
 mgradeColor = "";
 mBoss1gradecolor = "";
+mlvl2Unlocked = 0;
+gameVer = 1
+if gameVer{
+	mBossUnlocked = 1
+	mlvl2Unlocked = 1;
+}
 
-
-			
 window_set_cursor(cr_none)

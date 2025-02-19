@@ -4,20 +4,8 @@ if (shootStart < 1){
 	shootStart--;
 	image_speed = 0;
 }
-	if (animation_end()){
-		with (instance_create_layer(x,y,"Bullets", eBullet)){
-			owner = other.id
-			speed = owner.bulletSpeed
-			direction = other.image_angle
-			image_angle = direction;
-		}
-		audio_stop_sound(aBulletShoot)
-		audio_play_sound(aBulletShoot,1,false)
-	}
-		
-	
 
-
+//moved shooting to animation end event :)
 
 if currentHp < 0 {
 	repeat(50){

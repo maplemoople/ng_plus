@@ -28,15 +28,15 @@ if currentMenu == bosslvlSelect && subMenuCursor == 0 && mBossUnlocked{
 	var bkgrnd = layer_background_get_id(layid)
 	layer_background_change(bkgrnd, room10Placeholder)
 	audio_stop_sound(asynth1)
-	if(!audio_is_playing(bossMel)){
-		audio_play_sound(bossMel,1,false);
-		audio_sound_gain(bossMel,oSoundController.musicVolume,0)
+	if(!audio_is_playing(bossE0)){
+		audio_play_sound(bossE0,1,false);
+		audio_sound_gain(bossE0,oSoundController.musicVolume,0)
 	}
 } else {
 	var layid = layer_get_id("Backgrounds_1")
 	var bkgrnd = layer_background_get_id(layid)
 	layer_background_change(bkgrnd, Line0)
-	audio_stop_sound(bossMel)
+	audio_stop_sound(bossE0)
 }
 
 if(menu_control){
@@ -198,6 +198,9 @@ switch(currentMenu){
 			
 			if mBossUnlocked{
 				bossImageMenu[0] = bossImage1
+			}
+			if mlvl2Unlocked{
+				levelImageMenu[1] = levelImage2
 			}
 			switch(mbestCollected){
 				case 0:
