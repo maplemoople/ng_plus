@@ -63,6 +63,26 @@ bossImageMenu[2] = lockedImage;
 bossImageMenu[1] = lockedImage;
 bossImageMenu[0] = lockedImage;
 
+levelBackground[3] = Line0
+levelBackground[2] = Line0
+levelBackground[1] = Line0
+levelBackground[0] = Line0
+
+bossBackground[3] = Line0
+bossBackground[2] = Line0
+bossBackground[1] = Line0
+bossBackground[0] = Line0
+
+levelMusic[3] = asynth1
+levelMusic[2] = asynth1 
+levelMusic[1] = asynth1 
+levelMusic[0] = asynth1 
+
+bossMusic[3] = asynth1
+bossMusic[2] = asynth1
+bossMusic[1] = asynth1
+bossMusic[0] = asynth1
+
 currentMenu = menu;
 subMenu = subSelection;
 imageMenu = noImageMenu;

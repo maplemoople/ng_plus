@@ -56,13 +56,19 @@ if musicStart{
 	
 		switch(currentLevel){
 			case Menu:
-				audio_sound_gain(asynth1,musicVolume,0)
-			if !audio_is_playing(asynth1){
-				if cMenu.currentMenu == cMenu.bosslvlSelect && cMenu.subMenuCursor == 0{
-					audio_stop_sound(asynth1);
-				} else
-					audio_play_sound(asynth1,1,false);
-			}
+				if cMenu.currentMenu == cMenu.bosslvlSelect{
+					if !audio_is_playing(cMenu.bossMusic[cMenu.subMenuCursor]){					
+						audio_group_stop_all(MUSIC)
+						audio_play_sound(cMenu.bossMusic[cMenu.subMenuCursor],1,true);
+						audio_sound_gain(cMenu.bossMusic[cMenu.subMenuCursor],musicVolume,0)
+					}
+				} else{
+					if !audio_is_playing(cMenu.levelMusic[cMenu.subMenuCursor]){					
+						audio_group_stop_all(MUSIC)
+						audio_play_sound(cMenu.levelMusic[cMenu.subMenuCursor],1,true);
+						audio_sound_gain(cMenu.levelMusic[cMenu.subMenuCursor],musicVolume,0)
+					}
+				}
 				if audio_is_playing(aDoorMoving) audio_stop_sound(aDoorMoving)
 				if audio_is_playing(lvl2t1) audio_stop_sound(aDoorMoving)
 				
