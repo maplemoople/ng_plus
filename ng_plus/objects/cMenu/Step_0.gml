@@ -195,12 +195,12 @@ switch(currentMenu){
 			if mBossUnlocked{
 				bossImageMenu[0] = bossImage1
 				bossBackground[0] = room10Placeholder
-				bossMusic[0] = bossE0
+				bossMusic[0] = "boss1st"
 			}
 			if mlvl2Unlocked{
 				levelImageMenu[1] = level2image
 				levelBackground[1] = lvl2menubg
-				levelMusic[1] = lvl2t1
+				levelMusic[1] ="lvl2st"
 			}
 			switch(mbestCollected){
 				case 0:
@@ -286,13 +286,11 @@ switch(currentMenu){
 						switch (subMenuCursor) {
 						case 0:
 							instance_create_layer(31,44,"Player",obj_player)
-							audio_group_stop_all(MUSIC)
 							room_goto(Line1)
 						break;
 					
 						case 1:
 							instance_create_layer(5,52,"Player",obj_player)
-							audio_group_stop_all(MUSIC)
 							room_goto(Room11)
 						break;
 
@@ -362,7 +360,6 @@ switch(currentMenu){
 						case 0:
 							if mBossUnlocked{ 
 								instance_create_layer(13,-10,"Player",obj_player)
-								audio_group_stop_all(MUSIC)
 								room_goto(Room9)
 							} else{
 							menu_committed = -1; 

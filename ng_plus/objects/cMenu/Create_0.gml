@@ -73,15 +73,15 @@ bossBackground[2] = Line0
 bossBackground[1] = Line0
 bossBackground[0] = Line0
 
-levelMusic[3] = asynth1
-levelMusic[2] = asynth1 
-levelMusic[1] = asynth1 
-levelMusic[0] = asynth1 
+levelMusic[3] = "lvl1st"
+levelMusic[2] = "lvl1st" 
+levelMusic[1] = "lvl1st" 
+levelMusic[0] = "lvl1st"
 
-bossMusic[3] = asynth1
-bossMusic[2] = asynth1
-bossMusic[1] = asynth1
-bossMusic[0] = asynth1
+bossMusic[3] = "lvl1st"
+bossMusic[2] = "lvl1st"
+bossMusic[1] = "lvl1st"
+bossMusic[0] = "lvl1st"
 
 currentMenu = menu;
 subMenu = subSelection;

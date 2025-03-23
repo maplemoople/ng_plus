@@ -16,3 +16,6 @@ fadeSpeed = currentFade;
 explode = 0;
 heightVolume = 0;
 heightVolumeMax = 0;
+
+wuh = NaN //variable that stores sound instance ID when playing, just used to check to sync stuff
+sync = 0

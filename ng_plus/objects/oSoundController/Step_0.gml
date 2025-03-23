@@ -6,7 +6,7 @@ if musicStart{
 	switch(currentLevel){ //This is to initialize sounds per level/area/boss/whatever NOTE: Menu has a seperate way of doing things because i revamped everything else so dont worry about inializing menu stuff
 	case Line1:
 		if !audio_is_playing(asynth2){
-			audio_play_sound(asynth1,1,true);
+			wuh = audio_play_sound(asynth1,1,true);
 			audio_play_sound(asynth2,1,true);
 			audio_play_sound(ahiHat,1,true);
 			audio_play_sound(asnare,1,true);
@@ -31,7 +31,7 @@ if musicStart{
 		if audio_is_playing(asynth2) {audio_stop_all();}
 		if audio_is_playing(bossE2) {audio_stop_all();}
 		if !audio_is_playing(lvl2t1){
-			audio_play_sound(lvl2t1,1,true);
+			wuh = audio_play_sound(lvl2t1,1,true);
 			audio_play_sound(lvl2t2,1,true);
 			audio_play_sound(lvl2t3,1,true);
 			audio_play_sound(lvl2t4,1,true);
@@ -43,7 +43,7 @@ if musicStart{
 		if audio_is_playing(asynth2) {audio_stop_all();}
 		if audio_is_playing(bossE2) {audio_stop_all();}
 		if !audio_is_playing(lvl2t1){
-			audio_play_sound(lvl2t1,1,true);
+			wuh = audio_play_sound(lvl2t1,1,true);
 			audio_play_sound(lvl2t2,1,true);
 			audio_play_sound(lvl2t3,1,true);
 			audio_play_sound(lvl2t4,1,true);
@@ -57,16 +57,84 @@ if musicStart{
 		switch(currentLevel){
 			case Menu:
 				if cMenu.currentMenu == cMenu.bosslvlSelect{
-					if !audio_is_playing(cMenu.bossMusic[cMenu.subMenuCursor]){					
-						audio_group_stop_all(MUSIC)
-						audio_play_sound(cMenu.bossMusic[cMenu.subMenuCursor],1,true);
-						audio_sound_gain(cMenu.bossMusic[cMenu.subMenuCursor],musicVolume,0)
+					switch(cMenu.bossMusic[cMenu.subMenuCursor]){
+						case "lvl1st":
+							if !audio_is_playing(asynth2){
+								audio_group_stop_all(MUSIC)
+								wuh = audio_play_sound(asynth1,1,true);
+								audio_play_sound(asynth2,1,true);
+								audio_play_sound(ahiHat,1,true);
+								audio_play_sound(asnare,1,true);
+								audio_play_sound(afat808,1,true);
+								audio_play_sound(akick,1,true);
+								audio_play_sound(asynth3,1,true);
+								audio_sound_gain(asynth1,musicVolume,fadeSpeed)
+								audio_sound_gain(asynth2,0,fadeSpeed)
+								audio_sound_gain(ahiHat,0,fadeSpeed)
+								audio_sound_gain(asnare,0,fadeSpeed)
+								audio_sound_gain(afat808,0,fadeSpeed)
+								audio_sound_gain(akick,0,fadeSpeed)
+								audio_sound_gain(asynth3,0,fadeSpeed)
+							}
+							break;
+						case"boss1st":
+							if !audio_is_playing(bossE1){
+								audio_group_stop_all(MUSIC)
+								wuh = audio_play_sound(bossE0,1,true);
+								audio_play_sound(bossE1,1,true);
+								audio_play_sound(bossE2,1,true);
+								audio_play_sound(bossE3,1,true);
+								audio_play_sound(bossE4,1,true);
+								audio_play_sound(bossE6,1,true);
+								audio_play_sound(bossE5,1,true);
+								audio_sound_gain(bossE0,musicVolume,fadeSpeed)
+								audio_sound_gain(bossE1,0,fadeSpeed)
+								audio_sound_gain(bossE2,0,fadeSpeed)
+								audio_sound_gain(bossE3,0,fadeSpeed)
+								audio_sound_gain(bossE4,0,fadeSpeed)
+								audio_sound_gain(bossE6,0,fadeSpeed)
+								audio_sound_gain(bossE5,0,fadeSpeed)
+							}
+						break;
 					}
 				} else{
-					if !audio_is_playing(cMenu.levelMusic[cMenu.subMenuCursor]){					
-						audio_group_stop_all(MUSIC)
-						audio_play_sound(cMenu.levelMusic[cMenu.subMenuCursor],1,true);
-						audio_sound_gain(cMenu.levelMusic[cMenu.subMenuCursor],musicVolume,0)
+					switch(cMenu.levelMusic[cMenu.subMenuCursor]){
+						case "lvl1st":
+							if !audio_is_playing(asynth2){
+								audio_group_stop_all(MUSIC)
+								wuh = audio_play_sound(asynth1,1,true);
+								audio_play_sound(asynth2,1,true);
+								audio_play_sound(ahiHat,1,true);
+								audio_play_sound(asnare,1,true);
+								audio_play_sound(afat808,1,true);
+								audio_play_sound(akick,1,true);
+								audio_play_sound(asynth3,1,true);
+								audio_sound_gain(asynth1,musicVolume,fadeSpeed)
+								audio_sound_gain(asynth2,0,fadeSpeed)
+								audio_sound_gain(ahiHat,0,fadeSpeed)
+								audio_sound_gain(asnare,0,fadeSpeed)
+								audio_sound_gain(afat808,0,fadeSpeed)
+								audio_sound_gain(akick,0,fadeSpeed)
+								audio_sound_gain(asynth3,0,fadeSpeed)
+							}
+							break;
+						case"lvl2st":
+							if !audio_is_playing(lvl2t1){
+								audio_group_stop_all(MUSIC)
+								wuh = audio_play_sound(lvl2t1,1,true);
+								audio_play_sound(lvl2t2,1,true);
+								audio_play_sound(lvl2t3,1,true);
+								audio_play_sound(lvl2t4,1,true);
+								audio_play_sound(lvl2t5,1,true);
+								audio_play_sound(lvl2t6,1,true);
+								audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
+								audio_sound_gain(lvl2t2,0,fadeSpeed)
+								audio_sound_gain(lvl2t3,0,fadeSpeed)
+								audio_sound_gain(lvl2t4,0,fadeSpeed)
+								audio_sound_gain(lvl2t5,0,fadeSpeed)
+								audio_sound_gain(lvl2t6,0,fadeSpeed)
+							}
+						break;
 					}
 				}
 				if audio_is_playing(aDoorMoving) audio_stop_sound(aDoorMoving)
@@ -104,67 +172,81 @@ if musicStart{
 				audio_sound_gain(asynth3,0,fadeSpeed)
 			break;
 			case Room2:
-				audio_sound_gain(asynth1,musicVolume,fadeSpeed)
-				audio_sound_gain(asynth2,musicVolume,fadeSpeed)
-				audio_sound_gain(ahiHat,0,fadeSpeed)
-				audio_sound_gain(asnare,0,fadeSpeed)
-				audio_sound_gain(afat808,0,fadeSpeed)
-				audio_sound_gain(akick,0,fadeSpeed)
-				audio_sound_gain(asynth3,0,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(asynth1,musicVolume,fadeSpeed)
+					audio_sound_gain(asynth2,musicVolume,fadeSpeed)
+					audio_sound_gain(ahiHat,0,fadeSpeed)
+					audio_sound_gain(asnare,0,fadeSpeed)
+					audio_sound_gain(afat808,0,fadeSpeed)
+					audio_sound_gain(akick,0,fadeSpeed)
+					audio_sound_gain(asynth3,0,fadeSpeed)
+				}
 			break;
 			case Room3:
-				audio_sound_gain(asynth1,musicVolume,fadeSpeed)
-				audio_sound_gain(asynth2,musicVolume,fadeSpeed)
-				audio_sound_gain(ahiHat,0,fadeSpeed)
-				audio_sound_gain(asnare,0,fadeSpeed)
-				audio_sound_gain(afat808,0,fadeSpeed)
-				audio_sound_gain(akick,0,fadeSpeed)
-				audio_sound_gain(asynth3,0,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(asynth1,musicVolume,fadeSpeed)
+					audio_sound_gain(asynth2,musicVolume,fadeSpeed)
+					audio_sound_gain(ahiHat,0,fadeSpeed)
+					audio_sound_gain(asnare,0,fadeSpeed)
+					audio_sound_gain(afat808,0,fadeSpeed)
+					audio_sound_gain(akick,0,fadeSpeed)
+					audio_sound_gain(asynth3,0,fadeSpeed)
+				}
 			break;
 			case Room4:
-				audio_sound_gain(asynth1,musicVolume,fadeSpeed)
-				audio_sound_gain(asynth2,musicVolume,fadeSpeed)
-				audio_sound_gain(ahiHat,musicVolume,fadeSpeed)
-				audio_sound_gain(asnare,musicVolume,fadeSpeed)
-				audio_sound_gain(afat808,0,fadeSpeed)
-				audio_sound_gain(akick,0,fadeSpeed)
-				audio_sound_gain(asynth3,0,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(asynth1,musicVolume,fadeSpeed)
+					audio_sound_gain(asynth2,musicVolume,fadeSpeed)
+					audio_sound_gain(ahiHat,musicVolume,fadeSpeed)
+					audio_sound_gain(asnare,musicVolume,fadeSpeed)
+					audio_sound_gain(afat808,0,fadeSpeed)
+					audio_sound_gain(akick,0,fadeSpeed)
+					audio_sound_gain(asynth3,0,fadeSpeed)
+				}
 			break;
 			case Room5:
-				audio_sound_gain(asynth1,musicVolume,fadeSpeed)
-				audio_sound_gain(asynth2,musicVolume,fadeSpeed)
-				audio_sound_gain(ahiHat,musicVolume,fadeSpeed)
-				audio_sound_gain(asnare,musicVolume,fadeSpeed)
-				audio_sound_gain(afat808,musicVolume,fadeSpeed)
-				audio_sound_gain(akick,0,fadeSpeed)
-				audio_sound_gain(asynth3,0,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(asynth1,musicVolume,fadeSpeed)
+					audio_sound_gain(asynth2,musicVolume,fadeSpeed)
+					audio_sound_gain(ahiHat,musicVolume,fadeSpeed)
+					audio_sound_gain(asnare,musicVolume,fadeSpeed)
+					audio_sound_gain(afat808,musicVolume,fadeSpeed)
+					audio_sound_gain(akick,0,fadeSpeed)
+					audio_sound_gain(asynth3,0,fadeSpeed)
+				}
 			break;
 			case Room6:
-				audio_sound_gain(asynth1,musicVolume,fadeSpeed)
-				audio_sound_gain(asynth2,musicVolume,fadeSpeed)
-				audio_sound_gain(ahiHat,musicVolume,fadeSpeed)
-				audio_sound_gain(asnare,musicVolume,fadeSpeed)
-				audio_sound_gain(afat808,musicVolume,fadeSpeed)
-				audio_sound_gain(akick,0,fadeSpeed)
-				audio_sound_gain(asynth3,0,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(asynth1,musicVolume,fadeSpeed)
+					audio_sound_gain(asynth2,musicVolume,fadeSpeed)
+					audio_sound_gain(ahiHat,musicVolume,fadeSpeed)
+					audio_sound_gain(asnare,musicVolume,fadeSpeed)
+					audio_sound_gain(afat808,musicVolume,fadeSpeed)
+					audio_sound_gain(akick,0,fadeSpeed)
+					audio_sound_gain(asynth3,0,fadeSpeed)
+				}
 			break;
 			case Room7:
-				audio_sound_gain(asynth1,musicVolume,fadeSpeed)
-				audio_sound_gain(asynth2,musicVolume,fadeSpeed)
-				audio_sound_gain(ahiHat,musicVolume,fadeSpeed)
-				audio_sound_gain(asnare,musicVolume,fadeSpeed)
-				audio_sound_gain(afat808,musicVolume,fadeSpeed)
-				audio_sound_gain(akick,0,fadeSpeed)
-				audio_sound_gain(asynth3,musicVolume,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(asynth1,musicVolume,fadeSpeed)
+					audio_sound_gain(asynth2,musicVolume,fadeSpeed)
+					audio_sound_gain(ahiHat,musicVolume,fadeSpeed)
+					audio_sound_gain(asnare,musicVolume,fadeSpeed)
+					audio_sound_gain(afat808,musicVolume,fadeSpeed)
+					audio_sound_gain(akick,0,fadeSpeed)
+					audio_sound_gain(asynth3,musicVolume,fadeSpeed)
+				}
 			break;
 			case Line2:
-				audio_sound_gain(asynth1,musicVolume,fadeSpeed)
-				audio_sound_gain(asynth2,musicVolume,fadeSpeed)
-				audio_sound_gain(ahiHat,0,fadeSpeed)
-				audio_sound_gain(asnare,musicVolume,fadeSpeed)
-				audio_sound_gain(afat808,musicVolume,fadeSpeed)
-				audio_sound_gain(akick,0,fadeSpeed)
-				audio_sound_gain(asynth3,musicVolume,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(asynth1,musicVolume,fadeSpeed)
+					audio_sound_gain(asynth2,musicVolume,fadeSpeed)
+					audio_sound_gain(ahiHat,0,fadeSpeed)
+					audio_sound_gain(asnare,musicVolume,fadeSpeed)
+					audio_sound_gain(afat808,musicVolume,fadeSpeed)
+					audio_sound_gain(akick,0,fadeSpeed)
+					audio_sound_gain(asynth3,musicVolume,fadeSpeed)
+				}
 			break;
 			case Room8:
 				if cPause.pause = true currentFade = noFade; else currentFade = slowFade;
@@ -242,6 +324,7 @@ if musicStart{
 				currentFade = noFade;
 				heightVolume = 0;
 				heightVolumeMax = 0;
+				
 				audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
 				audio_sound_gain(lvl2t2,0,fadeSpeed)
 				audio_sound_gain(lvl2t3,0,fadeSpeed)
@@ -251,111 +334,135 @@ if musicStart{
 				break;
 			case Room11:
 				currentFade = noFade;
-				audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t3,0,fadeSpeed)
-				audio_sound_gain(lvl2t4,0,fadeSpeed)
-				audio_sound_gain(lvl2t5,0,fadeSpeed)
-				audio_sound_gain(lvl2t6,0,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t2,0,fadeSpeed)
+					audio_sound_gain(lvl2t3,0,fadeSpeed)
+					audio_sound_gain(lvl2t4,0,fadeSpeed)
+					audio_sound_gain(lvl2t5,0,fadeSpeed)
+					audio_sound_gain(lvl2t6,0,fadeSpeed)
+				}
 				break;
 			case Room12:
 				currentFade = noFade;
-				audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t3,0,fadeSpeed)
-				audio_sound_gain(lvl2t4,0,fadeSpeed)
-				audio_sound_gain(lvl2t5,0,fadeSpeed)
-				audio_sound_gain(lvl2t6,0,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t3,0,fadeSpeed)
+					audio_sound_gain(lvl2t4,0,fadeSpeed)
+					audio_sound_gain(lvl2t5,0,fadeSpeed)
+					audio_sound_gain(lvl2t6,0,fadeSpeed)
+				}
 				break;
 			case Room13:
 				currentFade = noFade;
-				audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t4,0,fadeSpeed)
-				audio_sound_gain(lvl2t5,0,fadeSpeed)
-				audio_sound_gain(lvl2t6,0,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t4,0,fadeSpeed)
+					audio_sound_gain(lvl2t5,0,fadeSpeed)
+					audio_sound_gain(lvl2t6,0,fadeSpeed)
+				}
 				break;
 			case Room14:
 				currentFade = noFade;
-				audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t4,0,fadeSpeed)
-				audio_sound_gain(lvl2t5,0,fadeSpeed)
-				audio_sound_gain(lvl2t6,0,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t4,0,fadeSpeed)
+					audio_sound_gain(lvl2t5,0,fadeSpeed)
+					audio_sound_gain(lvl2t6,0,fadeSpeed)
+				}
 				break;
 			case Room15:
 				currentFade = noFade;
-				audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t5,0,fadeSpeed)
-				audio_sound_gain(lvl2t6,0,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t5,0,fadeSpeed)
+					audio_sound_gain(lvl2t6,0,fadeSpeed)
+				}
 				break;
 			case Room16:
 				currentFade = noFade;
-				audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t5,0,fadeSpeed)
-				audio_sound_gain(lvl2t6,0,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t5,0,fadeSpeed)
+					audio_sound_gain(lvl2t6,0,fadeSpeed)
+				}
 				break;
 			case Room17:
 				currentFade = noFade;
-				audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t5,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t6,0,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t5,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t6,0,fadeSpeed)
+				}
 				break;
 			case Room18:
 				currentFade = noFade;
-				audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t5,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t6,0,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t5,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t6,0,fadeSpeed)
+				}
 				break;
 			case Room19:
 				currentFade = noFade;
-				audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t5,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t6,musicVolume,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t5,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t6,musicVolume,fadeSpeed)
+				}
 				break;
 			case Room20:
 				currentFade = noFade;
-				audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t5,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t6,musicVolume,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t5,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t6,musicVolume,fadeSpeed)
+				}
 				break;
 			case Room21:
 				currentFade = noFade;
-				audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t3,0,fadeSpeed)
-				audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t5,0,fadeSpeed)
-				audio_sound_gain(lvl2t6,musicVolume,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t3,0,fadeSpeed)
+					audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t5,0,fadeSpeed)
+					audio_sound_gain(lvl2t6,musicVolume,fadeSpeed)
+				}
 				break;
 			case Room22:
 				currentFade = noFade;
-				audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t2,0,fadeSpeed)
-				audio_sound_gain(lvl2t3,0,fadeSpeed)
-				audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
-				audio_sound_gain(lvl2t5,0,fadeSpeed)
-				audio_sound_gain(lvl2t6,musicVolume,fadeSpeed)
+				if audio_sound_get_track_position(wuh) <= 0.1 {
+					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t2,0,fadeSpeed)
+					audio_sound_gain(lvl2t3,0,fadeSpeed)
+					audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
+					audio_sound_gain(lvl2t5,0,fadeSpeed)
+					audio_sound_gain(lvl2t6,musicVolume,fadeSpeed)
+				}
 				break;
 		}
 	}
