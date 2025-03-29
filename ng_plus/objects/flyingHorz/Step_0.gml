@@ -1,4 +1,4 @@
-image_xscale = sign(hsp) * 1
+//image_xscale = sign(hsp) * 1
 	if (instance_exists(hitBox)){hitBox.image_xscale = sign(hsp) * 1}
 	//horizontal collision
 	if (place_meeting(x+hsp, y, obj_wall)){

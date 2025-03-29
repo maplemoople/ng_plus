@@ -133,7 +133,7 @@ if instance_exists(obj_wallvert){
 		x += oneWayPlat.hsp;
 		y += oneWayPlat.vsp;
 		if grounded && jump{
-			if abs(oneWayPlat.hsp) > 1.4{
+			if abs(oneWayPlat.hsp) > 1.4 && image_xscale == sign(oneWayPlat.hsp){
 				hsp = sign(oneWayPlat.hsp) * 15;
 				vsp -= 15
 			}

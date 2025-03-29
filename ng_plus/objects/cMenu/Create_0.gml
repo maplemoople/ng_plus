@@ -92,21 +92,57 @@ subMenuItems = array_length_1d(subSelection)
 menu_cursor = 2;
 subMenuCursor = 0;
 
-mbestTime = "";
-mbestDeaths = "";
-mbestLetterScore = "";
-mbestCollected = "";
-mcollectedW = "";
+lvlBestLetter[3] = "Z"
+lvlBestLetter[2] = "Z"
+lvlBestLetter[1] = "Z"
+lvlBestLetter[0] = "Z"
+
+lvlBestCollected[3] = 0 
+lvlBestCollected[2] = 0
+lvlBestCollected[1] = 0
+lvlBestCollected[0] = 0
+
+bossBestLetter[3] = "Z"
+bossBestLetter[2] = "Z"
+bossBestLetter[1] = "Z"
+bossBestLetter[0] = "Z"
+
+bossBestTime[3] = 999
+bossBestTime[2] = 999
+bossBestTime[1] = 999
+bossBestTime[0] = 999
+
+mbestTime = 999;
+mbestDeaths = 999;
+mbestLetterScore = "Z";
+mbestCollected =-1;
 mBossUnlocked = 0;
+mBoss1Deaths = 999;
 mBoss1LetterScore = "Z";
-mBoss1Time = "";
-mgradeColor = "";
-mBoss1gradecolor = "";
+mBoss1Time = 999
 mlvl2Unlocked = 0;
-gameVer = 1
+mbestTime2 =999;
+mbestDeaths2 =999;
+mbestLetterScore2 = "Z";
+mbestCollected2 = -1;
+gameVer = 0
 if gameVer{
 	mBossUnlocked = 1
 	mlvl2Unlocked = 1;
 }
+
+if (file_exists("savedgame.save")){
+	var _buffer = buffer_load("savedgame.save")
+	var _string = buffer_read(_buffer,buffer_string);
+	buffer_delete(_buffer);
+	
+	var _loadData = json_parse(_string);
+	var _loadScore = _loadData[0]
+	test = variable_struct_names_count(_loadScore)
+	if variable_struct_names_count(_loadScore) != 13{
+		saveData.firstSave = 0;
+	}
+} else saveData.firstSave = 0;
+
 
 window_set_cursor(cr_none)

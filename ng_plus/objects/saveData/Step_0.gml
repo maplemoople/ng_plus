@@ -14,6 +14,11 @@ if !saved{
 				boss1Time : bestBoss1Time,
 				boss1Deaths : bestBoss1Deaths,
 				boss1LetterScore : bestBoss1LetterScore,
+				lvl2Unlocked : lvl2Unlocked,
+				bestTime2 : bestTime2,
+				letterScore2 : bestLetterScore2,
+				bestDeaths2 : bestDeaths2,
+				collected2 : bestCollected2,
 			}
 			array_push(_saveData,_saveScore);
 		}
@@ -56,6 +61,11 @@ if !firstSave{
 		boss1Time : 999,
 		boss1Deaths : 999,
 		boss1LetterScore : "Z",
+		lvl2Unlocked : 0,
+		bestTime2 : 999,
+		letterScore2 : "Z",
+		bestDeaths2 : 999,
+		collected2 : -1,
 	}
 	array_push(_saveData,_saveScore);
 

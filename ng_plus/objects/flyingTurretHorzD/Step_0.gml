@@ -1,4 +1,4 @@
-image_xscale = sign(hsp) * 1
+//image_xscale = sign(hsp) * 1
 x = movement.x
 y = movement.y
 with movement{

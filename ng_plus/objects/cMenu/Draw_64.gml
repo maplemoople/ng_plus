@@ -73,25 +73,25 @@ for (var i = 0; i < menu_items; i++){
 			}
 				
 			if (currentMenu == lvlSelect){
-				if (mbestLetterScore != "Z"){
-					draw_set_color(mgradeColor);
+				if (lvlBestLetter[j] != "Z"){
+					draw_set_color(letterColor(lvlBestLetter[j]));
 					draw_set_halign(fa_right);
-					draw_text(sxx + 75, syy + 287, mbestLetterScore);
+					draw_text(sxx + 75, syy + 287, lvlBestLetter[j]);
 					draw_set_color(subcol);
 					draw_set_halign(fa_left);
-					draw_text(sxx - 75 , syy + 287, mcollectedW);
+					draw_text(sxx - 75 , syy + 287, collectedMenu(lvlBestCollected[j]));
 				}
 				draw_set_color(subcol);
 				draw_set_halign(fa_middle);
 				draw_text(sxx, syy, subtxt);
 			} else if (currentMenu == bosslvlSelect){
-				if(mBoss1LetterScore != "Z"){
-					draw_set_color(mBoss1gradeColor);
+				if(bossBestLetter[j] != "Z"){
+					draw_set_color(letterColor(bossBestLetter[j]));
 					draw_set_halign(fa_right);
-					draw_text(sxx + 75, syy + 287, mBoss1LetterScore);
+					draw_text(sxx + 75, syy + 287, bossBestLetter[j]);
 					draw_set_color(subcol);
 					draw_set_halign(fa_left);
-					draw_text(sxx - 75 , syy + 287, mBoss1Time);
+					draw_text(sxx - 75 , syy + 287, bossBestTime[j]);
 				}
 				draw_set_color(subcol);
 				draw_set_halign(fa_middle);

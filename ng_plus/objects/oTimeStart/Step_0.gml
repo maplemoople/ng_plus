@@ -10,6 +10,9 @@ switch(room){
 	case Line2:
 		start = false;
 	break;
+	case Room21:
+		start = false;
+	break;
 	
 	case Room8:
 		time = 0;

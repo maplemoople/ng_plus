@@ -179,7 +179,7 @@ switch(currentMenu){
 				var _loadData = json_parse(_string);
 				var _loadScore = _loadData[0]
 				test = variable_struct_names_count(_loadScore)
-				if variable_struct_names_count(_loadScore) == 8{
+				if variable_struct_names_count(_loadScore) == 13{
 					mbestTime = _loadScore.bestTime ;
 					mbestDeaths = _loadScore.bestDeaths;
 					mbestLetterScore = _loadScore.letterScore;
@@ -188,9 +188,39 @@ switch(currentMenu){
 					mBoss1Time = _loadScore.boss1Time;
 					mBoss1Deaths = _loadScore.boss1Deaths;
 					mBoss1LetterScore = _loadScore.boss1LetterScore
+					mlvl2Unlocked = _loadScore.lvl2Unlocked
+					mbestTime2 = _loadScore.bestTime2;
+					mbestDeaths2 = _loadScore.bestDeaths2;
+					mbestLetterScore2 = _loadScore.letterScore2;
+					mbestCollected2 = _loadScore.collected2;
 				} else saveData.firstSave = 0;
-			}
-			
+			} else {
+					saveData.firstSave = 0;
+					if (file_exists("savedgame.save")){
+							var _buffer = buffer_load("savedgame.save")
+							var _string = buffer_read(_buffer,buffer_string);
+							buffer_delete(_buffer);
+	
+							var _loadData = json_parse(_string);
+							var _loadScore = _loadData[0]
+							test = variable_struct_names_count(_loadScore)
+							if variable_struct_names_count(_loadScore) == 13{
+								mbestTime = _loadScore.bestTime ;
+								mbestDeaths = _loadScore.bestDeaths;
+								mbestLetterScore = _loadScore.letterScore;
+								mbestCollected = _loadScore.collected;
+								mBossUnlocked = _loadScore.bossUnlocked;
+								mBoss1Time = _loadScore.boss1Time;
+								mBoss1Deaths = _loadScore.boss1Deaths;
+								mBoss1LetterScore = _loadScore.boss1LetterScore
+								mlvl2Unlocked = _loadScore.lvl2Unlocked
+								mbestTime2 = _loadScore.bestTime2;
+								mbestDeaths2 = _loadScore.bestDeaths2;
+								mbestLetterScore2 = _loadScore.letterScore2;
+								mbestCollected2 = _loadScore.collected2;
+							}
+					}
+				}
 			//Menu update checks for unlock
 			if mBossUnlocked{
 				bossImageMenu[0] = bossImage1
@@ -202,53 +232,27 @@ switch(currentMenu){
 				levelBackground[1] = lvl2menubg
 				levelMusic[1] ="lvl2st"
 			}
-			switch(mbestCollected){
-				case 0:
-				mcollectedW = "";
-				break;
-				case 1:
-				mcollectedW = "O";
-				break;
-				case 2:
-				mcollectedW = "OO";
-				break;
-				case 3:
-				mcollectedW = "OOO";
-				break;
-				case 4:
-				mcollectedW = "OOOO";
-				break;
-				case 5:
-				mcollectedW = "OOOOO";
-				break;	
-			}
-			switch (mbestLetterScore){
-			case "S":
-				mgradeColor = make_color_rgb(252, 186, 3)
-			break;
-			case "A":
-				mgradeColor = make_color_rgb(184, 184, 184)
-			break;
-			case "B":
-				mgradeColor = make_color_rgb(181, 119, 62)
-			break;
-			default:
-				mgradeColor = c_black;
-			}
+			//for menu separation to update
+			lvlBestLetter[3] = "Z"
+			lvlBestLetter[2] = "Z"
+			lvlBestLetter[1] = mbestLetterScore2
+			lvlBestLetter[0] = mbestLetterScore
+
+			lvlBestCollected[3] = 0 
+			lvlBestCollected[2] = 0
+			lvlBestCollected[1] = mbestCollected2
+			lvlBestCollected[0] = mbestCollected
+
+			bossBestLetter[3] = "Z"
+			bossBestLetter[2] = "Z"
+			bossBestLetter[1] = "Z"
+			bossBestLetter[0] = mBoss1LetterScore
+
+			bossBestTime[3] = 999
+			bossBestTime[2] = 999
+			bossBestTime[1] = 999
+			bossBestTime[0] = mBoss1Time
 			
-			switch (mBoss1LetterScore){
-			case "S":
-				mBoss1gradeColor = make_color_rgb(252, 186, 3)
-			break;
-			case "A":
-				mBoss1gradeColor = make_color_rgb(184, 184, 184)
-			break;
-			case "B":
-				mBoss1gradeColor = make_color_rgb(181, 119, 62)
-			break;
-			default:
-				mBoss1gradeColor = c_black;
-			}
 		loadedSave = 1;
 		}
 		switch(menu_cursor){
@@ -290,8 +294,13 @@ switch(currentMenu){
 						break;
 					
 						case 1:
-							instance_create_layer(5,52,"Player",obj_player)
-							room_goto(Room11)
+							if mlvl2Unlocked{
+								instance_create_layer(5,52,"Player",obj_player)
+								room_goto(Room11)
+							} else{
+							menu_committed = -1; 
+							menu_control = true;
+							}
 						break;
 
 						case 2:

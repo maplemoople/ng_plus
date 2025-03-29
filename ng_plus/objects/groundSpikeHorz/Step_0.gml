@@ -1,7 +1,7 @@
-image_xscale = sign(hsp) * 1
+//image_xscale = sign(hsp) * 1
 vsp =+ grv
-if (instance_exists(spikey)){spikey.image_xscale = sign(hsp) * 1}
-if (instance_exists(hitBox)){hitBox.image_xscale = sign(hsp) * 1}
+//if (instance_exists(spikey)){spikey.image_xscale = sign(hsp) * 1}
+//if (instance_exists(hitBox)){hitBox.image_xscale = sign(hsp) * 1}
 //horizontal collision
 if (place_meeting(x+hsp, y, obj_wall)){
 	while (!place_meeting(x+sign(hsp),y,obj_wall)){

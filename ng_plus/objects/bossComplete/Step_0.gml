@@ -41,11 +41,5 @@ if (state == closed && bossButton.state == 1 && bossButton2.state == 1 && bossBu
 	global.checkpoint_x = 349;
 	global.checkpoint_y = 600;
 	oTimeStart.start = 0;
-	oTimeController.boss1End = 1;
-	oTimeController.boss1Time = oTimeController.cTime;
-	oTimeController.boss1Deaths = obj_player.currentDeaths;
-	oTimeController.boss1LetterScore = oTimeController.letterScore;
-	oTimeController.cTime = 0;
-	oTimeController.currentDeaths = 0;
-	saveData.saved = 0;
+	oTimeController.ends = 1;
 }
