@@ -168,37 +168,37 @@ switch(whichLevel){
 	break;
 	case "lvl2":
 		// COLORS FOR LEVEL 2 ROOM STATS in order: (Deaths, Time, Best Deaths, Best Time)
-		if (obj_player.currentDeaths < 18) dCol = make_color_rgb(obj_player.currentDeaths * 15,0,0) else dCol = make_color_rgb(255,0,0)
-		if (cTime < 300) tCol = make_color_rgb(cTime * 255/300,0,0) else tCol = make_color_rgb(255,0,0)
-		if (bestDeaths < 18) bdCol = make_color_rgb(bestDeaths * 15,0,0) else bdCol = make_color_rgb(255,0,0)
-		if (bestTime < 300) btCol = make_color_rgb(bestTime * 255/300,0,0) else btCol = make_color_rgb(255,0,0)
+		if (obj_player.currentDeaths < 250) dCol = make_color_rgb(obj_player.currentDeaths * 255/250,0,0) else dCol = make_color_rgb(255,0,0)
+		if (cTime < 1500) tCol = make_color_rgb(cTime * 255/1500,0,0) else tCol = make_color_rgb(255,0,0)
+		if (bestDeaths < 250) bdCol = make_color_rgb(bestDeaths * 255/250,0,0) else bdCol = make_color_rgb(255,0,0)
+		if (bestTime < 1500) btCol = make_color_rgb(bestTime * 255/1500,0,0) else btCol = make_color_rgb(255,0,0)
 
-		endScore = 3*cTime + (5 * obj_player.currentDeaths) - coinScore
-		if endScore < 100{
+		endScore = 2*cTime +  1.15*obj_player.currentDeaths
+		if endScore < 1260{
 			letterScore = "S";
 			gradeColor = make_color_rgb(252, 186, 3)
 			scoreOutline = c_white
 			scoreOutlineSize = 6
 		}
-		else if(endScore < 150){
+		else if(endScore < 1780){
 				letterScore = "A";
 				gradeColor = make_color_rgb(184, 184, 184)
 				scoreOutline = c_white
 				scoreOutlineSize = 3;
 			}
-			else if(endScore < 200){
+			else if(endScore < 2180){
 					letterScore = "B";
 					gradeColor = make_color_rgb(181, 119, 62)
 					scoreOutline = c_white
 					scoreOutlineSize = 0;
 				}
-				else if(endScore < 250){
+				else if(endScore < 2715){
 						letterScore = "C";
 						gradeColor = c_black
 						scoreOutline = c_white
 						scoreOutlineSize = 0;
 					}
-					else if(endScore < 300){
+					else if(endScore < 3250){
 							letterScore = "D";
 							gradeColor = c_black
 							scoreOutline = c_white

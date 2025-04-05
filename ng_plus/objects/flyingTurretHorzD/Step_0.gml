@@ -1,9 +1,10 @@
 //image_xscale = sign(hsp) * 1
 x = movement.x
 y = movement.y
+hsp = movement.hsp
 with movement{
-	if (instance_exists(owner)){owner.image_xscale = sign(hsp) * 1}
-	if (instance_exists(owner.hitBox)){owner.hitBox.image_xscale = sign(hsp) * 1}
+	//if (instance_exists(owner)){owner.image_xscale = sign(hsp) * 1}
+	//if (instance_exists(owner.hitBox)){owner.hitBox.image_xscale = sign(hsp) * 1}
 	//horizontal collision
 	if (place_meeting(x+hsp, y, obj_wall)){
 		while (!place_meeting(x+sign(hsp),y,obj_wall)){

@@ -125,7 +125,6 @@
     {"name":"inst_2E75BFD2","path":"rooms/Room16/Room16.yy",},
     {"name":"inst_7798D350","path":"rooms/Room16/Room16.yy",},
     {"name":"inst_5DE69D3C","path":"rooms/Room16/Room16.yy",},
-    {"name":"inst_569088E3","path":"rooms/Room16/Room16.yy",},
     {"name":"inst_5B9C3E1F","path":"rooms/Room16/Room16.yy",},
     {"name":"inst_6AF569DF","path":"rooms/Room16/Room16.yy",},
     {"name":"inst_7893BA05","path":"rooms/Room16/Room16.yy",},
@@ -312,7 +311,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"propertyId":{"name":"shootspeed","path":"objects/obj_turret/obj_turret.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.418",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"propertyId":{"name":"shootStart","path":"objects/obj_turret/obj_turret.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-180.0,"scaleX":1.0,"scaleY":1.0,"x":422.0,"y":24.499996,},
-        {"$GMRInstance":"v1","%Name":"inst_569088E3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_569088E3","objectId":{"name":"aCoin","path":"objects/aCoin/aCoin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":73.0,"y":90.0,},
         {"$GMRInstance":"v1","%Name":"inst_6AF569DF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6AF569DF","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"propertyId":{"name":"shootspeed","path":"objects/obj_turret/obj_turret.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.418",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"propertyId":{"name":"shootStart","path":"objects/obj_turret/obj_turret.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
