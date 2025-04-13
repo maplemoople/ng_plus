@@ -6,3 +6,4 @@ saved = 1;
 //SAVE FILES ARE FOUND IN appdata/local/pleasework <-- game name directory
 setSaved = 1;
 firstSave = 1;
+gameVer = 0;

@@ -1,6 +1,6 @@
 hsp = 0;
 vsp = 0;
-grv = 0.4;
+grv = 0.39;
 rsp = 1.8;
 dsp = 20;
 csp = 1.8;

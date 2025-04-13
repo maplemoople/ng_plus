@@ -3,25 +3,33 @@
 //Keyboard stuff
 controls();
 if(keyboard_check_pressed(vk_escape)){
-	if (!pause){
-		pause = true;
-	//	instance_activate_object(oSoundController);
-	//	instance_activate_object(saveData);
-		oldFade = oSoundController.currentFade;
-		pmenu_control = true;
-	} else if currentpMenu == poptions{
-		currentpMenu = pmenu
-		pmenu_items = array_length_1d(pmenu);
-		pmenu_committed = -1; 
-		pmenu_control = true; 
-	} else {
-		pause = false;
-	//	instance_activate_all();
-		pmenu_control = false;
-		oSoundController.currentFade = oldFade;
+		if saveData.gameVer{
+			instance_destroy(oTimeStart)
+			instance_destroy(oTimeController)
+			instance_destroy(aCoin)
+			instance_destroy(obj_death)
+			instance_destroy(obj_player)
+			room_goto(Menu)
+		}	else{
+		if (!pause){
+			pause = true;
+		//	instance_activate_object(oSoundController);
+		//	instance_activate_object(saveData);
+			oldFade = oSoundController.currentFade;
+			pmenu_control = true;
+		} else if currentpMenu == poptions{
+			currentpMenu = pmenu
+			pmenu_items = array_length_1d(pmenu);
+			pmenu_committed = -1; 
+			pmenu_control = true; 
+		} else {
+			pause = false;
+		//	instance_activate_all();	s
+			pmenu_control = false;
+			oSoundController.currentFade = oldFade;
+		}
 	}
 }
-
 if(pmenu_control){
 	if(mup){
 		pmenu_cursor++;

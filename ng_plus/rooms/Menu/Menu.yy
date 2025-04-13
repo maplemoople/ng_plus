@@ -8,9 +8,9 @@
   "instanceCreationOrder":[
     {"name":"inst_4101A99C","path":"rooms/Menu/Menu.yy",},
     {"name":"inst_4D7914AB","path":"rooms/Menu/Menu.yy",},
-    {"name":"inst_14DFB81C","path":"rooms/Menu/Menu.yy",},
     {"name":"inst_E279378","path":"rooms/Menu/Menu.yy",},
     {"name":"inst_3CA12672","path":"rooms/Menu/Menu.yy",},
+    {"name":"inst_14DFB81C","path":"rooms/Menu/Menu.yy",},
   ],
   "isDnd":false,
   "layers":[

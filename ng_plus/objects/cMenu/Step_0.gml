@@ -1,4 +1,8 @@
-
+if saveData.gameVer{
+	gameVer = 1;
+	mBossUnlocked = 1
+	mlvl2Unlocked = 1;
+}
 //Keyboard stuff
 controls();
 //Loading save info
@@ -170,7 +174,7 @@ switch(currentMenu){
 	
 	case lvlSelect:
 		
-		if (currentMenu == lvlSelect) && !loadedSave{
+		if (currentMenu == lvlSelect) && !loadedSave && !gameVer{
 			if (file_exists("savedgame.save")){
 				var _buffer = buffer_load("savedgame.save")
 				var _string = buffer_read(_buffer,buffer_string);

@@ -1,1 +1,0 @@
-//obj_player.ends = 1

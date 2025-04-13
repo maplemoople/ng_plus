@@ -125,11 +125,7 @@ mbestTime2 =999;
 mbestDeaths2 =999;
 mbestLetterScore2 = "Z";
 mbestCollected2 = -1;
-gameVer = 0
-if gameVer{
-	mBossUnlocked = 1
-	mlvl2Unlocked = 1;
-}
+gameVer = 0;
 
 if (file_exists("savedgame.save")){
 	var _buffer = buffer_load("savedgame.save")

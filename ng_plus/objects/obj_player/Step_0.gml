@@ -157,8 +157,8 @@ switch (state){
 	blowup = 0
 	if (hsp != 0)
 		image_xscale = sign(hsp);
-		var gAccel = 0.1;
-		var gDeccel = 0.25;
+		var gAccel = 0.2;
+		var gDeccel = 0.5;
 
 		var airAccel = 0.09;
 		var airDeccel = 0.06;

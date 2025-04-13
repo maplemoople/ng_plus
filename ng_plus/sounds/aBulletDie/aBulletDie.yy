@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"aBulletDie.ogg",
   "type":0,
-  "volume":0.2,
+  "volume":0.05,
 }
