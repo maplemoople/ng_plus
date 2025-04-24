@@ -159,6 +159,7 @@
     {"id":{"name":"obj_pwall","path":"objects/obj_pwall/obj_pwall.yy",},},
     {"id":{"name":"obj_shadow_caster","path":"objects/obj_shadow_caster/obj_shadow_caster.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
+    {"id":{"name":"obj_turret_disable","path":"objects/obj_turret_disable/obj_turret_disable.yy",},},
     {"id":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},},
     {"id":{"name":"obj_turretOLD","path":"objects/obj_turretOLD/obj_turretOLD.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},

@@ -138,7 +138,6 @@
     {"name":"inst_4804EA3","path":"rooms/Room17/Room17.yy",},
     {"name":"inst_726B5367","path":"rooms/Room17/Room17.yy",},
     {"name":"inst_2583841B","path":"rooms/Room17/Room17.yy",},
-    {"name":"inst_223D5F5F","path":"rooms/Room17/Room17.yy",},
     {"name":"inst_3D516C94","path":"rooms/Room17/Room17.yy",},
     {"name":"inst_1F4F3A2E","path":"rooms/Room17/Room17.yy",},
     {"name":"inst_7052CDA0","path":"rooms/Room17/Room17.yy",},
@@ -161,7 +160,6 @@
     {"name":"inst_10036483","path":"rooms/Room17/Room17.yy",},
     {"name":"inst_29D7C0DE","path":"rooms/Room17/Room17.yy",},
     {"name":"inst_137881DE","path":"rooms/Room17/Room17.yy",},
-    {"name":"inst_7144B1C6","path":"rooms/Room17/Room17.yy",},
     {"name":"inst_70B673B5","path":"rooms/Room17/Room17.yy",},
     {"name":"inst_6C620908","path":"rooms/Room17/Room17.yy",},
     {"name":"inst_E9A60DC","path":"rooms/Room17/Room17.yy",},
@@ -351,7 +349,6 @@
         {"$GMRInstance":"v1","%Name":"inst_10036483","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_10036483","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":424.0,"y":250.0,},
         {"$GMRInstance":"v1","%Name":"inst_29D7C0DE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_29D7C0DE","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":434.0,"y":250.0,},
         {"$GMRInstance":"v1","%Name":"inst_137881DE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_137881DE","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":454.0,"y":250.0,},
-        {"$GMRInstance":"v1","%Name":"inst_7144B1C6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7144B1C6","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-180.0,"scaleX":1.0,"scaleY":1.0,"x":223.0,"y":133.0,},
         {"$GMRInstance":"v1","%Name":"inst_70B673B5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70B673B5","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":319.0,"y":44.0,},
       ],"layers":[],"name":"Entities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Enemies","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
@@ -372,7 +369,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"flyingTurretHorzD","path":"objects/flyingTurretHorzD/flyingTurretHorzD.yy",},"propertyId":{"name":"initDirection","path":"objects/flyingTurretHorzD/flyingTurretHorzD.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":60.0,"y":10.0,},
         {"$GMRInstance":"v1","%Name":"inst_27F0CBE1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_27F0CBE1","objectId":{"name":"flyingTurretHorzD","path":"objects/flyingTurretHorzD/flyingTurretHorzD.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":388.0,"y":10.0,},
-        {"$GMRInstance":"v1","%Name":"inst_223D5F5F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_223D5F5F","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"x":38.0,"y":219.0,},
         {"$GMRInstance":"v1","%Name":"inst_6C620908","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6C620908","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"x":80.0,"y":17.0,},
         {"$GMRInstance":"v1","%Name":"inst_E9A60DC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E9A60DC","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"propertyId":{"name":"shootspeed","path":"objects/obj_turret/obj_turret.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.95",},

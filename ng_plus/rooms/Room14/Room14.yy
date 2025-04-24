@@ -110,8 +110,6 @@
     {"name":"inst_357F284E","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_6D6EDC5A","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_68044FF8","path":"rooms/Room14/Room14.yy",},
-    {"name":"inst_40A57F4","path":"rooms/Room14/Room14.yy",},
-    {"name":"inst_49FFCFB1","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_2BBB8D91","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_620A02EE","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_3D8C6806","path":"rooms/Room14/Room14.yy",},
@@ -132,6 +130,8 @@
     {"name":"inst_6398A178","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_3C19A7F1","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_601975F1","path":"rooms/Room14/Room14.yy",},
+    {"name":"inst_1613F69E","path":"rooms/Room14/Room14.yy",},
+    {"name":"inst_5D6F9ADE","path":"rooms/Room14/Room14.yy",},
   ],
   "isDnd":true,
   "layers":[
@@ -294,13 +294,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oneTimeTrigger","path":"objects/oneTimeTrigger/oneTimeTrigger.yy",},"propertyId":{"name":"objName2","path":"objects/oneTimeTrigger/oneTimeTrigger.yy",},"resource":{"name":"doorMiniA","path":"objects/doorMiniA/doorMiniA.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"doorMiniA",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oneTimeTrigger","path":"objects/oneTimeTrigger/oneTimeTrigger.yy",},"propertyId":{"name":"objName","path":"objects/oneTimeTrigger/oneTimeTrigger.yy",},"resource":{"name":"doorMiniA","path":"objects/doorMiniA/doorMiniA.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"doorMiniA",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6355133,"scaleY":0.5,"x":275.33643,"y":16.0,},
-        {"$GMRInstance":"v1","%Name":"inst_40A57F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_40A57F4","objectId":{"name":"flyingSpikeHorz","path":"objects/flyingSpikeHorz/flyingSpikeHorz.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"flyingSpikeHorz","path":"objects/flyingSpikeHorz/flyingSpikeHorz.yy",},"propertyId":{"name":"speedMode","path":"objects/flyingSpikeHorz/flyingSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":97.0,"y":137.0,},
-        {"$GMRInstance":"v1","%Name":"inst_49FFCFB1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_49FFCFB1","objectId":{"name":"flyingSpikeHorz","path":"objects/flyingSpikeHorz/flyingSpikeHorz.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"flyingSpikeHorz","path":"objects/flyingSpikeHorz/flyingSpikeHorz.yy",},"propertyId":{"name":"speedMode","path":"objects/flyingSpikeHorz/flyingSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"flyingSpikeHorz","path":"objects/flyingSpikeHorz/flyingSpikeHorz.yy",},"propertyId":{"name":"initDirection","path":"objects/flyingSpikeHorz/flyingSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":97.0,"y":90.0,},
         {"$GMRInstance":"v1","%Name":"inst_3D8C6806","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3D8C6806","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":335.0,"y":218.0,},
         {"$GMRInstance":"v1","%Name":"inst_2044A518","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2044A518","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":346.0,"y":218.0,},
         {"$GMRInstance":"v1","%Name":"inst_50F2CB03","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50F2CB03","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":357.0,"y":218.0,},
@@ -312,6 +305,10 @@
         {"$GMRInstance":"v1","%Name":"inst_34B31BBB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_34B31BBB","objectId":{"name":"flyingHorz","path":"objects/flyingHorz/flyingHorz.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"flyingHorz","path":"objects/flyingHorz/flyingHorz.yy",},"propertyId":{"name":"initDirection","path":"objects/flyingHorz/flyingHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":243.33643,"y":92.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1613F69E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1613F69E","objectId":{"name":"flyingHorz","path":"objects/flyingHorz/flyingHorz.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":97.0,"y":92.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5D6F9ADE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D6F9ADE","objectId":{"name":"flyingHorz","path":"objects/flyingHorz/flyingHorz.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"flyingHorz","path":"objects/flyingHorz/flyingHorz.yy",},"propertyId":{"name":"initDirection","path":"objects/flyingHorz/flyingHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":97.0,"y":140.0,},
       ],"layers":[],"name":"Entities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Enemies","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_4758773A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4758773A","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"properties":[
@@ -321,6 +318,7 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":201.0,"y":208.0,},
         {"$GMRInstance":"v1","%Name":"inst_1380B648","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1380B648","objectId":{"name":"flyingTurretHorzD","path":"objects/flyingTurretHorzD/flyingTurretHorzD.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"flyingTurretHorzD","path":"objects/flyingTurretHorzD/flyingTurretHorzD.yy",},"propertyId":{"name":"hsp","path":"objects/flyingTurretHorzD/flyingTurretHorzD.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.9",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"flyingTurretHorzD","path":"objects/flyingTurretHorzD/flyingTurretHorzD.yy",},"propertyId":{"name":"image_speed","path":"objects/flyingTurretHorzD/flyingTurretHorzD.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.5",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":94.0,"y":10.0,},
         {"$GMRInstance":"v1","%Name":"inst_31D7E36","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_31D7E36","objectId":{"name":"extendoplatformHBLong","path":"objects/extendoplatformHBLong/extendoplatformHBLong.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":494.0,"y":233.5,},
       ],"layers":[],"name":"Enemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

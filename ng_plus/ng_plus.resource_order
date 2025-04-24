@@ -127,6 +127,7 @@
     {"name":"obj_pwall","order":18,"path":"objects/obj_pwall/obj_pwall.yy",},
     {"name":"obj_shadow_caster","order":3,"path":"objects/obj_shadow_caster/obj_shadow_caster.yy",},
     {"name":"obj_textbox","order":6,"path":"objects/obj_textbox/obj_textbox.yy",},
+    {"name":"obj_turret_disable","order":10,"path":"objects/obj_turret_disable/obj_turret_disable.yy",},
     {"name":"obj_turret","order":2,"path":"objects/obj_turret/obj_turret.yy",},
     {"name":"obj_wall","order":12,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"obj_wall16x16","order":20,"path":"objects/obj_wall16x16/obj_wall16x16.yy",},

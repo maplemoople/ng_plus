@@ -114,7 +114,6 @@
     {"name":"inst_7B7A99BA","path":"rooms/Room12/Room12.yy",},
     {"name":"inst_1EFD734C","path":"rooms/Room12/Room12.yy",},
     {"name":"inst_3BD79BC6","path":"rooms/Room12/Room12.yy",},
-    {"name":"inst_C2D61AB","path":"rooms/Room12/Room12.yy",},
     {"name":"inst_4270B0D4","path":"rooms/Room12/Room12.yy",},
     {"name":"inst_572888FA","path":"rooms/Room12/Room12.yy",},
     {"name":"inst_F442B73","path":"rooms/Room12/Room12.yy",},
@@ -123,6 +122,7 @@
     {"name":"inst_2FAD8C24","path":"rooms/Room12/Room12.yy",},
     {"name":"inst_77AD7E6F","path":"rooms/Room12/Room12.yy",},
     {"name":"inst_42BFB99D","path":"rooms/Room12/Room12.yy",},
+    {"name":"inst_C2D61AB","path":"rooms/Room12/Room12.yy",},
   ],
   "isDnd":true,
   "layers":[
@@ -257,7 +257,7 @@
     {"$GMRInstanceLayer":"","%Name":"Enemies","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_2B65A6F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B65A6F4","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"hsp","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.6",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"speedAccel","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.1",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"speedAccel","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.085",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"speedHsp","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.05",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":263.0,"y":176.0,},
       ],"layers":[],"name":"Enemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
@@ -298,10 +298,12 @@
         {"$GMRInstance":"v1","%Name":"inst_4B582CB1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B582CB1","objectId":{"name":"extendoplatformA","path":"objects/extendoplatformA/extendoplatformA.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"extendoplatformA","path":"objects/extendoplatformA/extendoplatformA.yy",},"propertyId":{"name":"whatColor","path":"objects/extendoplatformA/extendoplatformA.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FFEFB2FF",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":202.0,"y":170.0,},
-        {"$GMRInstance":"v1","%Name":"inst_3BD79BC6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3BD79BC6","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-180.0,"scaleX":1.0,"scaleY":1.0,"x":370.5,"y":100.5,},
+        {"$GMRInstance":"v1","%Name":"inst_3BD79BC6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3BD79BC6","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"propertyId":{"name":"shootspeed","path":"objects/obj_turret/obj_turret.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.75",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-180.0,"scaleX":1.0,"scaleY":1.0,"x":370.5,"y":100.5,},
         {"$GMRInstance":"v1","%Name":"inst_C2D61AB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C2D61AB","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"propertyId":{"name":"shootStart","path":"objects/obj_turret/obj_turret.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"propertyId":{"name":"shootspeed","path":"objects/obj_turret/obj_turret.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.5",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"propertyId":{"name":"shootspeed","path":"objects/obj_turret/obj_turret.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.25",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-180.0,"scaleX":1.0,"scaleY":1.0,"x":370.0,"y":158.0,},
         {"$GMRInstance":"v1","%Name":"inst_4270B0D4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4270B0D4","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":285.0,"y":42.0,},
         {"$GMRInstance":"v1","%Name":"inst_572888FA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_572888FA","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":340.0,"y":42.0,},
