@@ -8,12 +8,15 @@ switch(room){
 	break;
 	case Line1:
 		whichLevel = "lvl1"
+		collected = 0;
 	break;
 	case Room9:
 		whichLevel = "boss1"
+		collected = 0;
 	break;
 	case Room11:
 		whichLevel = "lvl2"
+		collected = 0;
 	break;
 }
 
