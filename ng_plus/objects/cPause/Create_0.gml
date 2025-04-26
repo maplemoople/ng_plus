@@ -28,6 +28,9 @@ poptions[2] = "Music Volume: " + string(oSoundController.musicVolume * 100);
 poptions[1] = "Fullscreen: " + string(isFullscreen);
 poptions[0] = "Back";
 
+pquit[1] = "Yes"
+pquit[0] = "No"
+
 currentpMenu = pmenu
 
 pmenu_items = array_length_1d(pmenu);

@@ -19,7 +19,7 @@ if(keyboard_check_pressed(vk_escape)){
 			pmenu_control = true;
 		} else if currentpMenu == poptions{
 			currentpMenu = pmenu
-			pmenu_items = array_length_1d(pmenu);
+			pmenu_items = array_length(pmenu);
 			pmenu_committed = -1; 
 			pmenu_control = true; 
 		} else {
@@ -68,20 +68,20 @@ switch(currentpMenu){
 					case 1: 
 					oSoundController.currentFade = 0;
 					currentpMenu = poptions
-					pmenu_items = array_length_1d(poptions);
+					pmenu_items = array_length(poptions);
 					pmenu_committed = -1; 
 					pmenu_control = true; 
 					break;
 		
 					case 0:
-					instance_deactivate_all(true);
-					instance_activate_object(oSoundController);
-					instance_activate_object(saveData);
-					audio_group_stop_all(MUSIC)
-					room_goto(Menu) 
+					currentpMenu = pquit
+					pmenu_items = array_length(pquit);
+					pmenu_committed = -1; 
+					pmenu_control = true; 					
 					break;
 				}
 			}
+		break;
 	case poptions:
 	
 		switch(pmenu_cursor){
@@ -136,7 +136,7 @@ switch(currentpMenu){
 				case 0:
 					saveData.setSaved = 0;
 					currentpMenu = pmenu
-					pmenu_items = array_length_1d(pmenu);
+					pmenu_items = array_length(pmenu);
 					pmenu_committed = -1; 
 					pmenu_control = true;
 			}
@@ -144,6 +144,30 @@ switch(currentpMenu){
 	poptions[3] = "SFX Volume: " + string(oSoundController.sfxVolume * 100);
 	poptions[2] = "Music Volume: " + string(oSoundController.musicVolume * 100);
 	poptions[1] = "Fullscreen: " + string(isFullscreen);
+	break;
+	
+	case pquit:
+		
+			if(pmenu_committed != -1){
+				switch (pmenu_committed){
+		
+				case 0:
+					currentpMenu = pmenu
+					pmenu_items = array_length(pmenu);
+					pmenu_committed = -1
+					pmenu_control = true
+				break
+			
+				case 1:
+						instance_deactivate_all(true);
+						instance_activate_object(oSoundController);
+						instance_activate_object(saveData);
+						audio_group_stop_all(MUSIC)
+						room_goto(Menu) 
+				break
+				}
+			}
+	break;
 }
 		
 

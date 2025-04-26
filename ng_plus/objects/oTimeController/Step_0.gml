@@ -17,6 +17,9 @@ switch(room){
 	break;
 }
 
+if 
+firstTime
+
 //this is when your character hits the red time end or the boss end button thingy, all used to save values at the end :)
 if ends{
 	switch(whichLevel){
@@ -76,6 +79,7 @@ if ends{
 	coinScore = collected * 20
 switch(whichLevel){
 	case "lvl1":
+		if bestLetterScore == "Z" {firstTime = 1} else {firstTime = 0}
 		// COLORS FOR LEVEL 1 ROOM STATS in order: (Deaths, Time, Best Deaths, Best Time)
 		if (obj_player.currentDeaths < 18) dCol = make_color_rgb(obj_player.currentDeaths * 15,0,0) else dCol = make_color_rgb(255,0,0)
 		if (cTime < 300) tCol = make_color_rgb(cTime * 255/300,0,0) else tCol = make_color_rgb(255,0,0)
@@ -121,6 +125,7 @@ switch(whichLevel){
 							}
 	break;
 	case "boss1":
+			if bestBoss1LetterScore == "Z" {firstTime = 1} else {firstTime = 0}
 		// COLORS FOR BOSS 1 ROOM STATS in order: (Deaths, Time, Best Deaths, Best Time)
 		if (obj_player.currentDeaths < 200) dCol = make_color_rgb(obj_player.currentDeaths * 255/200,0,0) else dCol = make_color_rgb(255,0,0)
 		if (cTime < 1300) tCol = make_color_rgb(cTime * 255/1300,0,0) else tCol = make_color_rgb(255,0,0)
@@ -167,6 +172,7 @@ switch(whichLevel){
 							}
 	break;
 	case "lvl2":
+			if bestLetterScore2 == "Z" {firstTime = 1} else {firstTime = 0}
 		// COLORS FOR LEVEL 2 ROOM STATS in order: (Deaths, Time, Best Deaths, Best Time)
 		if (obj_player.currentDeaths < 250) dCol = make_color_rgb(obj_player.currentDeaths * 255/250,0,0) else dCol = make_color_rgb(255,0,0)
 		if (cTime < 1500) tCol = make_color_rgb(cTime * 255/1500,0,0) else tCol = make_color_rgb(255,0,0)

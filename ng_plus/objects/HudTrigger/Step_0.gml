@@ -6,7 +6,7 @@ if toggled%2 != 0{
 		fadeTimer = 120;
 		if opacity < 1{
 			opacity = opacity + 1/fadeInFrames
-		} else opacity = 1;
+		}// else opacity = 1;
 } else {
 	if !oneTime{
 	fadeTimer = 0;
@@ -26,8 +26,9 @@ if !noFadeOut{
 		} else opacity = 0;
 	}
 }
-
-if obj_player.currentDeaths > playerDeathOld{
-	opacity = 1;
-	playerDeathOld = obj_player.currentDeaths
+if !oTimeController.firstTime{
+	if obj_player.currentDeaths > playerDeathOld{
+		opacity = 1;
+		playerDeathOld = obj_player.currentDeaths
+	}
 }

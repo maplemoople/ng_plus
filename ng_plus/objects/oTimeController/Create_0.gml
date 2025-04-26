@@ -12,6 +12,7 @@ BossdCol = 0;
 BosstCol = 0;
 lvl2Unlocked = 0;
 bossUnlocked = 0;
+firstTime = 1;
 
 bestTime = 999999999;
 bestDeaths = 999999;

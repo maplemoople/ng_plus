@@ -1,4 +1,5 @@
-opacity = 1;
+opacity = 0;
+if !oTimeController.firstTime {opacity = 1;}
 fadeOutFrames = 60;
 fadeInFrames = 15;
 fadeTimer = 120;

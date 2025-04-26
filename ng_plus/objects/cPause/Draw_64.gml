@@ -29,5 +29,11 @@ if pause{
 		draw_set_color(col);
 		draw_text(xx,yy,txt);
 	}
+	if currentpMenu == pquit{
+		draw_set_color(c_white)
+		draw_set_alpha(1.00)
+		draw_set_font(fTitle)
+		draw_text(xx,pmenu_y - pmenu_itemheight * 3 * 1.5,"ARE YOU SURE?") //3 is because ARE YOU SURE is techinally the 3rd thing displayed from bottom to top
+	}
 } else {
 }

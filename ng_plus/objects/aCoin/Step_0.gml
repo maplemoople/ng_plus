@@ -12,6 +12,9 @@ if potential{
 		instance_create_layer(x,y,"Bullets",pCoinP)
 		}
 		oTimeController.collected++;
+		if instance_exists(HudTrigger){
+			HudTrigger.opacity = 1;
+		}	
 		audio_play_sound(aCoinCollect,1,false)
 		instance_destroy();
 	}
