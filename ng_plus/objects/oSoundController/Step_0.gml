@@ -227,6 +227,7 @@ if musicStart{
 				}
 			break;
 			case Room7:
+				currentFade = slowFade
 				if audio_sound_get_track_position(wuh) <= 0.1 {
 					audio_sound_gain(asynth1,musicVolume,fadeSpeed)
 					audio_sound_gain(asynth2,musicVolume,fadeSpeed)
@@ -238,6 +239,7 @@ if musicStart{
 				}
 			break;
 			case Line2:
+				currentFade = slowFade
 				if audio_sound_get_track_position(wuh) <= 0.1 {
 					audio_sound_gain(asynth1,musicVolume,fadeSpeed)
 					audio_sound_gain(asynth2,musicVolume,fadeSpeed)
@@ -432,7 +434,7 @@ if musicStart{
 				}
 				break;
 			case Room20:
-				currentFade = noFade;
+				currentFade = slowFade;
 				if audio_sound_get_track_position(wuh) <= 0.1 {
 					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t2,0,fadeSpeed)
@@ -443,7 +445,7 @@ if musicStart{
 				}
 				break;
 			case Room21:
-				currentFade = noFade;
+				currentFade = slowFade;
 				if audio_sound_get_track_position(wuh) <= 0.1 {
 					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
@@ -454,7 +456,7 @@ if musicStart{
 				}
 				break;
 			case Room22:
-				currentFade = noFade;
+				currentFade = slowFade;
 				if audio_sound_get_track_position(wuh) <= 0.1 {
 					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t2,0,fadeSpeed)

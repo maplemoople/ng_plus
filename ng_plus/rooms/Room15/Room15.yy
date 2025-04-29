@@ -147,7 +147,6 @@
     {"name":"inst_45C9AE6","path":"rooms/Room15/Room15.yy",},
     {"name":"inst_389EFE0D","path":"rooms/Room15/Room15.yy",},
     {"name":"inst_6D40138","path":"rooms/Room15/Room15.yy",},
-    {"name":"inst_4C72FD9C","path":"rooms/Room15/Room15.yy",},
     {"name":"inst_2FAA733E","path":"rooms/Room15/Room15.yy",},
     {"name":"inst_5DC907D6","path":"rooms/Room15/Room15.yy",},
     {"name":"inst_3EE3CB01","path":"rooms/Room15/Room15.yy",},
@@ -438,9 +437,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"propertyId":{"name":"bulletSpeed","path":"objects/obj_turret/obj_turret.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2.5",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"propertyId":{"name":"shootspeed","path":"objects/obj_turret/obj_turret.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.87",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":180.0,"scaleX":1.0,"scaleY":1.0,"x":401.0,"y":41.0,},
-        {"$GMRInstance":"v1","%Name":"inst_4C72FD9C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4C72FD9C","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"propertyId":{"name":"bulletSpeed","path":"objects/obj_turret/obj_turret.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2.5",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"x":304.0,"y":31.0,},
         {"$GMRInstance":"v1","%Name":"inst_2FAA733E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2FAA733E","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"hsp","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1.2",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"speedMode","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
