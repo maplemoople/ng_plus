@@ -336,7 +336,7 @@ if musicStart{
 				break;
 			case Room11:
 				currentFade = noFade;
-				if audio_sound_get_track_position(wuh) <= 0.1 {
+				if audio_sound_get_track_position(wuh) <= 0.1  {
 					audio_sound_gain(lvl2t1,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t2,0,fadeSpeed)
 					audio_sound_gain(lvl2t3,0,fadeSpeed)
@@ -396,7 +396,7 @@ if musicStart{
 					audio_sound_gain(lvl2t2,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
-					audio_sound_gain(lvl2t5,0,fadeSpeed)
+					audio_sound_gain(lvl2t5,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t6,0,fadeSpeed)
 				}
 				break;
@@ -408,8 +408,9 @@ if musicStart{
 					audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t5,musicVolume,fadeSpeed)
-					audio_sound_gain(lvl2t6,0,fadeSpeed)
+				
 				}
+					audio_sound_gain(lvl2t6,musicVolume,noFade)
 				break;
 			case Room18:
 				currentFade = noFade;
@@ -419,8 +420,9 @@ if musicStart{
 					audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t5,musicVolume,fadeSpeed)
-					audio_sound_gain(lvl2t6,musicVolume,fadeSpeed)
+					
 				}
+					audio_sound_gain(lvl2t6,musicVolume,noFade)
 				break;
 			case Room19:
 				currentFade = noFade;
@@ -430,8 +432,9 @@ if musicStart{
 					audio_sound_gain(lvl2t3,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t5,musicVolume,fadeSpeed)
-					audio_sound_gain(lvl2t6,musicVolume,fadeSpeed)
+				
 				}
+					audio_sound_gain(lvl2t6,musicVolume,noFade)
 				break;
 			case Room20:
 				currentFade = slowFade;
@@ -441,7 +444,7 @@ if musicStart{
 					audio_sound_gain(lvl2t3,0,fadeSpeed)
 					audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t5,musicVolume,fadeSpeed)
-					audio_sound_gain(lvl2t6,0,fadeSpeed)
+					audio_sound_gain(lvl2t6,0,noFade)
 				}
 				break;
 			case Room21:
@@ -452,8 +455,9 @@ if musicStart{
 					audio_sound_gain(lvl2t3,0,fadeSpeed)
 					audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t5,0,fadeSpeed)
-					audio_sound_gain(lvl2t6,musicVolume,fadeSpeed)
+				
 				}
+					audio_sound_gain(lvl2t6,musicVolume,noFade)
 				break;
 			case Room22:
 				currentFade = slowFade;
@@ -463,8 +467,9 @@ if musicStart{
 					audio_sound_gain(lvl2t3,0,fadeSpeed)
 					audio_sound_gain(lvl2t4,musicVolume,fadeSpeed)
 					audio_sound_gain(lvl2t5,0,fadeSpeed)
-					audio_sound_gain(lvl2t6,musicVolume,fadeSpeed)
+				
 				}
+					audio_sound_gain(lvl2t6,musicVolume,noFade)
 				break;
 		}
 	}

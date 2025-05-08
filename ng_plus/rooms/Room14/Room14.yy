@@ -132,6 +132,7 @@
     {"name":"inst_601975F1","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_1613F69E","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_5D6F9ADE","path":"rooms/Room14/Room14.yy",},
+    {"name":"inst_756840A8","path":"rooms/Room14/Room14.yy",},
   ],
   "isDnd":true,
   "layers":[
@@ -280,7 +281,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"extPlatButton","path":"objects/extPlatButton/extPlatButton.yy",},"propertyId":{"name":"objName2","path":"objects/extPlatButton/extPlatButton.yy",},"resource":{"name":"doorMiniA","path":"objects/doorMiniA/doorMiniA.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"doorMiniA",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"extPlatButton","path":"objects/extPlatButton/extPlatButton.yy",},"propertyId":{"name":"triggerOnce","path":"objects/extPlatButton/extPlatButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"extPlatButton","path":"objects/extPlatButton/extPlatButton.yy",},"propertyId":{"name":"whatColor","path":"objects/extPlatButton/extPlatButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FFBBFFB2",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":19.0,"y":51.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":20.5,"y":52.0,},
         {"$GMRInstance":"v1","%Name":"inst_39AEB88C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39AEB88C","objectId":{"name":"doorMidA","path":"objects/doorMidA/doorMidA.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"doorMidA","path":"objects/doorMidA/doorMidA.yy",},"propertyId":{"name":"whatColor","path":"objects/doorMidA/doorMidA.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FFBBFFB2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":369.0,"y":13.0,},
@@ -309,6 +310,7 @@
         {"$GMRInstance":"v1","%Name":"inst_5D6F9ADE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D6F9ADE","objectId":{"name":"flyingHorz","path":"objects/flyingHorz/flyingHorz.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"flyingHorz","path":"objects/flyingHorz/flyingHorz.yy",},"propertyId":{"name":"initDirection","path":"objects/flyingHorz/flyingHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":97.0,"y":140.0,},
+        {"$GMRInstance":"v1","%Name":"inst_756840A8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_756840A8","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"x":22.5,"y":118.0,},
       ],"layers":[],"name":"Entities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Enemies","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_4758773A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4758773A","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"properties":[

@@ -195,6 +195,7 @@
     {"name":"inst_3F26EDAF","path":"rooms/Room15/Room15.yy",},
     {"name":"inst_761A05F7","path":"rooms/Room15/Room15.yy",},
     {"name":"inst_F82FB13","path":"rooms/Room15/Room15.yy",},
+    {"name":"inst_2570D736","path":"rooms/Room15/Room15.yy",},
   ],
   "isDnd":true,
   "layers":[
@@ -446,6 +447,7 @@
         {"$GMRInstance":"v1","%Name":"inst_5C5B8B52","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5C5B8B52","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":90.0,"scaleX":1.0,"scaleY":1.0,"x":76.0,"y":143.5,},
         {"$GMRInstance":"v1","%Name":"inst_3F26EDAF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3F26EDAF","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":90.0,"scaleX":1.0,"scaleY":1.0,"x":76.0,"y":132.0,},
         {"$GMRInstance":"v1","%Name":"inst_761A05F7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_761A05F7","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":90.0,"scaleX":1.0,"scaleY":1.0,"x":76.0,"y":121.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2570D736","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2570D736","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"x":21.0,"y":191.0,},
       ],"layers":[],"name":"Enemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Bullets","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_74396C44","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_74396C44","objectId":{"name":"doorMiniA","path":"objects/doorMiniA/doorMiniA.yy",},"properties":[
