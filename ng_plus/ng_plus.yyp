@@ -293,6 +293,7 @@
     {"id":{"name":"aDeath","path":"sounds/aDeath/aDeath.yy",},},
     {"id":{"name":"aDoorMoving","path":"sounds/aDoorMoving/aDoorMoving.yy",},},
     {"id":{"name":"aDoorStop","path":"sounds/aDoorStop/aDoorStop.yy",},},
+    {"id":{"name":"aEXPLODE","path":"sounds/aEXPLODE/aEXPLODE.yy",},},
     {"id":{"name":"afat808","path":"sounds/afat808/afat808.yy",},},
     {"id":{"name":"ahiHat","path":"sounds/ahiHat/ahiHat.yy",},},
     {"id":{"name":"aJump","path":"sounds/aJump/aJump.yy",},},

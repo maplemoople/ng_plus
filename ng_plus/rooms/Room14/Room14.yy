@@ -71,7 +71,6 @@
     {"name":"inst_2D656935","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_547D7E20","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_3EE11D10","path":"rooms/Room14/Room14.yy",},
-    {"name":"inst_4758773A","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_5B4383A7","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_2F589149","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_7C48E3E6","path":"rooms/Room14/Room14.yy",},
@@ -104,7 +103,6 @@
     {"name":"inst_166608B7","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_73A64155","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_5A705F64","path":"rooms/Room14/Room14.yy",},
-    {"name":"inst_598C4E56","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_613D6AD4","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_735C81A7","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_357F284E","path":"rooms/Room14/Room14.yy",},
@@ -133,6 +131,7 @@
     {"name":"inst_1613F69E","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_5D6F9ADE","path":"rooms/Room14/Room14.yy",},
     {"name":"inst_756840A8","path":"rooms/Room14/Room14.yy",},
+    {"name":"inst_6CD8D4C9","path":"rooms/Room14/Room14.yy",},
   ],
   "isDnd":true,
   "layers":[
@@ -288,7 +287,6 @@
         {"$GMRInstance":"v1","%Name":"inst_5524F4CE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5524F4CE","objectId":{"name":"doorMiniA","path":"objects/doorMiniA/doorMiniA.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"doorMiniA","path":"objects/doorMiniA/doorMiniA.yy",},"propertyId":{"name":"whatColor","path":"objects/doorMiniA/doorMiniA.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FFBBFFB2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":190.0,"y":-14.0,},
-        {"$GMRInstance":"v1","%Name":"inst_598C4E56","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_598C4E56","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":175.0,"y":29.0,},
         {"$GMRInstance":"v1","%Name":"inst_613D6AD4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_613D6AD4","objectId":{"name":"oneTimeTrigger","path":"objects/oneTimeTrigger/oneTimeTrigger.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oneTimeTrigger","path":"objects/oneTimeTrigger/oneTimeTrigger.yy",},"propertyId":{"name":"objTrigger","path":"objects/oneTimeTrigger/oneTimeTrigger.yy",},"resource":{"name":"flyingTurretHorzD","path":"objects/flyingTurretHorzD/flyingTurretHorzD.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"flyingTurretHorzD",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oneTimeTrigger","path":"objects/oneTimeTrigger/oneTimeTrigger.yy",},"propertyId":{"name":"obj2","path":"objects/oneTimeTrigger/oneTimeTrigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
@@ -313,16 +311,16 @@
         {"$GMRInstance":"v1","%Name":"inst_756840A8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_756840A8","objectId":{"name":"SpikySpiky","path":"objects/SpikySpiky/SpikySpiky.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"x":22.5,"y":118.0,},
       ],"layers":[],"name":"Entities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Enemies","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_4758773A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4758773A","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"hsp","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.9",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"speedHsp","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.08",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"speedAccel","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.08",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":201.0,"y":208.0,},
         {"$GMRInstance":"v1","%Name":"inst_1380B648","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1380B648","objectId":{"name":"flyingTurretHorzD","path":"objects/flyingTurretHorzD/flyingTurretHorzD.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"flyingTurretHorzD","path":"objects/flyingTurretHorzD/flyingTurretHorzD.yy",},"propertyId":{"name":"hsp","path":"objects/flyingTurretHorzD/flyingTurretHorzD.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.9",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"flyingTurretHorzD","path":"objects/flyingTurretHorzD/flyingTurretHorzD.yy",},"propertyId":{"name":"image_speed","path":"objects/flyingTurretHorzD/flyingTurretHorzD.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.5",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":94.0,"y":10.0,},
         {"$GMRInstance":"v1","%Name":"inst_31D7E36","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_31D7E36","objectId":{"name":"extendoplatformHBLong","path":"objects/extendoplatformHBLong/extendoplatformHBLong.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":494.0,"y":233.5,},
+        {"$GMRInstance":"v1","%Name":"inst_6CD8D4C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6CD8D4C9","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"hsp","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.9",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"speedHsp","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.08",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"groundSpikeHorz","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"propertyId":{"name":"speedAccel","path":"objects/groundSpikeHorz/groundSpikeHorz.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.08",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":156.0,"y":208.0,},
       ],"layers":[],"name":"Enemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Bullets","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Bullets","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Backgrounds_2","animationFPS":15.0,"animationSpeedType":0,"colour":4293583066,"depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Backgrounds_2","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},

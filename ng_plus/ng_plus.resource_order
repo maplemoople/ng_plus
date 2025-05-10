@@ -248,6 +248,7 @@
     {"name":"aDeath","order":2,"path":"sounds/aDeath/aDeath.yy",},
     {"name":"aDoorMoving","order":10,"path":"sounds/aDoorMoving/aDoorMoving.yy",},
     {"name":"aDoorStop","order":11,"path":"sounds/aDoorStop/aDoorStop.yy",},
+    {"name":"aEXPLODE","order":13,"path":"sounds/aEXPLODE/aEXPLODE.yy",},
     {"name":"afat808","order":6,"path":"sounds/afat808/afat808.yy",},
     {"name":"ahiHat","order":3,"path":"sounds/ahiHat/ahiHat.yy",},
     {"name":"akick","order":4,"path":"sounds/akick/akick.yy",},

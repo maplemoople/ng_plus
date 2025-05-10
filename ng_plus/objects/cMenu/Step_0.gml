@@ -18,8 +18,8 @@ if object_exists(saveData) && !setLoaded{
 		oSoundController.musicVolume = _loadSettings.musicVol;
 		amFullscreen = _loadSettings.sFullscreen
 	} else {
-		oSoundController.sfxVolume = 0.5
-		oSoundController.musicVolume = 0.5
+		oSoundController.sfxVolume = 0.3
+		oSoundController.musicVolume = 0.3
 		amFullscreen = true;
 	}
 	window_set_fullscreen(amFullscreen)
