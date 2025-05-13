@@ -5,7 +5,7 @@ gui_height = display_get_gui_height();
 gui_margin = 32;
 
 menu_x = gui_width/2; // + 200 for animation or something
-menu_y = (gui_height/2)+200;
+menu_y = (gui_height/2)+150;
 menu_x_target = (gui_width/2) - gui_margin;
 menu_speed = 25; //lower is faster
 menu_font = fMenu;
@@ -125,6 +125,7 @@ mbestTime2 =999;
 mbestDeaths2 =999;
 mbestLetterScore2 = "Z";
 mbestCollected2 = -1;
+
 gameVer = 0;
 
 if (file_exists("savedgame.save")){

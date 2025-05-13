@@ -94,13 +94,13 @@ switch(whichLevel){
 			letterScore = "S";
 			gradeColor = make_color_rgb(252, 186, 3)
 			scoreOutline = c_white
-			scoreOutlineSize = 6
+			scoreOutlineSize = 4
 		}
 		else if(endScore < 150){
 				letterScore = "A";
 				gradeColor = make_color_rgb(184, 184, 184)
 				scoreOutline = c_white
-				scoreOutlineSize = 3;
+				scoreOutlineSize = 2;
 			}
 			else if(endScore < 200){
 					letterScore = "B";
@@ -140,14 +140,14 @@ switch(whichLevel){
 			letterScore = "S";
 			gradeColor = make_color_rgb(252, 186, 3)
 			scoreOutline = c_white
-			scoreOutlineSize = 6;
+			scoreOutlineSize = 4;
 			
 		}
 		else if(endScore < 110){ //1:30 with 10 deaths
 				letterScore = "A";
 				gradeColor = make_color_rgb(184, 184, 184)
 				scoreOutline = c_white
-				scoreOutlineSize = 3;
+				scoreOutlineSize = 2;
 			}
 			else if(endScore < 400){ //5:00 with 50 deaths
 					letterScore = "B";
@@ -187,13 +187,13 @@ switch(whichLevel){
 			letterScore = "S";
 			gradeColor = make_color_rgb(252, 186, 3)
 			scoreOutline = c_white
-			scoreOutlineSize = 6
+			scoreOutlineSize = 4;
 		}
 		else if(endScore < 1780){
 				letterScore = "A";
 				gradeColor = make_color_rgb(184, 184, 184)
 				scoreOutline = c_white
-				scoreOutlineSize = 3;
+				scoreOutlineSize = 2;
 			}
 			else if(endScore < 2180){
 					letterScore = "B";
@@ -226,12 +226,12 @@ switch(whichLevel){
 			case "S":
 				bgradeColor = make_color_rgb(252, 186, 3)
 				bestOutline = c_white;
-				bestOutlineSize = 6;
+				bestOutlineSize = 4;
 			break;
 			case "A":
 				bgradeColor = make_color_rgb(184, 184, 184)
 				bestOutline = c_white;
-				bestOutlineSize = 3;
+				bestOutlineSize = 2;
 			break;
 			case "B":
 				bgradeColor = make_color_rgb(181, 119, 62)
@@ -242,12 +242,12 @@ switch(whichLevel){
 			case "S":
 				BossgradeColor = make_color_rgb(252, 186, 3)
 				bestBossOutline = c_white;
-				bestBossOutlineSize = 6
+				bestBossOutlineSize = 4
 			break;
 			case "A":
 				BossgradeColor = make_color_rgb(184, 184, 184)
 				bestBossOutline = c_white;
-				bestBossOutlineSize = 3
+				bestBossOutlineSize = 2
 			break;
 			case "B":
 				BossgradeColor = make_color_rgb(181, 119, 62)
