@@ -95,6 +95,8 @@
     {"name":"inst_1107E20C","path":"rooms/Room11/Room11.yy",},
     {"name":"inst_746013BA","path":"rooms/Room11/Room11.yy",},
     {"name":"inst_49D0CA47","path":"rooms/Room11/Room11.yy",},
+    {"name":"inst_7C24B788","path":"rooms/Room11/Room11.yy",},
+    {"name":"inst_6A771CE5","path":"rooms/Room11/Room11.yy",},
   ],
   "isDnd":true,
   "layers":[
@@ -215,6 +217,8 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"propertyId":{"name":"shootStart","path":"objects/obj_turret/obj_turret.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"x":147.0,"y":31.0,},
         {"$GMRInstance":"v1","%Name":"inst_E37EC02","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E37EC02","objectId":{"name":"aCoin","path":"objects/aCoin/aCoin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":63.0,"y":160.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7C24B788","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C24B788","objectId":{"name":"homingBomb","path":"objects/homingBomb/homingBomb.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":119.0,"y":162.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6A771CE5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A771CE5","objectId":{"name":"obj_turrethoming","path":"objects/obj_turrethoming/obj_turrethoming.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":90.0,"scaleX":1.0,"scaleY":1.0,"x":124.5,"y":136.0,},
       ],"layers":[],"name":"Enemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Bullets","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Bullets","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
