@@ -313,8 +313,10 @@ switch(currentMenu){
 						break;
 						
 						case 3:
-							menu_committed = -1; 
-							menu_control = true;
+							instance_create_layer(12,123,"Player",obj_player)
+							room_goto(TESTROOM)
+					//		menu_committed = -1; 
+					//		menu_control = true;
 						break;
 						}
 					}

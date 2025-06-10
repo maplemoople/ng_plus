@@ -144,6 +144,7 @@
     {"id":{"name":"gtHitbox","path":"objects/gtHitbox/gtHitbox.yy",},},
     {"id":{"name":"gtTHitbox","path":"objects/gtTHitbox/gtTHitbox.yy",},},
     {"id":{"name":"homingBomb","path":"objects/homingBomb/homingBomb.yy",},},
+    {"id":{"name":"homingBombLight","path":"objects/homingBombLight/homingBombLight.yy",},},
     {"id":{"name":"HudTrigger","path":"objects/HudTrigger/HudTrigger.yy",},},
     {"id":{"name":"indicator","path":"objects/indicator/indicator.yy",},},
     {"id":{"name":"obj_checkpoint_controller","path":"objects/obj_checkpoint_controller/obj_checkpoint_controller.yy",},},
@@ -224,6 +225,7 @@
     {"id":{"name":"Room7","path":"rooms/Room7/Room7.yy",},},
     {"id":{"name":"Room8","path":"rooms/Room8/Room8.yy",},},
     {"id":{"name":"Room9","path":"rooms/Room9/Room9.yy",},},
+    {"id":{"name":"TESTROOM","path":"rooms/TESTROOM/TESTROOM.yy",},},
     {"id":{"name":"Acceleration","path":"scripts/Acceleration/Acceleration.yy",},},
     {"id":{"name":"animation_end","path":"scripts/animation_end/animation_end.yy",},},
     {"id":{"name":"collectedHUD","path":"scripts/collectedHUD/collectedHUD.yy",},},
@@ -501,6 +503,7 @@
     {"roomId":{"name":"Boss1","path":"rooms/Boss1/Boss1.yy",},},
     {"roomId":{"name":"Line3","path":"rooms/Line3/Line3.yy",},},
     {"roomId":{"name":"Room19","path":"rooms/Room19/Room19.yy",},},
+    {"roomId":{"name":"TESTROOM","path":"rooms/TESTROOM/TESTROOM.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
