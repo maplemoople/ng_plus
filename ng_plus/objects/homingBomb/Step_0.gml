@@ -1,19 +1,9 @@
+if trackcountdown > 0{
+	trackcountdown--
+} else {startTracking = true}
 radDir = direction * pi/180;
 hsp = velocity * cos(radDir);
 vsp = velocity * sin(radDir);
-
-with(light){
-		x = owner.x + owner.hsp
-		y = owner.y - owner.vsp
-		direction = owner.direction
-		if owner.startBoom{
-			image_speed = 	lerp(image_speed,2,2/150)
-			if owner.countdown <20{
-				image_speed = 0;
-				image_index = 1;
-			}
-		}
-}
 
 //horizontal collision
 if (place_meeting(x+hsp, y, obj_wall)){
@@ -22,6 +12,7 @@ if (place_meeting(x+hsp, y, obj_wall)){
 	}
 	hsp = 0;
 	startBoom = 1;
+
 } else 	x += hsp;
 
 //vertical collision
@@ -32,14 +23,36 @@ if (place_meeting(x, y-vsp, obj_wall)){
 		vsp = 0;
 		startBoom = 1;
 }  else y -= vsp;
-	
 
-if !collision_line(x, y, obj_player.x, obj_player.y,obj_wall,false, false){
-	direction += angle_difference(point_direction(x,y,obj_player.x,obj_player.y),direction) * 0.1
-} else {
-	mp_potential_step_object(obj_player.x,obj_player.y, velocity/pi,obj_wall);
+with(visual){
+	 	image_angle += power(owner.velocity*3,2)
+		x = owner.x
+		y = owner.y
+		direction = owner.direction
+		if owner.startBoom{
+			sprite_index = spHomingBombExploding
+		}
 }
 
+if startTracking{
+	if !collision_line(x, y, obj_player.x, obj_player.y,obj_wall,false, false){
+		direction += angle_difference(point_direction(x,y,obj_player.x,obj_player.y),direction) * 0.1
+	} else {
+		if !startBoom{
+			mp_potential_step_object(obj_player.x,obj_player.y, velocity/4,obj_wall);
+		}
+	}
+}
+
+if startBoom{
+	sprite_index = spHomingBombExploding
+	mask_index = spHomingBomb
+	velocity = lerp(velocity,0,0.075)
+} else {
+		velocity = lerp(velocity,0.85,0.03);
+	}	
+#region old
+/*
 if startBoom{
 	countdown--
 	if countdown <= 3{
@@ -61,4 +74,6 @@ if startBoom{
 	}
 	velocity = lerp(velocity,0,2/300)
 } else 	velocity = 0.85;
+*/
 
+#endregion
