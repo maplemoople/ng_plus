@@ -1,0 +1,1 @@
+draw_sprite(spTeleporterFin,image_index,x,y)
