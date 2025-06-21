@@ -1,5 +1,7 @@
 if sprite_index = spHomingBombExploding{
-	instance_create_layer(x,y,"Bullets",fatExplosion)
+	if !collision_line(x,y,obj_player.x,obj_player.y,obj_wall,false,false){
+		instance_create_layer(x,y,"Bullets",fatExplosion)
+	}
 	screenShake(10,3)
 	audio_play_sound(aEXPLODE,1,false)
 		

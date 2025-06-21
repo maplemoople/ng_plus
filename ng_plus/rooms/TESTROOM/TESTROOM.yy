@@ -63,7 +63,6 @@
     {"name":"inst_40D389D5","path":"rooms/TESTROOM/TESTROOM.yy",},
     {"name":"inst_69D86283","path":"rooms/TESTROOM/TESTROOM.yy",},
     {"name":"inst_5D603886","path":"rooms/TESTROOM/TESTROOM.yy",},
-    {"name":"inst_76515F3D","path":"rooms/TESTROOM/TESTROOM.yy",},
   ],
   "isDnd":true,
   "layers":[
@@ -151,16 +150,15 @@
         {"$GMRInstance":"v1","%Name":"inst_40D389D5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_40D389D5","objectId":{"name":"teleporter","path":"objects/teleporter/teleporter.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"teleporter","path":"objects/teleporter/teleporter.yy",},"propertyId":{"name":"tpx","path":"objects/teleporter/teleporter.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"69",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"teleporter","path":"objects/teleporter/teleporter.yy",},"propertyId":{"name":"tpy","path":"objects/teleporter/teleporter.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"83",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":422.0,"y":270.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":421.0,"y":269.0,},
         {"$GMRInstance":"v1","%Name":"inst_69D86283","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69D86283","objectId":{"name":"teleporter","path":"objects/teleporter/teleporter.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"teleporter","path":"objects/teleporter/teleporter.yy",},"propertyId":{"name":"tpx","path":"objects/teleporter/teleporter.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"327",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"teleporter","path":"objects/teleporter/teleporter.yy",},"propertyId":{"name":"tpy","path":"objects/teleporter/teleporter.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"253",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":97.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":93.0,},
         {"$GMRInstance":"v1","%Name":"inst_5D603886","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D603886","objectId":{"name":"teleporter","path":"objects/teleporter/teleporter.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"teleporter","path":"objects/teleporter/teleporter.yy",},"propertyId":{"name":"tpx","path":"objects/teleporter/teleporter.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"246",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"teleporter","path":"objects/teleporter/teleporter.yy",},"propertyId":{"name":"tpy","path":"objects/teleporter/teleporter.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"14",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":243.0,"y":270.0,},
-        {"$GMRInstance":"v1","%Name":"inst_76515F3D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76515F3D","objectId":{"name":"button","path":"objects/button/button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":61.0,"y":85.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":243.0,"y":269.0,},
       ],"layers":[],"name":"Entities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Bullets","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Bullets","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Enemies","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Enemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

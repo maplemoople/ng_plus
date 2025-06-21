@@ -12,18 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"64bb3c2e-ac3d-4395-9f62-7ffa019989f3","name":"64bb3c2e-ac3d-4395-9f62-7ffa019989f3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e26d23c1-cf21-4834-a04b-2210d70b83c7","name":"e26d23c1-cf21-4834-a04b-2210d70b83c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":10,
+  "height":6,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0c5d7725-94f6-49ce-a98f-d4dfb8db5788","blendMode":0,"displayName":"default","isLocked":false,"name":"0c5d7725-94f6-49ce-a98f-d4dfb8db5788","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"21720b26-c29d-4aed-adb2-a01b7ca18d19","blendMode":0,"displayName":"default","isLocked":false,"name":"21720b26-c29d-4aed-adb2-a01b7ca18d19","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spTeleporterTP",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"64bb3c2e-ac3d-4395-9f62-7ffa019989f3","path":"sprites/spTeleporterTP/spTeleporterTP.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"35fdbfc8-5235-403f-86d5-3d45bfaabb4d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e26d23c1-cf21-4834-a04b-2210d70b83c7","path":"sprites/spTeleporterTP/spTeleporterTP.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"99ff34a5-0db7-4bfa-ab28-d20a050c76f4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":9,
-    "yorigin":7,
+    "yorigin":3,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
