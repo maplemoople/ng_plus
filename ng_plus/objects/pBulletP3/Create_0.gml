@@ -1,7 +1,8 @@
 image_angle = random_range(0,359)
-hsp = random_range(-8,8);
-vsp = random_range(-8,8);
-vanishSpeed = 0.08
+vsp = 0
+hsp = 0
+aliveFor = random_range(30,180)
+timer = 0;
 palerand = 0;
 size = 1;
 grv = 0;

@@ -9,6 +9,7 @@ if sprite_index = spHomingBombExploding{
 			xrand = random_range(-10,10)
 			yrand = random_range(-10 + xrand, 10 - xrand)
 			with (instance_create_layer(x + xrand,y + yrand,"Bullets",pBulletP2)){
+				buh = 0.1
 				size = random_range(0.5,2.5)
 				palerand = random_range(0,150)
 				image_xscale = size

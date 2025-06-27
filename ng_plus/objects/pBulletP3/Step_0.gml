@@ -22,10 +22,10 @@ x = x + hsp;
 y = y - vsp
 
 vsp += grv;
-image_alpha = image_alpha - vanishSpeed
-if image_alpha < 0{
-	instance_destroy();
+timer++
+if timer >= 0.6 * aliveFor{
+image_alpha = image_alpha - 1/0.4*aliveFor
 }
-if image_alpha < 0.6{
-	grv = buh
+if timer >= aliveFor{
+	instance_destroy()	
 }

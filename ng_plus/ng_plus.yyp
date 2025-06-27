@@ -184,6 +184,7 @@
     {"id":{"name":"pBullet","path":"objects/pBullet/pBullet.yy",},},
     {"id":{"name":"pBulletP","path":"objects/pBulletP/pBulletP.yy",},},
     {"id":{"name":"pBulletP2","path":"objects/pBulletP2/pBulletP2.yy",},},
+    {"id":{"name":"pBulletP3","path":"objects/pBulletP3/pBulletP3.yy",},},
     {"id":{"name":"pCoinP","path":"objects/pCoinP/pCoinP.yy",},},
     {"id":{"name":"pGun","path":"objects/pGun/pGun.yy",},},
     {"id":{"name":"pGunBase","path":"objects/pGunBase/pGunBase.yy",},},
