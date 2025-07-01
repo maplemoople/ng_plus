@@ -29,3 +29,7 @@ image_alpha = image_alpha - 1/0.4*aliveFor
 if timer >= aliveFor{
 	instance_destroy()	
 }
+if type = 0{
+	hsp = lerp(hsp,0,0.08)
+	vsp = lerp(vsp,0,0.3)
+}

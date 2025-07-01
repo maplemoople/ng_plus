@@ -1,9 +1,31 @@
 if (ontop){
+	if image_index >= 20{
+		guh = guh - 5
+		obj_player.image_blend = make_color_rgb(255,guh,guh)
+	}
 	if  image_index > 31 && sprite_index == spTeleporter{
-	image_speed = 0;
-	obj_player.x = tpx
-	obj_player.y = tpy
-	cooldown = 120
+		image_speed = 0;
+		repeat(8){
+			xrand = random_range(-2,2)
+			yrand = random_range(-2,2)
+			particleSpeed++
+			with (instance_create_layer(obj_player.x + xrand, obj_player.y + yrand,FrontOrBack, pBulletP3)){
+					buh = -0.3
+					grv = 0.1
+					size = random_range(0.3,1)
+					palerand = random_range(0,150)
+					hsp = random_range(-1,1)
+					vsp = random_range(-1,0.5)
+					image_xscale = size
+					image_yscale = size
+					image_blend = (make_color_rgb(255,palerand,palerand))
+					//aliveFor = random_range(30,60)
+					type = 0
+			}
+		}
+		obj_player.x = tpx
+		obj_player.y = tpy
+		cooldown = 120
 	} else {
 		image_speed = 1;
 	}
@@ -22,12 +44,17 @@ with TP{
 if cooldown >= 0 {
 	sprite_index = spTeleporterCooldown
 	image_speed = 1;
+	particleSpeed = -4;
 	cooldown--
 } else if sprite_index == spTeleporterCooldown{
 	sprite_index = spTeleporter;
 	image_index = 28;
 } else sprite_index = spTeleporter
 
+if guh < 255 && !ontop {
+	obj_player.image_blend = make_color_rgb(255, guh, guh)
+	guh += 1
+} 
 
 spawnParticleBOOM = random_range(15,70)
 spawnParticleTimer += 1 +  image_index/6
@@ -53,7 +80,7 @@ if spawnParticleTimer>=spawnParticleBOOM && cooldown <= 0{
 				image_xscale = size
 				image_yscale = size
 				image_blend = (make_color_rgb(255,palerand,palerand))
-				vanishSpeed = random_range(0.03,0.15)
+				//aliveFor = random_range(20,100)
 			}
 	}
 }

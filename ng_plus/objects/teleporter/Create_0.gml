@@ -14,3 +14,5 @@ spawnParticleTimer = 0
 spawnParticleBOOM = 35
 TopOrBottom = 0;
 FrontOrBack = "Controllers_Camera";
+guh = 255; //amount of red for image_blend
+particleSpeed = -4

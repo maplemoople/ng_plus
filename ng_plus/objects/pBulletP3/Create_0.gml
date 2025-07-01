@@ -7,3 +7,4 @@ palerand = 0;
 size = 1;
 grv = 0;
 buh = 0;
+type = 1;
