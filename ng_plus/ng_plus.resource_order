@@ -281,6 +281,7 @@
     {"name":"lvl2t4","order":3,"path":"sounds/lvl2t4/lvl2t4.yy",},
     {"name":"lvl2t5","order":4,"path":"sounds/lvl2t5/lvl2t5.yy",},
     {"name":"lvl2t6","order":5,"path":"sounds/lvl2t6/lvl2t6.yy",},
+    {"name":"teleport","order":14,"path":"sounds/teleport/teleport.yy",},
     {"name":"bFActivated","order":30,"path":"sprites/bFActivated/bFActivated.yy",},
     {"name":"blueButton","order":4,"path":"sprites/blueButton/blueButton.yy",},
     {"name":"bNoSpike","order":31,"path":"sprites/bNoSpike/bNoSpike.yy",},

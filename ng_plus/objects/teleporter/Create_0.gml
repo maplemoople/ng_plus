@@ -15,4 +15,7 @@ spawnParticleBOOM = 35
 TopOrBottom = 0;
 FrontOrBack = "Controllers_Camera";
 guh = 255; //amount of red for image_blend
+buh = 0; //check for sound to stop or start playing
+wuh = 0; //used for single playing of sounds
+weener = -1;
 particleSpeed = -4

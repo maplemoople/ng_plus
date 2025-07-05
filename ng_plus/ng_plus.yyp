@@ -331,6 +331,7 @@
     {"id":{"name":"lvl2t4","path":"sounds/lvl2t4/lvl2t4.yy",},},
     {"id":{"name":"lvl2t5","path":"sounds/lvl2t5/lvl2t5.yy",},},
     {"id":{"name":"lvl2t6","path":"sounds/lvl2t6/lvl2t6.yy",},},
+    {"id":{"name":"teleport","path":"sounds/teleport/teleport.yy",},},
     {"id":{"name":"bFActivated","path":"sprites/bFActivated/bFActivated.yy",},},
     {"id":{"name":"blueButton","path":"sprites/blueButton/blueButton.yy",},},
     {"id":{"name":"bNoSpike","path":"sprites/bNoSpike/bNoSpike.yy",},},

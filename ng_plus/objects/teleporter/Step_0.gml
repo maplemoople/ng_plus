@@ -1,3 +1,6 @@
+if !audio_is_playing(weener){
+	wuh = 0;
+}
 if (ontop){
 	if image_index >= 20{
 		guh = guh - 5
@@ -26,13 +29,21 @@ if (ontop){
 		obj_player.x = tpx
 		obj_player.y = tpy
 		cooldown = 120
+		buh = 1;
 	} else {
 		image_speed = 1;
+	}
+	if !wuh{
+		weener = audio_play_sound(teleport,0,0,oSoundController.sfxVolume,image_index/20)
+		wuh = 1;
 	}
 } else if image_index >1 && sprite_index == spTeleporter{
 	image_speed = -1;
 } else if image_index < 1 && sprite_index == spTeleporter{
 	image_speed = 0;
+}
+if !ontop && !buh{
+	audio_stop_sound(weener)
 }
 
 with TP{
@@ -48,6 +59,7 @@ if cooldown >= 0 {
 	cooldown--
 } else if sprite_index == spTeleporterCooldown{
 	sprite_index = spTeleporter;
+	buh = 0;
 	image_index = 28;
 } else sprite_index = spTeleporter
 
