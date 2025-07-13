@@ -34,7 +34,7 @@ if (ontop){
 		image_speed = 1;
 	}
 	if !wuh{
-		weener = audio_play_sound(teleport,0,0,oSoundController.sfxVolume,image_index/20)
+		weener = audio_play_sound(ateleport,0,0,oSoundController.sfxVolume,image_index/20)
 		wuh = 1;
 	}
 } else if image_index >1 && sprite_index == spTeleporter{
