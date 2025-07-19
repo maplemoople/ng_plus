@@ -154,6 +154,7 @@
     {"name":"pBulletP","order":3,"path":"objects/pBulletP/pBulletP.yy",},
     {"name":"pBulletP2","order":10,"path":"objects/pBulletP2/pBulletP2.yy",},
     {"name":"pBulletP3","order":11,"path":"objects/pBulletP3/pBulletP3.yy",},
+    {"name":"pBulletP4","order":12,"path":"objects/pBulletP4/pBulletP4.yy",},
     {"name":"pCoinP","order":8,"path":"objects/pCoinP/pCoinP.yy",},
     {"name":"pGun","order":4,"path":"objects/pGun/pGun.yy",},
     {"name":"pGunBase","order":5,"path":"objects/pGunBase/pGunBase.yy",},
