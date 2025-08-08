@@ -6,7 +6,7 @@
 //	x = x + sign(hsp);
 //	}
 	hsp = 0;
-	
+	disappear = true
 } 
 x = x + hsp;
 
@@ -17,7 +17,7 @@ x = x + hsp;
 //	y = y - sign(vsp);
 //	}
 	vsp = 0;
-	
+	disappear = true
 }
 y = y - vsp
 
@@ -25,9 +25,10 @@ image_angle += spinspeed
 
 vsp += grv;
 timer++
-if timer >= 0.6 * aliveFor{
-image_alpha = image_alpha - 1/0.4*aliveFor
+if !instance_place(x,y,FAN) || disappear {
+image_alpha = image_alpha - 1/aliveForFrames
 }
-if timer >= aliveFor{
-	instance_destroy()	
+
+if image_alpha <= 0{
+	instance_destroy()
 }

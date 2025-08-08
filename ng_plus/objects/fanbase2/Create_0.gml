@@ -1,0 +1,2 @@
+initx = x
+inity = y
