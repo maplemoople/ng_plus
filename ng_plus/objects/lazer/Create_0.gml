@@ -4,3 +4,4 @@ distance = 0;
 collide = [obj_wall, obj_wallvert]
 heightOfSprite = sprite_height
 whatsBelowMe = 0
+place = "Bullets"
