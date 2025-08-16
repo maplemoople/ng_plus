@@ -127,6 +127,7 @@
     {"id":{"name":"extendoplatformSmallA","path":"objects/extendoplatformSmallA/extendoplatformSmallA.yy",},},
     {"id":{"name":"extendoplatformSmallHA","path":"objects/extendoplatformSmallHA/extendoplatformSmallHA.yy",},},
     {"id":{"name":"extPlatButton","path":"objects/extPlatButton/extPlatButton.yy",},},
+    {"id":{"name":"fakePlayer","path":"objects/fakePlayer/fakePlayer.yy",},},
     {"id":{"name":"FAN","path":"objects/FAN/FAN.yy",},},
     {"id":{"name":"fanbase","path":"objects/fanbase/fanbase.yy",},},
     {"id":{"name":"fanbase2","path":"objects/fanbase2/fanbase2.yy",},},

@@ -1,0 +1,1 @@
+fakePlayer.state = PLAYERSTATE.DEAD

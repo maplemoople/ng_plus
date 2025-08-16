@@ -96,6 +96,7 @@
     {"name":"extendoplatformSmallA","order":33,"path":"objects/extendoplatformSmallA/extendoplatformSmallA.yy",},
     {"name":"extendoplatformSmallHA","order":34,"path":"objects/extendoplatformSmallHA/extendoplatformSmallHA.yy",},
     {"name":"extPlatButton","order":10,"path":"objects/extPlatButton/extPlatButton.yy",},
+    {"name":"fakePlayer","order":13,"path":"objects/fakePlayer/fakePlayer.yy",},
     {"name":"FAN","order":46,"path":"objects/FAN/FAN.yy",},
     {"name":"fanbase","order":47,"path":"objects/fanbase/fanbase.yy",},
     {"name":"fanbase2","order":48,"path":"objects/fanbase2/fanbase2.yy",},
