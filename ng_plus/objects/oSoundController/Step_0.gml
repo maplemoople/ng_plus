@@ -482,3 +482,8 @@ if musicStart{
 				break;
 		}
 	}
+if instance_exists(lazer) && !audio_is_playing(aLazer){
+	audio_play_sound(aLazer,0,1,3*sfxVolume);
+} else if (!instance_exists(lazer)) {
+	audio_stop_sound(aLazer)
+}

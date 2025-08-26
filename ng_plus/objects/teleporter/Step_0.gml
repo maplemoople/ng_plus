@@ -2,11 +2,20 @@ if !audio_is_playing(weener){
 	wuh = 0;
 }
 if (ontop){
+	if !instance_exists(teleporterMirage){
+		with(instance_create_layer(tpx,tpy,"Player", teleporterMirage)){
+			owner = other.id
+			owner.Mirage = id
+			image_blend = make_color_rgb(255,0,0)
+			image_alpha = 0
+		}
+	}
 	if image_index >= 20{
 		guh = guh - 5
 		obj_player.image_blend = make_color_rgb(255,guh,guh)
 	}
 	if  image_index > 31 && sprite_index == spTeleporter{
+		instance_destroy(Mirage)
 		image_speed = 0;
 		repeat(8){
 			xrand = random_range(-2,2)
