@@ -1,1 +1,1 @@
-fakePlayer.state = PLAYERSTATE.DEAD
+other.state = PLAYERSTATE.DEAD

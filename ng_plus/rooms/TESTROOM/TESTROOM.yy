@@ -78,6 +78,7 @@
     {"name":"inst_7CDAE77E","path":"rooms/TESTROOM/TESTROOM.yy",},
     {"name":"inst_7FAF1309","path":"rooms/TESTROOM/TESTROOM.yy",},
     {"name":"inst_3CD0E1B5","path":"rooms/TESTROOM/TESTROOM.yy",},
+    {"name":"inst_41511451","path":"rooms/TESTROOM/TESTROOM.yy",},
   ],
   "isDnd":true,
   "layers":[
@@ -180,6 +181,7 @@
         {"$GMRInstance":"v1","%Name":"inst_3CD0E1B5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3CD0E1B5","objectId":{"name":"extPlatButton","path":"objects/extPlatButton/extPlatButton.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"extPlatButton","path":"objects/extPlatButton/extPlatButton.yy",},"propertyId":{"name":"objName","path":"objects/extPlatButton/extPlatButton.yy",},"resource":{"name":"lazerBase","path":"objects/lazerBase/lazerBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"lazerBase",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":84.0,"y":134.0,},
+        {"$GMRInstance":"v1","%Name":"inst_41511451","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_41511451","objectId":{"name":"cloneMachineBase","path":"objects/cloneMachineBase/cloneMachineBase.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":87.0,"y":203.0,},
       ],"layers":[],"name":"DoorLayer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Entities","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Entities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Bullets","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Bullets","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

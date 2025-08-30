@@ -177,6 +177,7 @@ switch (state){
 			}
 			blowup = 1
 		}
+		owner.Lives--
 		instance_destroy()
 	#endregion
 }
