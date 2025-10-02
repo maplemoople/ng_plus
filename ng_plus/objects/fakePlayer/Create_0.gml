@@ -45,3 +45,12 @@ ends = 0;
 time = 0;
 touched = 0;
 state = PLAYERSTATE.FREE;
+cloneLight = cloneMachineL1
+light = 0
+
+with(instance_create_layer(cloneMachineBase.x,cloneMachineBase.y,"Gun",cloneLight)){
+					owner = other.id;
+					owner.light = object_index;
+					image_speed = 0;
+					image_index = 12;
+}

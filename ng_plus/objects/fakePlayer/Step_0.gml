@@ -181,3 +181,6 @@ switch (state){
 		instance_destroy()
 	#endregion
 }
+if obj_player.blowup = 1 {
+	state = PLAYERSTATE.DEAD
+}
