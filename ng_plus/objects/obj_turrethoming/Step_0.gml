@@ -1,9 +1,11 @@
 if image_index >= 6{
 	if !collision_line(x, y, obj_player.x, obj_player.y,obj_wall,false, false){	
-		if !instance_exists(homingBomb){
+		if !instance_exists(myBomb){
 			with (instance_create_layer(x,y,"Bullets", homingBomb)){
 				owner = other.id
-				velocity = owner.bulletSpeed
+				owner.myBomb = id
+				initVelocity = owner.initVelocity
+				Velocity = owner.Velocity
 				direction = other.image_angle - 90
 				image_angle = direction;
 			}
@@ -13,11 +15,10 @@ if image_index >= 6{
 			audio_play_sound(aBulletShoot,1,false)
 		} 
 	} 
-	if collision_line(x, y, obj_player.x, obj_player.y,obj_wall,false, false) || instance_exists(homingBomb){
+	if collision_line(x, y, obj_player.x, obj_player.y,obj_wall,false, false) || instance_exists(myBomb){
 		image_speed = 0
 	}
 } else image_speed = shootspeed
-//moved shooting to animation end event :)
 if currentHp < 0 {
 	repeat(50){
 		instance_create_layer(x,y,"Bullets",EXPLOSION_PARTICLE)

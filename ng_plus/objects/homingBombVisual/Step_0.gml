@@ -1,3 +1,3 @@
-if !instance_exists(homingBomb){
+if !instance_exists(owner){
 	instance_destroy()
 }

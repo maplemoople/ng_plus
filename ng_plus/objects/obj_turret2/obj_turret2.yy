@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_turret_disable",
+  "%Name":"obj_turret2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -8,7 +8,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_turret_disable",
+  "name":"obj_turret2",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies - NPC",
@@ -35,6 +35,8 @@
     {"$GMObjectProperty":"v1","%Name":"shootStart","filters":[],"listItems":[],"multiselect":false,"name":"shootStart","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"bulletSpeed","filters":[],"listItems":[],"multiselect":false,"name":"bulletSpeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.3","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"shootspeed","filters":[],"listItems":[],"multiselect":false,"name":"shootspeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"wallParticle","filters":[],"listItems":[],"multiselect":false,"name":"wallParticle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"state","filters":[],"listItems":[],"multiselect":false,"name":"state","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

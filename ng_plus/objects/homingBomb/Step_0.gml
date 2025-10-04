@@ -2,8 +2,8 @@ if trackcountdown > 0{
 	trackcountdown--
 } else {startTracking = true}
 radDir = direction * pi/180;
-hsp = velocity * cos(radDir);
-vsp = velocity * sin(radDir);
+hsp = initVelocity * cos(radDir);
+vsp = initVelocity * sin(radDir);
 
 //horizontal collision
 if (place_meeting(x+hsp, y, obj_wall)){
@@ -25,7 +25,7 @@ if (place_meeting(x, y-vsp, obj_wall)){
 }  else y -= vsp;
 
 with(visual){
-	 	image_angle += power(owner.velocity*3,2)
+	 	image_angle += power(owner.initVelocity*3,2)
 		x = owner.x
 		y = owner.y
 		direction = owner.direction
@@ -39,7 +39,7 @@ if startTracking{
 		direction += angle_difference(point_direction(x,y,obj_player.x,obj_player.y),direction) * 0.1
 	} else {
 		if !startBoom{
-			mp_potential_step_object(obj_player.x,obj_player.y, velocity/4,obj_wall);
+			mp_potential_step_object(obj_player.x,obj_player.y, Velocity/4,obj_wall);
 		}
 	}
 }
@@ -47,9 +47,9 @@ if startTracking{
 if startBoom{
 	sprite_index = spHomingBombExploding
 	mask_index = spHomingBomb
-	velocity = lerp(velocity,0,0.075)
+	initVelocity = lerp(initVelocity,0,0.075)
 } else {
-		velocity = lerp(velocity,0.85,0.03);
+		initVelocity = lerp(initVelocity,Velocity,0.03);
 	}	
 #region old
 /*
@@ -72,8 +72,8 @@ if startBoom{
 	if countdown <20{
 		image_blend = c_red
 	}
-	velocity = lerp(velocity,0,2/300)
-} else 	velocity = 0.85;
+	initVelocity = lerp(initVelocity,0,2/300)
+} else 	initVelocity = 0.85;
 */
 
 #endregion
