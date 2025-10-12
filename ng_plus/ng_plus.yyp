@@ -228,6 +228,7 @@
     {"id":{"name":"teleporterFin","path":"objects/teleporterFin/teleporterFin.yy",},},
     {"id":{"name":"teleporterMirage","path":"objects/teleporterMirage/teleporterMirage.yy",},},
     {"id":{"name":"teleporterTP","path":"objects/teleporterTP/teleporterTP.yy",},},
+    {"id":{"name":"touchTrigger","path":"objects/touchTrigger/touchTrigger.yy",},},
     {"id":{"name":"worldLight","path":"objects/worldLight/worldLight.yy",},},
     {"id":{"name":"Boss1","path":"rooms/Boss1/Boss1.yy",},},
     {"id":{"name":"Line1","path":"rooms/Line1/Line1.yy",},},

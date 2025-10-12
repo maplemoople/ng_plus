@@ -27,6 +27,9 @@ switch state{
 		break;
 	case bottom:
 		image_speed = -25;
+		if place_meeting(x,y+1,obj_player){
+			obj_player.state = PLAYERSTATE.DEAD
+		}
 		if image_index <= 5{
 			image_speed = 0;
 			audio_play_sound(adoorSlam,1,0)

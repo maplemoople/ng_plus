@@ -113,10 +113,16 @@ if(instance_exists(playercollison)){
 
 if place_meeting(x,y-1,obj_wall){
 	var headhitWall = instance_place(x, y - 1, obj_wall);
+	if place_meeting(x,y+1,obj_wall){
+		var feethitWall = instance_place(x,y+1,obj_wall)
+		if(feethitWall.bbox_top-1 == bbox_bottom){
+			var bootsOnGround = true;
+		} else var bootsOnGround = false;
+	}else var bootsOnGround = false
 	if(headhitWall.bbox_bottom > bbox_top){
-		var squishedWall = 1;
-	} else squishedWall = 0;
-	if squishedWall && place_meeting(x,y+1, obj_wall){
+		var squishedWall = true;
+	} else var squishedWall = false;
+	if squishedWall && bootsOnGround{
 		state = PLAYERSTATE.DEAD
 	} else y = y + 1;
 }
