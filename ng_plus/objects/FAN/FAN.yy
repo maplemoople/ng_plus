@@ -38,5 +38,5 @@
     "path":"sprites/FANHITBOX/FANHITBOX.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

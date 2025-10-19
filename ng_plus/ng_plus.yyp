@@ -194,6 +194,7 @@
     {"id":{"name":"obj_turretOLD","path":"objects/obj_turretOLD/obj_turretOLD.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"obj_wall16x16","path":"objects/obj_wall16x16/obj_wall16x16.yy",},},
+    {"id":{"name":"obj_wall16x16Visible","path":"objects/obj_wall16x16Visible/obj_wall16x16Visible.yy",},},
     {"id":{"name":"obj_wallvert","path":"objects/obj_wallvert/obj_wallvert.yy",},},
     {"id":{"name":"obj_warp_BP","path":"objects/obj_warp_BP/obj_warp_BP.yy",},},
     {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},},

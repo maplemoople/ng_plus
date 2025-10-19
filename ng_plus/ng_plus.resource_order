@@ -158,6 +158,7 @@
     {"name":"obj_turrethoming","order":12,"path":"objects/obj_turrethoming/obj_turrethoming.yy",},
     {"name":"obj_wall","order":12,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"obj_wall16x16","order":20,"path":"objects/obj_wall16x16/obj_wall16x16.yy",},
+    {"name":"obj_wall16x16Visible","order":21,"path":"objects/obj_wall16x16Visible/obj_wall16x16Visible.yy",},
     {"name":"obj_wallvert","order":17,"path":"objects/obj_wallvert/obj_wallvert.yy",},
     {"name":"obj_warp_BP","order":16,"path":"objects/obj_warp_BP/obj_warp_BP.yy",},
     {"name":"obj_warp","order":14,"path":"objects/obj_warp/obj_warp.yy",},

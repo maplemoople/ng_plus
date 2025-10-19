@@ -1,9 +1,10 @@
 vsp = -strength * sin(image_angle*pi/180)
 hsp = strength *cos(image_angle*pi/180)
 if place_meeting(x,y,obj_player){
-	obj_player.x += hsp
-	obj_player.y += vsp
+	obj_player.fanSpeedx = hsp
+	obj_player.fanSpeedy = vsp
 }
+	
 /*if instance_exists(pBulletP){
 	if place_meeting(x,y,pBulletP){
 		pBulletP.x += hsp/5
@@ -20,8 +21,8 @@ if instance_exists(pBulletP4){
 }
 */
 if place_meeting(x,y,homingBomb){
-	homingBomb.x += hsp/5
-	homingBomb.y += vsp/5
+	homingBomb.x += hsp/10
+	homingBomb.y += vsp/10
 }
 
 //calculating bottom of fan hitbox

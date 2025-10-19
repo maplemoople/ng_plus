@@ -5,8 +5,16 @@ switch state{
 		if(!place_meeting(x,y,obj_player)){
 			once = false;
 		}
+		if stateDebug{
+			image_blend = c_red
+			objName.image_blend = c_red
+		}
 		break;
 	case open:
+		if stateDebug{
+			image_blend = c_orange
+			objName.image_blend = c_orange
+		}
 		if !audio_is_playing(aDoorMoving) audio_play_sound(aDoorMoving,1,true)
 		if(objName.state%2 == 0){
 			audio_stop_sound(aDoorMoving)
@@ -41,12 +49,20 @@ switch state{
 		}
 		break;
 	case top:
+		if stateDebug{
+			image_blend = c_green
+			objName.image_blend = c_green
+		}
 		if(!place_meeting(x,y,obj_player)){
 			once = false;
 		}
 		
 		break;
 	case bottom:
+		if stateDebug{
+			image_blend = c_blue
+		    objName.image_blend = c_blue
+		}
 		if !audio_is_playing(aDoorMoving) audio_play_sound(aDoorMoving,1,true)
 		if objName.image_index <= 1{
 		}
@@ -81,6 +97,10 @@ switch state{
 		}
 		break;
 	case stop:
+		if stateDebug{
+			image_blend = c_white
+		    objName.image_blend = c_white
+		}
 		if place_meeting(x,y,obj_player){
 			if oneTimeSound{
 				audio_play_sound(aButtonPress,1,false);
@@ -96,7 +116,9 @@ if (place_meeting(x,y,obj_player) && state%4 == 0 && !ontop && ready == false){
 		audio_play_sound(aButtonPress,1,false);
 		state++;
 		currentTime = timerLength
-		ready = true
+		if timer == true{
+			ready = true
+		}
 		with(objName) {state++;}
 		if obj2 {with(objName2) {state++;}}
 		if obj3 {with(objName3) {state++;};}
@@ -104,7 +126,7 @@ if (place_meeting(x,y,obj_player) && state%4 == 0 && !ontop && ready == false){
 		if obj5 {with(objName5) {state++;}}
 		ontop = true
 }
-if (!place_meeting(x,y-1,obj_player)) ontop = false;
+if (!place_meeting(x,y,obj_player)) ontop = false;
 
 if timer == true && ready == true{
 	if currentTime > 0{
@@ -119,5 +141,18 @@ if timer == true && ready == true{
 		ready = false
 	}
 		
+}
+
+if onDeath == true && timer == false{
+	if obj_player.blowup == true{
+		if state != deathState{
+			state = deathState
+			with(objName) {state = other.state;}
+			if obj2 {with(objName2) {state = other.state;}}
+			if obj3 {with(objName3) {state = other.state;}}
+			if obj4 {with(objName4) {state = other.state;}}
+			if obj5 {with(objName5) {state = other.state;}}
+		}
+	}
 }
 	

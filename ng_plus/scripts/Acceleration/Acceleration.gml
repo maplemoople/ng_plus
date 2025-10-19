@@ -5,10 +5,11 @@ function Acceleration(argument0, argument1, argument2) {
 	var userMaxSpeed = argument2
 
 
-	if (keysPressed())
+	if (keysPressed()){
 		hsp = lerp(hsp, userMaxSpeed*keyPressed, accel);
-	else
+	}else{
 		hsp = lerp(hsp, 0, deccel);
+	}
 
 
 }

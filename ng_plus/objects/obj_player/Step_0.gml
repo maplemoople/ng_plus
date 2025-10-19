@@ -122,9 +122,11 @@ if place_meeting(x,y-1,obj_wall){
 	if(headhitWall.bbox_bottom > bbox_top){
 		var squishedWall = true;
 	} else var squishedWall = false;
-	if squishedWall && bootsOnGround{
-		state = PLAYERSTATE.DEAD
-	} else y = y + 1;
+	if headhitWall.image_speed < 0{
+		if squishedWall && bootsOnGround{
+			state = PLAYERSTATE.DEAD
+		}
+	}
 }
 if instance_exists(obj_wallvert){
 	var oneWayPlat = instance_place(x, y + max(1,vsp),obj_wallvert);
@@ -160,7 +162,7 @@ switch (state){
 	#region movement and calculations
 	case PLAYERSTATE.FREE:
 	deadTimer = 0
-	blowup = 0
+	blowup = false
 	if (hsp != 0)
 		image_xscale = sign(hsp);
 		var gAccel = 0.12;
@@ -168,14 +170,33 @@ switch (state){
 
 		var airAccel = 0.09;
 		var airDeccel = 0.06;
-
+		
+		if !place_meeting(x,y,FAN){
+			fanSpeedx = lerp(fanSpeedx,0,0.08)
+			fanSpeedy = lerp(fanSpeedy,0,0.08)
+		}
 		if grounded{
-			Acceleration(gAccel,gDeccel,csp);
+			var keyPressed = right - left;
+			if (keysPressed()){
+				csp = lerp(csp, baseSpeed*keyPressed, gAccel)
+				hsp = csp + fanSpeedx;
+			}else{
+				csp = lerp(csp, 0, gDeccel)
+				hsp = csp + fanSpeedx;
+			}
 		}else{
 			if vsp < 6.5{
-			vsp += grv;
+			vsp += grv + fanSpeedy;
 			} else vsp = 6.5;
-			Acceleration(airAccel,airDeccel,csp);
+			
+			var keyPressed = right - left;
+			if (keysPressed()){
+				csp = lerp(csp, baseSpeed*keyPressed, airAccel)
+				hsp = csp + fanSpeedx;
+			}else{
+				csp = lerp(csp, 0, airDeccel)
+				hsp = csp + fanSpeedx;
+			}
 		}
 
 	//jump code
@@ -357,7 +378,7 @@ switch (state){
 			repeat(6){
 				instance_create_layer(x,y,"Bullets",pBulletP)
 			}
-			blowup = 1
+			blowup = true
 			if room == Boss1 room_goto(goback)
 			if goback == Boss1 && instance_exists(groundSpike) bossComplete.explode = 1;
 			x = global.checkpoint_x;
