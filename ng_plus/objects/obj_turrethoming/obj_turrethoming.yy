@@ -36,6 +36,7 @@
     {"$GMObjectProperty":"v1","%Name":"initVelocity","filters":[],"listItems":[],"multiselect":false,"name":"initVelocity","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"Velocity","filters":[],"listItems":[],"multiselect":false,"name":"Velocity","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.85","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"shootspeed","filters":[],"listItems":[],"multiselect":false,"name":"shootspeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"countdownTime","filters":[],"listItems":[],"multiselect":false,"name":"countdownTime","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

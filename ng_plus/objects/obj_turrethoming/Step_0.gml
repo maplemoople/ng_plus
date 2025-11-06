@@ -4,6 +4,7 @@ if image_index >= 6{
 			with (instance_create_layer(x,y,"Bullets", homingBomb)){
 				owner = other.id
 				owner.myBomb = id
+				trackcountdown = owner.countdownTime
 				initVelocity = owner.initVelocity
 				Velocity = owner.Velocity
 				direction = other.image_angle - 90

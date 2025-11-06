@@ -6,7 +6,6 @@ vsp = initVelocity * sin(direction);
 theDirection = 0;
 owner=NaN;
 countdown = 180;
-trackcountdown = 60;
 startBoom = 0;
 startTracking = 0;
 
