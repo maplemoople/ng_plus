@@ -171,10 +171,10 @@ switch (state){
 		var airAccel = 0.09;
 		var airDeccel = 0.06;
 		
-		if !place_meeting(x,y,FAN){
+		if !place_meeting(x,y,fans){
 			fanSpeedx = lerp(fanSpeedx,0,0.08)
 			if !grounded{
-			fanSpeedy = lerp(fanSpeedy,0,0.08)
+			fanSpeedy = lerp(fanSpeedy,0,0.3)
 			}
 		}
 		if grounded{
@@ -188,7 +188,11 @@ switch (state){
 			}
 		}else{
 			if vsp < 6.5{
-				vsp += grv + fanSpeedy;
+				if vsp > 0.5{
+					vsp += grv + fanSpeedy * 1.5;
+				}else {
+					vsp += grv + fanSpeedy;
+				}
 			} else vsp = 6.5;
 			
 			var keyPressed = right - left;
@@ -235,27 +239,11 @@ switch (state){
 				sprite_index = pRun
 			}
 		}
-			//STAMINA
-				if (stamina < staminaMax){
-					stamina++;
-				}
-	
-			//DASH
-			if (dashB) && (stamina >= 150){
-				stamina -= 150;
-			}
 	
 			//air drop
 			if (keyboard_check_pressed(ord("S"))) && (keyboard_check_pressed(vk_down)) {
 				vsp = 5;
 			}
-		
-			//start attack
-			if (keyboard_check_pressed(ord("F"))) && (stamina > 10) {
-				image_xscale = facing1;
-				stamina -= 10;
-			}
-		
 	break;
 		#endregion
 	#region dash code

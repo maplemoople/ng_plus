@@ -113,6 +113,7 @@
     {"name":"FAN2","order":63,"path":"objects/FAN2/FAN2.yy",},
     {"name":"fanbase","order":47,"path":"objects/fanbase/fanbase.yy",},
     {"name":"fanbase2","order":48,"path":"objects/fanbase2/fanbase2.yy",},
+    {"name":"fans","order":64,"path":"objects/fans/fans.yy",},
     {"name":"fatExplosion","order":14,"path":"objects/fatExplosion/fatExplosion.yy",},
     {"name":"fatExplosionp","order":15,"path":"objects/fatExplosionp/fatExplosionp.yy",},
     {"name":"flyingHorz","order":8,"path":"objects/flyingHorz/flyingHorz.yy",},

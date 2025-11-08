@@ -145,6 +145,7 @@
     {"id":{"name":"FAN2","path":"objects/FAN2/FAN2.yy",},},
     {"id":{"name":"fanbase","path":"objects/fanbase/fanbase.yy",},},
     {"id":{"name":"fanbase2","path":"objects/fanbase2/fanbase2.yy",},},
+    {"id":{"name":"fans","path":"objects/fans/fans.yy",},},
     {"id":{"name":"fatExplosion","path":"objects/fatExplosion/fatExplosion.yy",},},
     {"id":{"name":"fatExplosionp","path":"objects/fatExplosionp/fatExplosionp.yy",},},
     {"id":{"name":"flyingHorz","path":"objects/flyingHorz/flyingHorz.yy",},},
