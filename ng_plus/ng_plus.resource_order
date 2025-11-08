@@ -110,6 +110,7 @@
     {"name":"fakePlayer2","order":14,"path":"objects/fakePlayer2/fakePlayer2.yy",},
     {"name":"fakePlayer3","order":15,"path":"objects/fakePlayer3/fakePlayer3.yy",},
     {"name":"FAN","order":46,"path":"objects/FAN/FAN.yy",},
+    {"name":"FAN2","order":63,"path":"objects/FAN2/FAN2.yy",},
     {"name":"fanbase","order":47,"path":"objects/fanbase/fanbase.yy",},
     {"name":"fanbase2","order":48,"path":"objects/fanbase2/fanbase2.yy",},
     {"name":"fatExplosion","order":14,"path":"objects/fatExplosion/fatExplosion.yy",},

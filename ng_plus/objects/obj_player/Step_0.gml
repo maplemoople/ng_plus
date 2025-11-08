@@ -173,7 +173,9 @@ switch (state){
 		
 		if !place_meeting(x,y,FAN){
 			fanSpeedx = lerp(fanSpeedx,0,0.08)
+			if !grounded{
 			fanSpeedy = lerp(fanSpeedy,0,0.08)
+			}
 		}
 		if grounded{
 			var keyPressed = right - left;
@@ -186,7 +188,7 @@ switch (state){
 			}
 		}else{
 			if vsp < 6.5{
-			vsp += grv + fanSpeedy;
+				vsp += grv + fanSpeedy;
 			} else vsp = 6.5;
 			
 			var keyPressed = right - left;

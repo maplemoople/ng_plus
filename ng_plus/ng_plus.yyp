@@ -142,6 +142,7 @@
     {"id":{"name":"fakePlayer2","path":"objects/fakePlayer2/fakePlayer2.yy",},},
     {"id":{"name":"fakePlayer3","path":"objects/fakePlayer3/fakePlayer3.yy",},},
     {"id":{"name":"FAN","path":"objects/FAN/FAN.yy",},},
+    {"id":{"name":"FAN2","path":"objects/FAN2/FAN2.yy",},},
     {"id":{"name":"fanbase","path":"objects/fanbase/fanbase.yy",},},
     {"id":{"name":"fanbase2","path":"objects/fanbase2/fanbase2.yy",},},
     {"id":{"name":"fatExplosion","path":"objects/fatExplosion/fatExplosion.yy",},},
