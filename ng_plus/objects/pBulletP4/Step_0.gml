@@ -25,7 +25,7 @@ image_angle += spinspeed
 
 vsp += grv;
 timer++
-if !instance_place(x,y,FAN) || disappear {
+if !instance_place(x,y,fans) || disappear {
 image_alpha = image_alpha - 1/aliveForFrames
 }
 
