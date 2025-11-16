@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"fanbase2",
+  "%Name":"FAN3",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"fanbase2",
+  "name":"FAN3",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"fanbases",
-    "path":"objects/fanbases/fanbases.yy",
+    "name":"fans",
+    "path":"objects/fans/fans.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,15 +30,16 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
+    {"$GMObjectProperty":"v1","%Name":"strength","filters":[],"listItems":[],"multiselect":false,"name":"strength","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"state","filters":[],"listItems":[],"multiselect":false,"name":"state","rangeEnabled":true,"rangeMax":3.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"fanbasethingy",
-    "path":"sprites/fanbasethingy/fanbasethingy.yy",
+    "name":"FANHITBOX",
+    "path":"sprites/FANHITBOX/FANHITBOX.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

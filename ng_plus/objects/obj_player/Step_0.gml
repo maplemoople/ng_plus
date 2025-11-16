@@ -152,6 +152,7 @@ if instance_exists(obj_wallvert){
 	}
 } else
 var grounded = place_meeting(x,y+1, playercollison)
+if grounded {fanSpeedy = 0}	
 y = y + vsp
 onTop = grounded;
 #endregion
@@ -187,14 +188,11 @@ switch (state){
 				hsp = csp + fanSpeedx;
 			}
 		}else{
-			if vsp < 6.5{
-				if vsp > 0.5{
-					vsp += grv + fanSpeedy * 1.5;
-				}else {
-					vsp += grv + fanSpeedy;
-				}
-			} else vsp = 6.5;
-			
+			if vsp > 0.5{
+				vsp = clamp(vsp + grv + fanSpeedy * 1.5,-999,6.5);
+			}else {
+				vsp = clamp(vsp + grv + fanSpeedy,-999,6.5);
+			}
 			var keyPressed = right - left;
 			if (keysPressed()){
 				csp = lerp(csp, baseSpeed*keyPressed, airAccel)
