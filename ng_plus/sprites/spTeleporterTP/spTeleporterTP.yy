@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spTeleporterTP",
   "bboxMode":2,
   "bbox_bottom":1,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e26d23c1-cf21-4834-a04b-2210d70b83c7","name":"e26d23c1-cf21-4834-a04b-2210d70b83c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e26d23c1-cf21-4834-a04b-2210d70b83c7","name":"e26d23c1-cf21-4834-a04b-2210d70b83c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

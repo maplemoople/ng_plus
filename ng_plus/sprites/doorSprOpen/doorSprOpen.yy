@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"doorSprOpen",
   "bboxMode":0,
   "bbox_bottom":11,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8bf9fe62-2a6e-4407-8b8f-4eef60244ebb","name":"8bf9fe62-2a6e-4407-8b8f-4eef60244ebb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8bf9fe62-2a6e-4407-8b8f-4eef60244ebb","name":"8bf9fe62-2a6e-4407-8b8f-4eef60244ebb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"extPlatOutvLONG",
   "bboxMode":0,
   "bbox_bottom":3,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4fb2ed6b-93d5-45d9-afd8-2a4f23a4cec2","name":"4fb2ed6b-93d5-45d9-afd8-2a4f23a4cec2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4fb2ed6b-93d5-45d9-afd8-2a4f23a4cec2","name":"4fb2ed6b-93d5-45d9-afd8-2a4f23a4cec2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -9,6 +9,7 @@ switch state{
 			with (instance_create_layer(x,y,"DoorLayer",objNameHB)) {
 				owner = other.id
 				owner.connectionHB = object_index;
+				image_blend = owner.whatColor
 			}	
 		}
 		if(image_index >= 6){

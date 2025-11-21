@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"bTurretFDActivatedHB",
   "bboxMode":0,
   "bbox_bottom":12,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dc6e5368-4c58-4a89-bce2-09831a1bc5e6","name":"dc6e5368-4c58-4a89-bce2-09831a1bc5e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dc6e5368-4c58-4a89-bce2-09831a1bc5e6","name":"dc6e5368-4c58-4a89-bce2-09831a1bc5e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

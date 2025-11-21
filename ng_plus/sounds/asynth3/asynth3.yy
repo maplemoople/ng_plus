@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"asynth3",
   "audioGroupId":{
     "name":"MUSIC",
     "path":"audiogroups/MUSIC",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":3.243243,
+  "exportDir":"",
   "name":"asynth3",
   "parent":{
     "name":"lvl1Sountrack",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"asynth3.wav",
-  "type":0,
   "volume":0.1,
 }

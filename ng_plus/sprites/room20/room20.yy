@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"room20",
   "bboxMode":0,
   "bbox_bottom":206,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ce406273-f67d-46ae-844d-2aaa53225616","name":"ce406273-f67d-46ae-844d-2aaa53225616","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ce406273-f67d-46ae-844d-2aaa53225616","name":"ce406273-f67d-46ae-844d-2aaa53225616","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

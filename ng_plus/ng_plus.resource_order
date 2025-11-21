@@ -49,6 +49,8 @@
     {"name":"AMMO","order":3,"path":"fonts/AMMO/AMMO.yy",},
     {"name":"fdebug","order":4,"path":"fonts/fdebug/fdebug.yy",},
     {"name":"fMenu","order":1,"path":"fonts/fMenu/fMenu.yy",},
+    {"name":"Font7","order":13,"path":"fonts/Font7/Font7.yy",},
+    {"name":"Font8","order":14,"path":"fonts/Font8/Font8.yy",},
     {"name":"fStats","order":5,"path":"fonts/fStats/fStats.yy",},
     {"name":"fTitle","order":6,"path":"fonts/fTitle/fTitle.yy",},
     {"name":"LICENSE","order":1,"path":"notes/LICENSE/LICENSE.yy",},

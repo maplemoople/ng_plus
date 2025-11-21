@@ -1,11 +1,11 @@
 {
-  "$GMNotes": "",
-  "%Name": "LICENSE",
-  "name": "LICENSE",
-  "parent": {
-    "name": "Lighting",
-    "path": "folders/Notes/Lighting.yy",
+  "$GMNotes":"v1",
+  "%Name":"LICENSE",
+  "name":"LICENSE",
+  "parent":{
+    "name":"Lighting",
+    "path":"folders/Notes/Lighting.yy",
   },
-  "resourceType": "GMNotes",
-  "resourceVersion": "2.0",
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
 }

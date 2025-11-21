@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"lvl2menubg",
   "bboxMode":0,
   "bbox_bottom":1074,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ddadf113-b304-4c39-8460-8bed8f66bf5e","name":"ddadf113-b304-4c39-8460-8bed8f66bf5e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ddadf113-b304-4c39-8460-8bed8f66bf5e","name":"ddadf113-b304-4c39-8460-8bed8f66bf5e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

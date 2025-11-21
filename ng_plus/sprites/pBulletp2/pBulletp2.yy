@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"pBulletp2",
   "bboxMode":0,
   "bbox_bottom":2,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2f7c10ab-7d04-4e01-8bad-ce0cef67ba90","name":"2f7c10ab-7d04-4e01-8bad-ce0cef67ba90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2f7c10ab-7d04-4e01-8bad-ce0cef67ba90","name":"2f7c10ab-7d04-4e01-8bad-ce0cef67ba90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

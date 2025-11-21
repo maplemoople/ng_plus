@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spHomingBombLight",
   "bboxMode":0,
   "bbox_bottom":3,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0da01a82-eebf-4c8a-997e-9bd65eec9402","name":"0da01a82-eebf-4c8a-997e-9bd65eec9402","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"532362ba-3970-43e4-8811-163c36bf5566","name":"532362ba-3970-43e4-8811-163c36bf5566","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0da01a82-eebf-4c8a-997e-9bd65eec9402","name":"0da01a82-eebf-4c8a-997e-9bd65eec9402","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"532362ba-3970-43e4-8811-163c36bf5566","name":"532362ba-3970-43e4-8811-163c36bf5566","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

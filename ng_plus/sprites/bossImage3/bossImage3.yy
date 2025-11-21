@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"bossImage3",
   "bboxMode":0,
   "bbox_bottom":351,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"558bf15f-33a1-4101-8975-9ae132c31e61","name":"558bf15f-33a1-4101-8975-9ae132c31e61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"558bf15f-33a1-4101-8975-9ae132c31e61","name":"558bf15f-33a1-4101-8975-9ae132c31e61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

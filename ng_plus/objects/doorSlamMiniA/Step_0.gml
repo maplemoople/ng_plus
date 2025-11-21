@@ -2,11 +2,13 @@ switch state{
 	case closed:
 		image_index = 0;
 		image_speed = 0;
-		if guh >= 0{
-			guh--;
-		} else {
-			guh = 90
-			state = open
+		if timer{
+			if guh >= 0{
+				guh--;
+			} else {
+				guh = 90
+				state = open
+			}
 		}
 		break;
 	case open:
@@ -18,11 +20,13 @@ switch state{
 	case top:
 		image_index = 19;
 		image_speed = 0;
-		if guh >= 0{
-			guh--;
-		} else {
-			guh = 90
-			state = bottom
+		if timer{
+			if guh >= 0{
+				guh--;
+			} else {
+				guh = 90
+				state = bottom
+			}
 		}
 		break;
 	case bottom:

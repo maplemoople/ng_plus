@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"pJump",
   "bboxMode":0,
   "bbox_bottom":14,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ff65a6ab-563f-4ed8-b91c-192aaaec9df3","name":"ff65a6ab-563f-4ed8-b91c-192aaaec9df3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ff65a6ab-563f-4ed8-b91c-192aaaec9df3","name":"ff65a6ab-563f-4ed8-b91c-192aaaec9df3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -2,9 +2,9 @@
   "$GMProject":"v1",
   "%Name":"ng_plus",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
-    {"$GMAudioGroup":"","%Name":"SFX","name":"SFX","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
-    {"$GMAudioGroup":"","%Name":"MUSIC","name":"MUSIC","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"SFX","exportDir":"","name":"SFX","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"MUSIC","exportDir":"","name":"MUSIC","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -70,7 +70,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"ng_plus",
   "resources":[
@@ -78,6 +78,8 @@
     {"id":{"name":"EpicFont","path":"fonts/EpicFont/EpicFont.yy",},},
     {"id":{"name":"fdebug","path":"fonts/fdebug/fdebug.yy",},},
     {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},},
+    {"id":{"name":"Font7","path":"fonts/Font7/Font7.yy",},},
+    {"id":{"name":"Font8","path":"fonts/Font8/Font8.yy",},},
     {"id":{"name":"fStats","path":"fonts/fStats/fStats.yy",},},
     {"id":{"name":"fTitle","path":"fonts/fTitle/fTitle.yy",},},
     {"id":{"name":"Contributors","path":"notes/Contributors/Contributors.yy",},},

@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"bossE2",
   "audioGroupId":{
     "name":"MUSIC",
     "path":"audiogroups/MUSIC",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":3.116893,
+  "exportDir":"",
   "name":"bossE2",
   "parent":{
     "name":"boss1",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"bossE2.wav",
-  "type":0,
   "volume":0.1,
 }

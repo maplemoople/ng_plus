@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_lut_light_intensity_line",
   "bboxMode":0,
   "bbox_bottom":0,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":true,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d063a6c4-4046-436d-85f5-16a5cd77d756","name":"d063a6c4-4046-436d-85f5-16a5cd77d756","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d063a6c4-4046-436d-85f5-16a5cd77d756","name":"d063a6c4-4046-436d-85f5-16a5cd77d756","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

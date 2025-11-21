@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"WheelHitbox",
   "bboxMode":0,
   "bbox_bottom":24,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c53a6fce-36ae-4342-a8e2-9ca3b63ab3b3","name":"c53a6fce-36ae-4342-a8e2-9ca3b63ab3b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c53a6fce-36ae-4342-a8e2-9ca3b63ab3b3","name":"c53a6fce-36ae-4342-a8e2-9ca3b63ab3b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
