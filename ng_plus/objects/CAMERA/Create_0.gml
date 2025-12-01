@@ -2,10 +2,16 @@ cam = view_camera[0];
 
 
 //x = obj_player.x
-x = 0;
-if room != Boss1{
-y = camera_get_view_height(cam);
-} else y = obj_player.y;
+	x = 0;
+if room == Boss1{
+
+	y = obj_player.y;
+}else if room == Room30{
+	x = obj_player.x
+	y = obj_player.y
+} else y = camera_get_view_height(cam);
+
+
 
 
 target = obj_player

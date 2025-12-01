@@ -45,6 +45,7 @@
     {"name":"inst_44D66FE3","path":"rooms/TESTROOM/TESTROOM.yy",},
     {"name":"inst_247AB1C0","path":"rooms/TESTROOM/TESTROOM.yy",},
     {"name":"inst_3B3726A","path":"rooms/TESTROOM/TESTROOM.yy",},
+    {"name":"inst_386A82B1","path":"rooms/TESTROOM/TESTROOM.yy",},
   ],
   "isDnd":true,
   "layers":[
@@ -114,6 +115,11 @@
         {"$GMRInstance":"v4","%Name":"inst_3B3726A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B3726A","objectId":{"name":"extPlatButton","path":"objects/extPlatButton/extPlatButton.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"extPlatButton","path":"objects/extPlatButton/extPlatButton.yy",},"propertyId":{"name":"objName","path":"objects/extPlatButton/extPlatButton.yy",},"resource":{"name":"doorSlamMiniA","path":"objects/doorSlamMiniA/doorSlamMiniA.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"doorSlamMiniA",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":247.0,"y":255.0,},
+        {"$GMRInstance":"v4","%Name":"inst_386A82B1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_386A82B1","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"propertyId":{"name":"targetX","path":"objects/obj_warp/obj_warp.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"528",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"propertyId":{"name":"targetY","path":"objects/obj_warp/obj_warp.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"114",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_warp/obj_warp.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Room30",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.25434995,"scaleY":0.265625,"x":126.86838,"y":261.5,},
       ],"layers":[],"name":"Entities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Bullets","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Bullets","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Enemies","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Enemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
