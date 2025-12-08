@@ -26,8 +26,14 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"camNW","filters":[],"listItems":[],"multiselect":false,"name":"camNW","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"960","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"camNH","filters":[],"listItems":[],"multiselect":false,"name":"camNH","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"540","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"controllerType","filters":[],"listItems":[
+        "\"VertMovement\"",
+        "\"SizeChange\"",
+      ],"multiselect":false,"name":"controllerType","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"VertMovement\"","varType":6,},
+    {"$GMObjectProperty":"v2","%Name":"xPos","filters":[],"listItems":[],"multiselect":false,"name":"xPos","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"yPos","filters":[],"listItems":[],"multiselect":false,"name":"yPos","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"camNW","filters":[],"listItems":[],"multiselect":false,"name":"camNW","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"960","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"camNH","filters":[],"listItems":[],"multiselect":false,"name":"camNH","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"540","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -20,6 +20,7 @@ wHalf = camera_get_view_width(cam) / 2;
 hHalf = camera_get_view_height(cam) / 2;
 xTo = follow.x;
 yTo = follow.y;
+vertical = false
 
 shake_length = 0;
 shake_magnitude = 0;

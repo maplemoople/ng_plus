@@ -12,6 +12,16 @@ if room == Boss1{
 	wHalf = camera_get_view_width(cam);
 	x = clamp (x,wHalf,room_width-wHalf);
 }
+
+if vertical{
+	y += (obj_player.y - y) / 5;
+	hHalf = camera_get_view_height(cam) / 2;
+	y = clamp (y,hHalf,room_height-hHalf);
+	x = xPos;
+	wHalf = camera_get_view_width(cam) / 2;
+	x = clamp (x,wHalf,room_width-wHalf);
+}
+/*
 if room == Room30{
 	y += (obj_player.y - y) / 5;
 	hHalf = camera_get_view_height(cam) / 2;
@@ -19,7 +29,7 @@ if room == Room30{
 	x += (obj_player.x - x) / 5;
 	wHalf = camera_get_view_width(cam) / 2;
 	x = clamp (x,wHalf,room_width-wHalf);	
-}
+}*/
 
 
 /*
