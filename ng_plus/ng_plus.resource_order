@@ -283,6 +283,7 @@
     {"name":"lighting_pre_composite","order":4,"path":"scripts/lighting_pre_composite/lighting_pre_composite.yy",},
     {"name":"lighting_set_dirty","order":6,"path":"scripts/lighting_set_dirty/lighting_set_dirty.yy",},
     {"name":"lighting_update_camera","order":2,"path":"scripts/lighting_update_camera/lighting_update_camera.yy",},
+    {"name":"modulo","order":18,"path":"scripts/modulo/modulo.yy",},
     {"name":"path_get_area","order":5,"path":"scripts/path_get_area/path_get_area.yy",},
     {"name":"PlayerHit","order":8,"path":"scripts/PlayerHit/PlayerHit.yy",},
     {"name":"point_in_polygon","order":6,"path":"scripts/point_in_polygon/point_in_polygon.yy",},

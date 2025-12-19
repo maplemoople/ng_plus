@@ -330,6 +330,7 @@
     {"id":{"name":"lighting_pre_composite","path":"scripts/lighting_pre_composite/lighting_pre_composite.yy",},},
     {"id":{"name":"lighting_set_dirty","path":"scripts/lighting_set_dirty/lighting_set_dirty.yy",},},
     {"id":{"name":"lighting_update_camera","path":"scripts/lighting_update_camera/lighting_update_camera.yy",},},
+    {"id":{"name":"modulo","path":"scripts/modulo/modulo.yy",},},
     {"id":{"name":"path_get_area","path":"scripts/path_get_area/path_get_area.yy",},},
     {"id":{"name":"PlayerHit","path":"scripts/PlayerHit/PlayerHit.yy",},},
     {"id":{"name":"point_in_polygon","path":"scripts/point_in_polygon/point_in_polygon.yy",},},
